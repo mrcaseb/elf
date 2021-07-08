@@ -1,0 +1,75 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# Unofficial Data Repo of the European League of Football <img src="logo.png" align="right" width="25%" min-width="120px"/>
+
+## Preface
+
+This repo hosts play-by-play and other stats data of the European League of Football (ELF). 
+
+The following data is available:
+
+- `games` file that includes all games, corresponding `game_ids` (in the format `season_week_awayteam_hometeam`) and results. 
+- `pbp` files that provide some basic play-by-play data
+- `stats` files that provide team based total stats per game
+- `raw_xml` files from the ELF api
+
+Please note that some raw_xml files might miss in the api completely or might miss relevant data. Since everything is quite new this can change quickly.
+
+## How to Load the Data
+
+All data is available in two file formats: `*.rds` (the native binary R format) and `*.csv` (comma separated lists that can be used with any software). The following code blocks demonstrate how to load the data with R.
+
+We use a helper function to load rds files through the internet:
+
+```{r}
+rds_from_url <- function(url){
+  con <- url(url)
+  on.exit(close(con))
+  readRDS(con)
+}
+```
+
+
+### Load Games
+
+```{r}
+# Load .rds file
+games_rds <- rds_from_url("https://github.com/mrcaseb/elf/blob/master/data/elf_games.rds?raw=true")
+# Load .csv file
+games_csv <- readr::read_csv("https://raw.githubusercontent.com/mrcaseb/elf/master/data/elf_games.csv", col_types = readr::cols())
+# Preview output information
+dplyr::glimpse(games_rds)
+```
+
+### Load Stats
+
+```{r}
+# Load .rds file
+stats_rds <- rds_from_url("https://github.com/mrcaseb/elf/blob/master/data/elf_team_stats.rds?raw=true")
+# Load .csv file
+stats_csv <- readr::read_csv("https://raw.githubusercontent.com/mrcaseb/elf/master/data/elf_team_stats.csv", col_types = readr::cols())
+# Preview output information
+dplyr::glimpse(stats_rds)
+```
+
+### Load PBP
+
+```{r}
+# Load .rds file
+pbp_rds <- rds_from_url("https://github.com/mrcaseb/elf/blob/master/data/pbp/elf_pbp_2021.rds?raw=true")
+# Load .csv file
+pbp_csv <- readr::read_csv("https://raw.githubusercontent.com/mrcaseb/elf/master/data/pbp/elf_pbp_2021.csv", col_types = readr::cols())
+# Preview output information
+dplyr::glimpse(pbp_rds)
+```
