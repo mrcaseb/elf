@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fbgame source="Tas Football" version="4.20.01" generated="7/5/2021">
+  <venue gameid="HDBT2104" visid="BT" homeid="HD" visname="Berlin Thunder" homename="Hamburg Sea Devils" date="7/11/2021" location="Hamburg" stadium="Stadion Hoheluft" start="15:00" end="" leaguegame="Y" duration="" attend="0" temp="" wind="" weather="">
+    <officials/>
+    <rules qtrs="4" mins="15" downs="4" yds="10" kospot="35" tbspot="20" kotbspot="25" patspot="15" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="100" toh="3" sackrush="N" fgaplay="Y" netpunttb="Y"/>
+  </venue>
+  <team vh="V" code="" id="BT" name="Berlin Thunder" record="1-1-0" abb="B" rank="3">
+    <linescore prds="1" line="0" score="0">
+      <lineprd prd="1" score="0"/>
+    </linescore>
+    <totals totoff_plays="0" totoff_yards="0" totoff_avg="0.0">
+      <firstdowns no="0" rush="0" pass="0" penalty="0"/>
+      <penalties no="0" yds="0"/>
+      <conversions thirdconv="0" thirdatt="0" fourthconv="0" fourthatt="0"/>
+      <fumbles no="0" lost="0"/>
+      <misc yds="0" top="00:00" ona="0" onm="0" ptsto="0"/>
+      <redzone att="0" scores="0" points="0" tdrush="0" tdpass="0" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"/>
+    </totals>
+  </team>
+  <team vh="H" code="" id="HD" name="Hamburg Sea Devils" record="3-0-0" abb="H" rank="1">
+    <linescore prds="1" line="0" score="0">
+      <lineprd prd="1" score="0"/>
+    </linescore>
+    <totals totoff_plays="0" totoff_yards="0" totoff_avg="0.0">
+      <firstdowns no="0" rush="0" pass="0" penalty="0"/>
+      <penalties no="0" yds="0"/>
+      <conversions thirdconv="0" thirdatt="0" fourthconv="0" fourthatt="0"/>
+      <fumbles no="0" lost="0"/>
+      <misc yds="0" top="00:00" ona="0" onm="0" ptsto="0"/>
+      <redzone att="0" scores="0" points="0" tdrush="0" tdpass="0" fgmade="0" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"/>
+    </totals>
+  </team>
+  <scores>
+ </scores>
+  <message text=""/>
+</fbgame>
