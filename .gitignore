@@ -34,3 +34,4 @@ revdep
 .Rdata
 #
 R
+*.xlsx
