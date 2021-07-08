@@ -21,7 +21,7 @@ The following data is available:
 
 - `games` file that includes all games, corresponding `game_ids` (in the format `season_week_awayteam_hometeam`) and results. 
 - `pbp` files that provide some basic play-by-play data
-- `stats` files that provide team based total stats per game
+- `stats` files that provide team and player based total stats per game
 - `raw_xml` files from the ELF api
 
 Please note that some raw_xml files might miss in the api completely or might miss relevant data. Since everything is quite new this can change quickly.
@@ -52,13 +52,24 @@ games_csv <- readr::read_csv("https://raw.githubusercontent.com/mrcaseb/elf/mast
 dplyr::glimpse(games_rds)
 ```
 
-### Load Stats
+### Load Team Stats
 
 ```{r}
 # Load .rds file
 stats_rds <- rds_from_url("https://github.com/mrcaseb/elf/blob/master/data/elf_team_stats.rds?raw=true")
 # Load .csv file
 stats_csv <- readr::read_csv("https://raw.githubusercontent.com/mrcaseb/elf/master/data/elf_team_stats.csv", col_types = readr::cols())
+# Preview output information
+dplyr::glimpse(stats_rds)
+```
+
+### Load Player Stats
+
+```{r}
+# Load .rds file
+stats_rds <- rds_from_url("https://github.com/mrcaseb/elf/blob/master/data/elf_player_stats.rds?raw=true")
+# Load .csv file
+stats_csv <- readr::read_csv("https://raw.githubusercontent.com/mrcaseb/elf/master/data/elf_player_stats.csv", col_types = readr::cols())
 # Preview output information
 dplyr::glimpse(stats_rds)
 ```

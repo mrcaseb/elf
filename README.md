@@ -13,7 +13,8 @@ The following data is available:
 -   `games` file that includes all games, corresponding `game_ids` (in
     the format `season_week_awayteam_hometeam`) and results.
 -   `pbp` files that provide some basic play-by-play data
--   `stats` files that provide team based total stats per game
+-   `stats` files that provide team and player based total stats per
+    game
 -   `raw_xml` files from the ELF api
 
 Please note that some raw\_xml files might miss in the api completely or
@@ -62,7 +63,7 @@ dplyr::glimpse(games_rds)
 #> $ total        <dbl> 38, 94, 32, 64, 82, 52, 62, 95, 46, 35, 59, NA, NA, NA, N~
 ```
 
-### Load Stats
+### Load Team Stats
 
 ``` r
 # Load .rds file
@@ -196,6 +197,125 @@ dplyr::glimpse(stats_rds)
 #> $ pat_rushmade           <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, "0", NA, NA~
 #> $ scoring_patrush        <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
 #> $ scoring_patretkick     <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+```
+
+### Load Player Stats
+
+``` r
+# Load .rds file
+stats_rds <- rds_from_url("https://github.com/mrcaseb/elf/blob/master/data/elf_player_stats.rds?raw=true")
+# Load .csv file
+stats_csv <- readr::read_csv("https://raw.githubusercontent.com/mrcaseb/elf/master/data/elf_player_stats.csv", col_types = readr::cols())
+# Preview output information
+dplyr::glimpse(stats_rds)
+#> Rows: 828
+#> Columns: 106
+#> $ game_id            <glue> "2021_01_SS_BD", "2021_01_SS_BD", "2021_01_SS_BD",~
+#> $ team_name          <chr> "Stuttgart Surge", "Stuttgart Surge", "Stuttgart Su~
+#> $ team_id            <chr> "SS", "SS", "SS", "SS", "SS", "SS", "SS", "SS", "SS~
+#> $ type               <chr> "away", "away", "away", "away", "away", "away", "aw~
+#> $ record             <chr> "1-0-0", "1-0-0", "1-0-0", "1-0-0", "1-0-0", "1-0-0~
+#> $ abb                <chr> "S", "S", "S", "S", "S", "S", "S", "S", "S", "S", "~
+#> $ player_name        <chr> "1", "D. Gfeller", "T. Bronn", "A. Eitel", "D. Meza~
+#> $ player_shortname   <chr> NA, "D. Gfeller", "T. Bronn", "A. Eitel", "D. Meza"~
+#> $ player_checkname   <chr> NA, "GFELLER,D", "BRONN,T", "EITEL,A", "MEZA,D", "W~
+#> $ player_uni         <chr> "1", "2", "3", "4", "5", "6", "7", "10", "11", "12"~
+#> $ player_class       <chr> NA, "SR", "SR", "SR", "SR", "SR", "SR", "SR", "SR",~
+#> $ player_gp          <chr> "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "~
+#> $ player_code        <chr> "1", "2", "3", "4", "5", "6", "7", "10", "11", "12"~
+#> $ pass_comp          <chr> "2", NA, NA, NA, NA, "12", NA, NA, NA, NA, NA, NA, ~
+#> $ pass_att           <chr> "3", NA, NA, NA, NA, "22", NA, NA, NA, NA, NA, NA, ~
+#> $ pass_int           <chr> "0", NA, NA, NA, NA, "1", NA, NA, NA, NA, NA, NA, N~
+#> $ pass_yds           <chr> "-58", NA, NA, NA, NA, "157", NA, NA, NA, NA, NA, N~
+#> $ pass_td            <chr> "0", NA, NA, NA, NA, "2", NA, NA, NA, NA, NA, NA, N~
+#> $ pass_long          <chr> "0", NA, NA, NA, NA, "40", NA, NA, NA, NA, NA, NA, ~
+#> $ pass_sacks         <chr> "0", NA, NA, NA, NA, "0", NA, NA, NA, NA, NA, NA, N~
+#> $ pass_sackyds       <chr> "0", NA, NA, NA, NA, "0", NA, NA, NA, NA, NA, NA, N~
+#> $ punt_no            <chr> NA, NA, "3", NA, NA, NA, NA, NA, NA, NA, NA, NA, NA~
+#> $ punt_yds           <chr> NA, NA, "93", NA, NA, NA, NA, NA, NA, NA, NA, NA, N~
+#> $ punt_long          <chr> NA, NA, "39", NA, NA, NA, NA, NA, NA, NA, NA, NA, N~
+#> $ punt_blkd          <chr> NA, NA, "1", NA, NA, NA, NA, NA, NA, NA, NA, NA, NA~
+#> $ punt_tb            <chr> NA, NA, "0", NA, NA, NA, NA, NA, NA, NA, NA, NA, NA~
+#> $ punt_fc            <chr> NA, NA, "0", NA, NA, NA, NA, NA, NA, NA, NA, NA, NA~
+#> $ punt_plus50        <chr> NA, NA, "0", NA, NA, NA, NA, NA, NA, NA, NA, NA, NA~
+#> $ punt_inside20      <chr> NA, NA, "2", NA, NA, NA, NA, NA, NA, NA, NA, NA, NA~
+#> $ punt_avg           <chr> NA, NA, "31.0", NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ ko_no              <chr> NA, NA, "5", NA, NA, NA, NA, NA, NA, NA, NA, NA, NA~
+#> $ ko_yds             <chr> NA, NA, "283", NA, NA, NA, NA, NA, NA, NA, NA, NA, ~
+#> $ ko_ob              <chr> NA, NA, "0", NA, NA, NA, NA, NA, NA, NA, NA, NA, NA~
+#> $ ko_tb              <chr> NA, NA, "0", NA, NA, NA, NA, NA, NA, NA, NA, NA, NA~
+#> $ pat_kickatt        <chr> NA, NA, "2", NA, NA, NA, NA, NA, NA, NA, NA, NA, NA~
+#> $ pat_kickmade       <chr> NA, NA, "1", NA, NA, NA, NA, NA, NA, NA, NA, NA, NA~
+#> $ defense_tackua     <chr> NA, NA, "2", NA, "2", NA, "1", NA, NA, NA, NA, NA, ~
+#> $ defense_tacka      <chr> NA, NA, "3", NA, "4", NA, "0", NA, NA, NA, NA, NA, ~
+#> $ defense_tot_tack   <chr> NA, NA, "5", NA, "6", NA, "1", NA, NA, NA, NA, NA, ~
+#> $ defense_tflua      <chr> NA, NA, "0", NA, "0", NA, "1", NA, NA, NA, NA, NA, ~
+#> $ defense_tfla       <chr> NA, NA, "1", NA, "1", NA, "0", NA, NA, NA, NA, NA, ~
+#> $ defense_tflyds     <chr> NA, NA, "0", NA, "2", NA, "5", NA, NA, NA, NA, NA, ~
+#> $ scoring_patkick    <chr> NA, NA, "1", NA, NA, NA, NA, NA, NA, NA, NA, NA, NA~
+#> $ rcv_no             <chr> NA, NA, NA, "1", "1", NA, NA, NA, NA, NA, "4", NA, ~
+#> $ rcv_yds            <chr> NA, NA, NA, "7", "-57", NA, NA, NA, NA, NA, "83", N~
+#> $ rcv_td             <chr> NA, NA, NA, "0", "0", NA, NA, NA, NA, NA, "1", NA, ~
+#> $ rcv_long           <chr> NA, NA, NA, "7", "0", NA, NA, NA, NA, NA, "40", NA,~
+#> $ kr_no              <chr> NA, NA, NA, "1", NA, NA, NA, NA, NA, NA, NA, NA, NA~
+#> $ kr_yds             <chr> NA, NA, NA, "43", NA, NA, NA, NA, NA, NA, NA, NA, N~
+#> $ kr_td              <chr> NA, NA, NA, "0", NA, NA, NA, NA, NA, NA, NA, NA, NA~
+#> $ kr_long            <chr> NA, NA, NA, "43", NA, NA, NA, NA, NA, NA, NA, NA, N~
+#> $ defense_sackua     <chr> NA, NA, NA, NA, "0", NA, NA, NA, NA, NA, NA, NA, NA~
+#> $ defense_sacka      <chr> NA, NA, NA, NA, "1", NA, NA, NA, NA, NA, NA, NA, NA~
+#> $ defense_sackyds    <chr> NA, NA, NA, NA, "2", NA, NA, NA, NA, NA, NA, NA, NA~
+#> $ rush_att           <chr> NA, NA, NA, NA, NA, "8", "1", NA, NA, NA, NA, NA, N~
+#> $ rush_yds           <chr> NA, NA, NA, NA, NA, "67", "-12", NA, NA, NA, NA, NA~
+#> $ rush_gain          <chr> NA, NA, NA, NA, NA, "70", "0", NA, NA, NA, NA, NA, ~
+#> $ rush_loss          <chr> NA, NA, NA, NA, NA, "3", "12", NA, NA, NA, NA, NA, ~
+#> $ rush_td            <chr> NA, NA, NA, NA, NA, "1", "0", NA, NA, NA, NA, NA, N~
+#> $ rush_long          <chr> NA, NA, NA, NA, NA, "27", "0", NA, NA, NA, NA, NA, ~
+#> $ pat_passatt        <chr> NA, NA, NA, NA, NA, "1", NA, NA, NA, NA, NA, NA, NA~
+#> $ pat_passmade       <chr> NA, NA, NA, NA, NA, "1", NA, NA, NA, NA, NA, NA, NA~
+#> $ scoring_td         <chr> NA, NA, NA, NA, NA, "1", NA, NA, NA, NA, "1", NA, "~
+#> $ pat_rcvatt         <chr> NA, NA, NA, NA, NA, NA, "1", NA, NA, NA, NA, NA, NA~
+#> $ pat_rcvmade        <chr> NA, NA, NA, NA, NA, NA, "1", NA, NA, NA, NA, NA, NA~
+#> $ scoring_patrcv     <chr> NA, NA, NA, NA, NA, NA, "1", NA, NA, NA, NA, NA, NA~
+#> $ defense_brup       <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ defense_int        <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ defense_intyds     <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ ir_no              <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ ir_yds             <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ ir_td              <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ ir_long            <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ defense_blkd       <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ fg_made            <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ fg_att             <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ fg_long            <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ fg_blkd            <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ pr_no              <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ pr_yds             <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ pr_td              <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ pr_long            <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ defense_saf        <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ scoring_saf        <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ player_gs          <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ player_opos        <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ player_dpos        <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ defense_fr         <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ defense_fryds      <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ fr_no              <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ fr_yds             <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ fr_td              <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ fr_long            <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ fumbles_no         <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ fumbles_lost       <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ defense_ff         <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ pat_retkatt        <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ pat_retkmade       <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ scoring_fg         <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ pat_retfatt        <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ pat_retfmade       <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ scoring_patretfumb <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ pat_rushatt        <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ pat_rushmade       <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ scoring_patrush    <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
+#> $ scoring_patretkick <chr> NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,~
 ```
 
 ### Load PBP
