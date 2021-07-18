@@ -13,9 +13,9 @@ season,week,game_id,api_id,home_team,away_team,home_team_id,away_team_id,home_sc
 2021,4,2021_04_FG_CC,ccfg2104,Cologne Centurions,Frankfurt Galaxy,CC,FG,20,41,-21,61
 2021,4,2021_04_LK_SS,sslk2104,Stuttgart Surge,Leipzig Kings,SS,LK,27,24,3,51
 2021,4,2021_04_BT_HD,hdbt2104,Hamburg Sea Devils,Berlin Thunder,HD,BT,44,6,38,50
-2021,5,2021_05_PW_BT,btpw2105,Berlin Thunder,Panthers Wroclaw,BT,PW,NA,NA,NA,NA
-2021,5,2021_05_HD_LK,lkhd2105,Leipzig Kings,Hamburg Sea Devils,LK,HD,NA,NA,NA,NA
-2021,5,2021_05_BD_FG,fgbd2105,Frankfurt Galaxy,Barcelona Dragons,FG,BD,NA,NA,NA,NA
+2021,5,2021_05_PW_BT,btpw2105,Berlin Thunder,Panthers Wroclaw,BT,PW,26,45,-19,71
+2021,5,2021_05_HD_LK,lkhd2105,Leipzig Kings,Hamburg Sea Devils,LK,HD,0,55,-55,55
+2021,5,2021_05_BD_FG,fgbd2105,Frankfurt Galaxy,Barcelona Dragons,FG,BD,44,22,22,66
 2021,6,2021_06_HD_PW,pwhd2106,Panthers Wroclaw,Hamburg Sea Devils,PW,HD,NA,NA,NA,NA
 2021,6,2021_06_BT_BD,bdbt2106,Barcelona Dragons,Berlin Thunder,BD,BT,NA,NA,NA,NA
 2021,6,2021_06_CC_SS,sscc2106,Stuttgart Surge,Cologne Centurions,SS,CC,NA,NA,NA,NA
