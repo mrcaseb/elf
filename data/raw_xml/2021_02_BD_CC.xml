@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fbgame source="Tas Football" version="4.20.01" generated="6/27/2021">
+<fbgame source="Tas Football" version="4.20.01" generated="8/24/2021">
   <venue gameid="CCBD2102" visid="BD" homeid="CC" visname="Barcelona Dragons" homename="Cologne Centurions" date="6/27/2021" location="Cologne" stadium="Suedstadion Koeln" start="15:00" end="" leaguegame="Y" duration="-" attend="2500" temp="26C" wind="14 kmh" weather="sunny-partly cloudy">
     <officials ref="T.Denker" ump="T.Graage" line="R.Lewis" lj="M.Exposito" bj="A.Flaisch" fj="M.offmann" sj="A.Sourdrille"/>
     <rules qtrs="4" mins="15" downs="4" yds="10" kospot="35" tbspot="20" kotbspot="25" patspot="15" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="100" toh="3" sackrush="N" fgaplay="Y" netpunttb="Y"/>
@@ -11,36 +11,36 @@
       <lineprd prd="3" score="12"/>
       <lineprd prd="4" score="0"/>
     </linescore>
-    <totals totoff_plays="77" totoff_yards="329" totoff_avg="4.3">
+    <totals totoff_plays="77" totoff_yards="320" totoff_avg="4.2">
       <firstdowns no="23" rush="3" pass="16" penalty="4"/>
       <penalties no="6" yds="58"/>
       <conversions thirdconv="6" thirdatt="15" fourthconv="1" fourthatt="3"/>
       <fumbles no="0" lost="0"/>
       <misc yds="0" top="31:57" ona="0" onm="0" ptsto="0"/>
       <redzone att="1" scores="0" points="0" tdrush="0" tdpass="0" fgmade="0" endfga="0" enddowns="1" endint="0" endfumb="0" endhalf="0" endgame="0"/>
-      <rush att="26" yds="59" gain="96" loss="37" td="0" long="34"/>
-      <pass comp="26" att="48" int="2" yds="270" td="2" long="25" sacks="3" sackyds="29"/>
-      <rcv no="26" yds="299" td="2" long="25"/>
-      <punt no="6" yds="197" long="39" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="32.8"/>
+      <rush att="26" yds="58" gain="96" loss="38" td="0" long="34"/>
+      <pass comp="26" att="48" int="2" yds="262" td="2" long="25" sacks="3" sackyds="29"/>
+      <rcv no="26" yds="291" td="2" long="25"/>
+      <punt no="6" yds="198" long="39" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="33.0"/>
       <ko no="3" yds="165" ob="0" tb="0" fcyds="0"/>
       <pat kickatt="1" kickmade="0" rushatt="1" rushmade="0"/>
       <defense tackua="28" tacka="10" tot_tack="38" tflua="1" tfla="0" tflyds="3" sacks="0" sackyds="0" fr="1" fryds="0"/>
-      <kr no="3" yds="80" td="0" long="49"/>
+      <kr no="3" yds="82" td="0" long="49"/>
       <pr no="3" yds="29" td="0" long="17"/>
       <scoring td="2"/>
     </totals>
-    <player name="Zachary Edwards" shortname="Z. Edwards" checkname="EDWARDS,Z" uni="1" class="SR" gp="1" gs="1" opos="QB" code="1">
-      <rush att="9" yds="20" gain="29" loss="9" td="0" long="10"/>
-      <pass comp="26" att="48" int="2" yds="299" td="2" long="25" sacks="3" sackyds="29"/>
+    <player name="Zach Edwards" shortname="Z. Edwards" checkname="EDWARDS,Z" uni="1" class="SR" gp="1" gs="1" opos="QB" code="1">
+      <rush att="9" yds="21" gain="29" loss="8" td="0" long="10"/>
+      <pass comp="26" att="48" int="2" yds="291" td="2" long="25" sacks="3" sackyds="29"/>
     </player>
     <player name="Giacomo Prati" shortname="G. Prati" checkname="PRATI,G" uni="2" class="SR" gp="1" code="2"/>
     <player name="Adrian Jimenez" shortname="A. Jimenez" checkname="JIMENEZ,A" uni="3" class="SR" gp="1" gs="1" opos="HB" code="3">
-      <rush att="9" yds="48" gain="54" loss="6" td="0" long="34"/>
+      <rush att="9" yds="46" gain="54" loss="8" td="0" long="34"/>
       <rcv no="1" yds="5" td="0" long="5"/>
     </player>
     <player name="Remi Bertellin" shortname="R. Bertellin" checkname="BERTELLIN,R" uni="4" class="SR" gp="1" gs="1" opos="WR" code="4">
       <rush att="1" yds="-20" gain="0" loss="20" td="0" long="0"/>
-      <rcv no="7" yds="64" td="1" long="25"/>
+      <rcv no="7" yds="57" td="1" long="25"/>
       <pat rushatt="1" rushmade="0"/>
       <kr no="1" yds="5" td="0" long="5"/>
       <pr no="1" yds="7" td="0" long="7"/>
@@ -49,15 +49,17 @@
     <player name="Jean Constant" shortname="J. Constant" checkname="CONSTANT,J" uni="5" class="SR" gp="1" gs="1" opos="WR" code="5">
       <rush att="1" yds="4" gain="4" loss="0" td="0" long="4"/>
       <rcv no="12" yds="158" td="0" long="24"/>
-      <kr no="2" yds="75" td="0" long="49"/>
+      <kr no="2" yds="77" td="0" long="49"/>
       <pr no="2" yds="22" td="0" long="17"/>
     </player>
-    <player name="M. Tavarres" shortname="M. Tavarres" checkname="TAVARRES,M" uni="7" class="" gp="1" gs="1" dpos="LB" code="7"/>
-    <player name="T. Costa" shortname="T. Costa" checkname="COSTA,T" uni="8" class="" gp="1" gs="1" dpos="CB" code="8"/>
-    <player name="Cesare Brugnani" shortname="C. Brugnani" checkname="BRUGNANI,C" uni="10" class="SO" gp="1" code="10">
+    <player name="Myke Tavarres" shortname="M. Tavarres" checkname="TAVARRES,M" uni="7" class="SR" gp="1" gs="1" dpos="LB" code="7"/>
+    <player name="T. Costa" shortname="T. Costa" checkname="COSTA,T" uni="8" class="" gp="1" gs="1" dpos="CB" code="8">
+      <defense tackua="1" tacka="0" tot_tack="1"/>
+    </player>
+    <player name="Cesare Brugnani" shortname="C. Brugnani" checkname="BRUGNANI,C" uni="10" class="SR" gp="1" code="10">
       <defense tackua="1" tacka="0" tot_tack="1" tflua="1" tfla="0" tflyds="3"/>
     </player>
-    <player name="B. Brooks" shortname="B. Brooks" checkname="BROOKS,B" uni="11" class="" gp="1" gs="1" dpos="CB" code="11">
+    <player name="Brandon Brooks" shortname="B. Brooks" checkname="BROOKS,B" uni="11" class="SR" gp="1" gs="1" dpos="CB" code="11">
       <defense tackua="2" tacka="1" tot_tack="3"/>
     </player>
     <player name="Samuel Anca" shortname="S. Anca" checkname="ANCA,S" uni="13" class="SR" gp="1" code="13"/>
@@ -69,10 +71,9 @@
     </player>
     <player name="Alejandro Herrero" shortname="A. Herrero" checkname="HERRERO,A" uni="17" class="SR" gp="1" gs="1" opos="FB" code="17">
       <rush att="2" yds="-2" gain="0" loss="2" td="0" long="0"/>
-      <defense tackua="1" tacka="0" tot_tack="1"/>
     </player>
-    <player name="Chris Manser" shortname="C. Maser" checkname="MASER,C" uni="18" class="SR" gp="1" code="18">
-      <punt no="6" yds="197" long="39" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="32.8"/>
+    <player name="C. Maser" shortname="C. Maser" checkname="MASER,C" uni="18" class="SR" gp="1" code="18">
+      <punt no="6" yds="198" long="39" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="33.0"/>
     </player>
     <player name="Lucas Masero" shortname="L. Masero" checkname="MASERO,L" uni="20" class="SR" gp="1" code="20"/>
     <player name="Jordi Brugnani" shortname="J. Brugnani" checkname="BRUGNANI,J" uni="23" class="SR" gp="1" gs="1" dpos="FS" code="23">
@@ -85,52 +86,46 @@
     <player name="Niko Lester" shortname="N. Lester" checkname="LESTER,N" uni="25" class="SR" gp="1" gs="1" dpos="SS" code="25">
       <defense tackua="2" tacka="1" tot_tack="3"/>
     </player>
-    <player name="Andy Vera Puentenev." shortname="A. Vera" checkname="VERA,A" uni="27" class="SR" gp="1" code="27"/>
-    <player name="29" shortname="" checkname="" uni="29" class="" gp="1" code="29">
-      <defense tackua="1" tacka="0" tot_tack="1"/>
-    </player>
-    <player name="Timon Debiez" shortname="T. Debiez" checkname="DEBIEZ,T" uni="33" class="SO" gp="1" code="33">
+    <player name="Andy Vera" shortname="A. Vera" checkname="VERA,A" uni="27" class="SR" gp="1" code="27"/>
+    <player name="Timon Debiez" shortname="T. Debiez" checkname="DEBIEZ,T" uni="33" class="SR" gp="1" code="33">
       <defense tackua="2" tacka="2" tot_tack="4"/>
     </player>
-    <player name="E. Rodriguez" shortname="E. Rodriguez" checkname="RODRIGUEZ,E" uni="34" class="" gp="1" code="34"/>
-    <player name="42" shortname="" checkname="" uni="42" class="" gp="1" code="42">
-      <defense tackua="1" tacka="0" tot_tack="1"/>
-    </player>
+    <player name="Elias Rodriguez" shortname="E. Rodriguez" checkname="RODRIGUEZ,E" uni="34" class="SR" gp="1" code="34"/>
     <player name="Victor Albarracin" shortname="V. Albarracin" checkname="ALBARRACIN,V" uni="43" class="SR" gp="1" gs="1" dpos="LB" code="43">
       <defense tackua="0" tacka="1" tot_tack="1"/>
     </player>
-    <player name="Alex Posito" shortname="A. Posito" checkname="POSITO,A" uni="45" class="SR" gp="1" gs="1" dpos="LB" code="45">
+    <player name="A. Posito" shortname="A. Posito" checkname="POSITO,A" uni="45" class="SR" gp="1" gs="1" dpos="LB" code="45">
+      <defense tackua="3" tacka="0" tot_tack="3"/>
+    </player>
+    <player name="V. Latorre" shortname="V. Latorre" checkname="LATORRE,V" uni="46" class="SR" gp="1" code="46"/>
+    <player name="J. Carradini" shortname="J. Carradini" checkname="CARRADINI,J" uni="47" class="SR" gp="1" code="47">
       <defense tackua="2" tacka="0" tot_tack="2"/>
     </player>
-    <player name="Vicente Latorre" shortname="V. Latorre" checkname="LATORRE,V" uni="46" class="SR" gp="1" code="46"/>
-    <player name="J. M. Carradini" shortname="J. Carradini" checkname="CARRADINI,J" uni="47" class="SR" gp="1" code="47">
+    <player name="Sebastian Castaner" shortname="S. Castaner" checkname="CASTANER,S" uni="49" class="SR" gp="1" code="49">
       <defense tackua="2" tacka="0" tot_tack="2"/>
     </player>
-    <player name="S. Castaner" shortname="S. Castaner" checkname="CASTANER,S" uni="49" class="" gp="1" code="49">
-      <defense tackua="2" tacka="0" tot_tack="2"/>
-    </player>
-    <player name="Guillermo Bahilo" shortname="G. Bahilo" checkname="BAHILO,G" uni="50" class="SO" gp="1" code="50"/>
+    <player name="Guillermo Bahillo" shortname="G. Bahillo" checkname="BAHILLO,G" uni="50" class="SO" gp="1" code="50"/>
     <player name="Daniel Monfared" shortname="D. Monfared" checkname="MONFARED,D" uni="52" class="SR" gp="1" code="52"/>
-    <player name="Pep Tricas" shortname="P. Tricas" checkname="TRICAS,P" uni="53" class="SR" gp="1" code="53"/>
-    <player name="Ivan Guiterrez" shortname="I. Guiterrez" checkname="GUITERREZ,I" uni="55" class="SR" gp="1" code="55">
+    <player name="Josep Tricas" shortname="J. Tricas" checkname="TRICAS,J" uni="53" class="SR" gp="1" code="53"/>
+    <player name="Ivan Gutierrez" shortname="I. Gutierrez" checkname="GUTIERREZ,I" uni="55" class="SR" gp="1" code="55">
       <defense tackua="0" tacka="1" tot_tack="1"/>
     </player>
     <player name="Elvys Nunez" shortname="E. Nunez" checkname="NUNEZ,E" uni="57" class="SR" gp="1" gs="1" opos="LT" code="57"/>
-    <player name="Raul Hernandez Ruiz" shortname="R. Hern. Ruiz" checkname="RUIZ,R HERN" uni="58" class="SR" gp="1" gs="1" opos="RT" code="58"/>
-    <player name="Alvaro Lopez Lopez" shortname="A. Lopez Lopez" checkname="LOPEZ,A LOPEZ" uni="62" class="SR" gp="1" code="62"/>
+    <player name="Raul Hernandez" shortname="R. Hernandez" checkname="HERNANDEZ,R" uni="58" class="SR" gp="1" gs="1" opos="RT" code="58"/>
+    <player name="A. Lopez Lopez" shortname="A. Lopez Lopez" checkname="LOPEZ,A LOPEZ" uni="62" class="SR" gp="1" code="62"/>
     <player name="Jan Raus" shortname="J. Raus" checkname="RAUS,J" uni="65" class="SR" gp="1" gs="1" opos="C" code="65"/>
-    <player name="Nicholas Moeller" shortname="N. Moeller" checkname="MOELLER,N" uni="68" class="SR" gp="1" gs="1" opos="LG" code="68"/>
+    <player name="Nicholas Moeller-H." shortname="N. Moeller-H." checkname=",N MOELLER-H" uni="68" class="SR" gp="1" gs="1" opos="LG" code="68"/>
     <player name="Sebastian Bowen" shortname="S. Bowen" checkname="BOWEN,S" uni="73" class="SR" gp="1" gs="1" dpos="DT" code="73">
       <defense tackua="1" tacka="0" tot_tack="1"/>
     </player>
-    <player name="Naren Ishwar Lalwani" shortname="N. I. Lalwani" checkname="LALWANI,N I" uni="75" class="SR" gp="1" code="75"/>
-    <player name="Carlos Guillen Leon" shortname="C. Guillen Leon" checkname="LEON,C GUILLEN" uni="77" class="SR" gp="1" code="77"/>
-    <player name="Axel Ariel Irigoite" shortname="A. Irigoite" checkname="IRIGOITE,A" uni="78" class="SR" gp="1" gs="1" opos="RG" code="78"/>
+    <player name="Naren Ishwar Lalwani" shortname="N. Lalwani" checkname="LALWANI,N" uni="75" class="SR" gp="1" code="75"/>
+    <player name="Carlos Guillen" shortname="C. Guillen" checkname="GUILLEN,C" uni="77" class="SR" gp="1" code="77"/>
+    <player name="Axel Irigoite" shortname="A. Irigoite" checkname="IRIGOITE,A" uni="78" class="SR" gp="1" gs="1" opos="RG" code="78"/>
     <player name="Irvin Santana" shortname="I. Santana" checkname="SANTANA,I" uni="79" class="SR" gp="1" code="79"/>
     <player name="Jordi Torrededia" shortname="J. Torrededia" checkname="TORREDEDIA,J" uni="80" class="SR" gp="1" code="80">
-      <rcv no="1" yds="6" td="0" long="6"/>
+      <rcv no="1" yds="5" td="0" long="5"/>
     </player>
-    <player name="Juan Hervas Ezquerra" shortname="J. H.-Ezquerra" checkname="-EZQUERRA,J H" uni="82" class="SR" gp="1" code="82"/>
+    <player name="J. H.-Ezquerra" shortname="J. H.-Ezquerra" checkname="-EZQUERRA,J H" uni="82" class="SR" gp="1" code="82"/>
     <player name="Jaume Llinas" shortname="J. Llinas" checkname="LLINAS,J" uni="85" class="SR" gp="1" code="85">
       <ko no="3" yds="165" ob="0" tb="0"/>
       <pat kickatt="1" kickmade="0"/>
@@ -141,13 +136,13 @@
     <player name="Alejandro Fernandez" shortname="A. Fernandez" checkname="FERNANDEZ,A" uni="90" class="SR" gp="1" gs="1" dpos="DE" code="90">
       <defense tackua="3" tacka="0" tot_tack="3" fr="1" fryds="0"/>
     </player>
-    <player name="Arthur Pinheiro Tr." shortname="A. Pinheiro" checkname="PINHEIRO,A" uni="93" class="SR" gp="1" gs="1" dpos="DT" code="93">
+    <player name="Arthur Pinheiro" shortname="A. Pinheiro" checkname="PINHEIRO,A" uni="93" class="SR" gp="1" gs="1" dpos="DT" code="93">
       <defense tackua="3" tacka="2" tot_tack="5"/>
     </player>
     <player name="Yago Rivero" shortname="Y. Rivero" checkname="RIVERO,Y" uni="99" class="SR" gp="1" gs="1" dpos="DE" code="99">
-      <defense tackua="2" tacka="1" tot_tack="3"/>
+      <defense tackua="3" tacka="1" tot_tack="4"/>
     </player>
-    <player name="Team" shortname="Team" checkname="TEAM" uni="TM" class="SR" gp="1" code="198">
+    <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" class="SR" gp="1" code="198">
       <pass comp="0" att="0" int="0" yds="-29" td="0" long="0" sacks="0" sackyds="0"/>
     </player>
   </team>
@@ -169,11 +164,11 @@
       <pass comp="6" att="13" int="0" yds="127" td="1" long="35" sacks="0" sackyds="0"/>
       <rcv no="6" yds="127" td="1" long="35"/>
       <punt no="5" yds="230" long="70" blkd="0" tb="0" fc="0" plus50="2" inside20="1" avg="46.0"/>
-      <ko no="7" yds="302" ob="0" tb="1" fcyds="7"/>
+      <ko no="7" yds="302" ob="0" tb="1" fcyds="9"/>
       <pat kickatt="6" kickmade="4"/>
-      <defense tackua="42" tacka="16" tot_tack="58" tflua="8" tfla="2" tflyds="60" sacks="3" sackyds="29" brup="2" blkd="1" int="2" intyds="3"/>
+      <defense tackua="43" tacka="14" tot_tack="57" tflua="9" tfla="4" tflyds="65" sacks="3" sackyds="29" brup="2" qbh="2" blkd="1" int="2" intyds="3"/>
       <kr no="3" yds="65" td="0" long="30"/>
-      <pr no="4" yds="33" td="0" long="24"/>
+      <pr no="4" yds="34" td="0" long="24"/>
       <ir no="2" yds="3" td="0" long="3"/>
       <scoring td="6" patkick="4"/>
     </totals>
@@ -188,18 +183,18 @@
       <scoring patkick="4"/>
     </player>
     <player name="Julian Voelker" shortname="J. Voelker" checkname="VOELKER,J" uni="3" class="SR" gp="1" gs="1" dpos="DE" code="3">
-      <defense tackua="2" tacka="1" tot_tack="3" tflua="1" tfla="1" tflyds="18" sackua="1" sacka="1" sackyds="18"/>
+      <defense tackua="4" tacka="1" tot_tack="5" tflua="2" tfla="1" tflyds="22" sackua="1" sacka="1" sackyds="18" qbh="2"/>
       <ir no="1" yds="0" td="0" long="0"/>
     </player>
     <player name="Glody Ngovo" shortname="G. Ngovo" checkname="NGOVO,G" uni="4" class="SR" gp="1" code="4">
       <rush att="2" yds="3" gain="6" loss="3" td="0" long="6"/>
     </player>
     <player name="Jannik Nowak" shortname="J. Nowak" checkname="NOWAK,J" uni="6" class="SR" gp="1" code="6"/>
-    <player name="Daniel Farley" shortname="D. Farley" checkname="FARLEY,D" uni="7" class="SR" gp="1" code="7"/>
+    <player name="D. Farley" shortname="D. Farley" checkname="FARLEY,D" uni="7" class="SR" gp="1" code="7"/>
     <player name="Paul Steffen" shortname="P. Steffen" checkname="STEFFEN,P" uni="8" class="SR" gp="1" code="8"/>
-    <player name="Christopher Ezeala" shortname="C. Ezeala" checkname="EZEALA,C" uni="9" class="SR" gp="1" gs="1" opos="FB" code="9">
+    <player name="C. Ezeala" shortname="C. Ezeala" checkname="EZEALA,C" uni="9" class="SR" gp="1" gs="1" opos="FB" code="9">
       <punt no="5" yds="230" long="70" blkd="0" tb="0" fc="0" plus50="2" inside20="1" avg="46.0"/>
-      <defense tackua="1" tacka="3" tot_tack="4" tflua="1" tfla="1" tflyds="11" sackua="1" sacka="1" sackyds="11"/>
+      <defense tackua="2" tacka="3" tot_tack="5" tflua="1" tfla="1" tflyds="11" sackua="1" sacka="1" sackyds="11"/>
     </player>
     <player name="Justin Schlesinger" shortname="J. Schlesinger" checkname="SCHLESINGER,J" uni="10" class="SR" gp="1" code="10"/>
     <player name="Noah Aarass" shortname="N. Aarass" checkname="AARASS,N" uni="11" class="SR" gp="1" gs="1" opos="WR" code="11">
@@ -216,23 +211,19 @@
     <player name="Kai Schiffer" shortname="K. Schiffer" checkname="SCHIFFER,K" uni="18" class="SR" gp="1" code="18"/>
     <player name="Moritz Schnippe" shortname="M. Schnippe" checkname="SCHNIPPE,M" uni="19" class="SR" gp="1" code="19"/>
     <player name="Jannik Seibel" shortname="J. Seibel" checkname="SEIBEL,J" uni="20" class="SR" gp="1" gs="1" dpos="CB" code="20">
-      <defense tackua="5" tacka="0" tot_tack="5" blkd="1"/>
+      <defense tackua="6" tacka="0" tot_tack="6" blkd="1"/>
     </player>
-    <player name="Rene Hanssen" shortname="R. Hanssen" checkname="HANSSEN,R" uni="21" class="SR" gp="1" code="21"/>
+    <player name="R. Hanssen" shortname="R. Hanssen" checkname="HANSSEN,R" uni="21" class="SR" gp="1" code="21"/>
     <player name="Tufan Yagmur" shortname="T. Yagmur" checkname="YAGMUR,T" uni="22" class="SR" gp="1" code="22">
-      <defense tackua="1" tacka="1" tot_tack="2"/>
+      <defense tackua="1" tacka="0" tot_tack="1"/>
     </player>
     <player name="Till Janssen" shortname="T. Janssen" checkname="JANSSEN,T" uni="23" class="SR" gp="1" gs="1" dpos="CB" code="23">
       <defense tackua="4" tacka="1" tot_tack="5" brup="1"/>
     </player>
     <player name="Dartez Jacobs" shortname="D. Jacobs" checkname="JACOBS,D" uni="24" class="SR" gp="1" gs="1" dpos="FS" code="24">
-      <defense tackua="4" tacka="1" tot_tack="5" int="1" intyds="3"/>
-      <pr no="1" yds="24" td="0" long="24"/>
+      <defense tackua="7" tacka="1" tot_tack="8" int="1" intyds="3"/>
+      <pr no="2" yds="32" td="0" long="24"/>
       <ir no="1" yds="3" td="0" long="3"/>
-    </player>
-    <player name="25" shortname="" checkname="" uni="25" class="" gp="1" code="25">
-      <defense tackua="3" tacka="1" tot_tack="4"/>
-      <pr no="1" yds="7" td="0" long="7"/>
     </player>
     <player name="Andre Frisch" shortname="A. Frisch" checkname="FRISCH,A" uni="26" class="SR" gp="1" code="26">
       <rush att="4" yds="30" gain="30" loss="0" td="0" long="11"/>
@@ -256,38 +247,25 @@
     <player name="Richard Grooten" shortname="R. Grooten" checkname="GROOTEN,R" uni="32" class="SR" gp="1" gs="1" dpos="SS" code="32">
       <defense tackua="2" tacka="0" tot_tack="2" int="1" intyds="0"/>
     </player>
-    <player name="33" shortname="" checkname="" uni="33" class="" gp="1" code="33">
-      <defense tackua="1" tacka="0" tot_tack="1"/>
-    </player>
     <player name="Dennis Laas" shortname="D. Laas" checkname="LAAS,D" uni="34" class="SR" gp="1" code="34"/>
-    <player name="42" shortname="" checkname="" uni="42" class="" gp="1" code="42">
-      <defense tackua="1" tacka="1" tot_tack="2" tflua="1" tfla="0" tflyds="5"/>
-    </player>
     <player name="Patrick Poetsch" shortname="P. Poetsch" checkname="POETSCH,P" uni="43" class="SR" gp="1" code="43">
       <rush att="3" yds="11" gain="11" loss="0" td="0" long="5"/>
       <rcv no="1" yds="17" td="0" long="17"/>
     </player>
     <player name="Marius Kensy" shortname="M. Kensy" checkname="KENSY,M" uni="44" class="SR" gp="1" gs="1" dpos="LB" code="44">
-      <defense tackua="3" tacka="0" tot_tack="3" tflua="2" tfla="0" tflyds="21" brup="1"/>
-    </player>
-    <player name="45" shortname="" checkname="" uni="45" class="" gp="1" code="45">
-      <defense tackua="0" tacka="1" tot_tack="1"/>
-    </player>
-    <player name="46" shortname="" checkname="" uni="46" class="" gp="1" code="46">
-      <defense tackua="1" tacka="0" tot_tack="1"/>
+      <defense tackua="3" tacka="1" tot_tack="4" tflua="2" tfla="1" tflyds="22" brup="1"/>
     </player>
     <player name="Niklas Liesen" shortname="N. Liesen" checkname="LIESEN,N" uni="47" class="SR" gp="1" gs="1" dpos="LB" code="47">
-      <defense tackua="3" tacka="1" tot_tack="4" tflua="1" tfla="0" tflyds="1"/>
+      <defense tackua="4" tacka="0" tot_tack="4" tflua="1" tfla="0" tflyds="1"/>
       <pr no="1" yds="6" td="0" long="6"/>
       <fumbles no="1" lost="1"/>
     </player>
     <player name="Kasper Bongarts" shortname="K. Bongaerts" checkname="BONGAERTS,K" uni="48" class="SR" gp="1" gs="1" dpos="LB" code="48">
-      <defense tackua="2" tacka="1" tot_tack="3" tflua="1" tfla="0" tflyds="2"/>
+      <defense tackua="2" tacka="1" tot_tack="3" tflua="1" tfla="0" tflyds="1"/>
     </player>
     <player name="Alberto Coq Huelva" shortname="A. Coq Huelva" checkname="HUELVA,A COQ" uni="49" class="SR" gp="1" code="49"/>
-    <player name="Alexander Boes" shortname="A. Boes" checkname="BOES,A" uni="52" class="SR" gp="1" code="52"/>
-    <player name="53" shortname="" checkname="" uni="53" class="" gp="1" code="53">
-      <defense tackua="1" tacka="0" tot_tack="1"/>
+    <player name="Alexander Boes" shortname="A. Boes" checkname="BOES,A" uni="52" class="SR" gp="1" code="52">
+      <defense tackua="1" tacka="1" tot_tack="2" tflua="1" tfla="0" tflyds="5"/>
     </player>
     <player name="Maximilian Oebels" shortname="M. Oebels" checkname="OEBELS,M" uni="54" class="SR" gp="1" code="54"/>
     <player name="Firat Aybek" shortname="F. Aybek" checkname="AYBEK,F" uni="56" class="SR" gp="1" code="56"/>
@@ -298,22 +276,23 @@
     <player name="Jan-Niclas Dalbeck" shortname="J.-N. Dalbeck" checkname="DALBECK,J-N" uni="63" class="SR" gp="1" gs="1" opos="LT" code="63"/>
     <player name="Nick Wiens" shortname="N. Wiens" checkname="WIENS,N" uni="68" class="SR" gp="1" gs="1" opos="LG" code="68"/>
     <player name="Hannes Darley" shortname="H. Darley" checkname="DARLEY,H" uni="69" class="SR" gp="1" gs="1" opos="C" code="69"/>
-    <player name="Tom Maier" shortname="T. Meier" checkname="MEIER,T" uni="72" class="SR" gp="1" code="72"/>
+    <player name="T. Meier" shortname="T. Meier" checkname="MEIER,T" uni="72" class="SR" gp="1" code="72"/>
     <player name="Fabian Kratz" shortname="F. Kratz" checkname="KRATZ,F" uni="73" class="SR" gp="1" gs="1" opos="RT" code="73"/>
-    <player name="Niklas Meiwurm" shortname="N. Meiwurm" checkname="MEIWURM,N" uni="76" class="SR" gp="1" code="76"/>
+    <player name="Niklas Meiworm" shortname="N. Meiworm" checkname="MEIWORM,N" uni="76" class="SR" gp="1" code="76"/>
     <player name="Frederick Weinreich" shortname="F. Weinreich" checkname="WEINREICH,F" uni="78" class="SR" gp="1" gs="1" opos="RG" code="78"/>
     <player name="Theo Groendeals" shortname="T. Groendeals" checkname="GROENDEALS,T" uni="80" class="SR" gp="1" code="80"/>
     <player name="Valentin Roediger" shortname="V. Roediger" checkname="ROEDIGER,V" uni="81" class="SR" gp="1" code="81"/>
     <player name="Michael Ofosuhene" shortname="M. Ofosuhene" checkname="OFOSUHENE,M" uni="85" class="SR" gp="1" code="85"/>
     <player name="Florian Eichhorn" shortname="F. Eichhorn" checkname="EICHHORN,F" uni="87" class="SR" gp="1" gs="1" opos="TE" code="87"/>
     <player name="Roman Sellung" shortname="R. Sellung" checkname="SELLUNG,R" uni="91" class="SR" gp="1" gs="1" dpos="DT" code="91">
-      <defense tackua="1" tacka="1" tot_tack="2"/>
+      <defense tackua="0" tacka="1" tot_tack="1" tflua="0" tfla="1" tflyds="1"/>
     </player>
     <player name="T. Schlicht" shortname="T. Schlicht" checkname="SCHLICHT,T" uni="93" class="" gp="1" code="93"/>
     <player name="Benjo Cerimagic" shortname="B. Cerimagic" checkname="CERIMAGIC,B" uni="94" class="SR" gp="1" gs="1" dpos="DE" code="94"/>
     <player name="Junior De Souza Br." shortname="J. De Souza B." checkname=",J DE SOUZA B" uni="99" class="SR" gp="1" code="99">
-      <defense tackua="2" tacka="1" tot_tack="3"/>
+      <defense tackua="2" tacka="2" tot_tack="4"/>
     </player>
+    <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" class="FR" gp="1" code="198"/>
   </team>
   <scores>
     <score vh="H" team="CC" qtr="2" clock="14:53" type="TD" how="RUSH" yds="9" scorer="M. London" patby="D. Schuhmacher" pattype="KICK" patres="GOOD" plays="10" drive="76" top="3:54" vscore="0" hscore="7" driveindex="5"/>
@@ -321,7 +300,7 @@
     <score vh="V" team="BD" qtr="3" clock="11:32" type="TD" how="PASS" yds="24" scorer="M. Flores" passer="Z. Edwards" patby="R. Bertellin" pattype="RUSH" patres="FAIL" plays="7" drive="66" top="3:28" vscore="6" hscore="14" driveindex="14"/>
     <score vh="H" team="CC" qtr="3" clock="11:03" type="TD" how="RUSH" yds="65" scorer="M. London" patby="D. Schuhmacher" pattype="KICK" patres="GOOD" plays="1" drive="65" top="0:20" vscore="6" hscore="21" driveindex="15"/>
     <score vh="H" team="CC" qtr="3" clock="03:58" type="TD" how="RUSH" yds="1" scorer="J. Weinreich" patby="D. Schuhmacher" pattype="KICK" patres="FAIL" plays="4" drive="43" top="2:02" vscore="6" hscore="27" driveindex="17"/>
-    <score vh="V" team="BD" qtr="3" clock="01:10" type="TD" how="PASS" yds="25" scorer="R. Bertellin" passer="Z. Edwards" patby="J. Llinas" pattype="KICK" patres="BLKD" plays="8" drive="82" top="2:48" vscore="12" hscore="27" driveindex="18"/>
+    <score vh="V" team="BD" qtr="3" clock="01:10" type="TD" how="PASS" yds="25" scorer="R. Bertellin" passer="Z. Edwards" patby="J. Llinas" pattype="KICK" patres="BLKD" plays="8" drive="75" top="2:48" vscore="12" hscore="27" driveindex="18"/>
     <score vh="H" team="CC" qtr="3" clock="00:07" type="TD" how="RUSH" yds="36" scorer="M. London" patby="D. Schuhmacher" pattype="KICK" patres="FAIL" plays="4" drive="60" top="0:55" vscore="12" hscore="33" driveindex="19"/>
     <score vh="H" team="CC" qtr="4" clock="09:42" type="TD" how="RUSH" yds="75" scorer="M. London" patby="D. Schuhmacher" pattype="KICK" patres="GOOD" plays="4" drive="92" top="2:17" vscore="12" hscore="40" driveindex="21"/>
   </scores>
@@ -331,7 +310,7 @@
     <drive vh="H" team="CC" start="INT,1,06:05,2" end="PUNT,1,04:49,5" plays="3" yards="3" top="1:16" start_how="INT" start_qtr="1" start_time="06:05" start_spot="CC02" end_how="PUNT" end_qtr="1" end_time="04:49" end_spot="CC05" driveindex="3"/>
     <drive vh="V" team="BD" start="PUNT,1,04:49,67" end="DOWNS,1,03:47,76" plays="4" yards="9" top="1:02" start_how="PUNT" start_qtr="1" start_time="04:49" start_spot="CC33" end_how="DOWNS" end_qtr="1" end_time="03:47" end_spot="CC24" driveindex="4"/>
     <drive vh="H" team="CC" start="DOWNS,1,03:47,24" end="TD,2,14:53,100" plays="10" yards="76" top="3:54" start_how="DOWNS" start_qtr="1" start_time="03:47" start_spot="CC24" end_how="TD" end_qtr="2" end_time="14:53" end_spot="BD00" rz="1" driveindex="5"/>
-    <drive vh="V" team="BD" start="KO,2,14:42,32" end="PUNT,2,13:24,40" plays="3" yards="8" top="1:18" start_how="KO" start_qtr="2" start_time="14:42" start_spot="BD32" end_how="PUNT" end_qtr="2" end_time="13:24" end_spot="BD40" driveindex="6"/>
+    <drive vh="V" team="BD" start="KO,2,14:46,34" end="PUNT,2,13:24,40" plays="3" yards="6" top="1:22" start_how="KO" start_qtr="2" start_time="14:46" start_spot="BD34" end_how="PUNT" end_qtr="2" end_time="13:24" end_spot="BD40" driveindex="6"/>
     <drive vh="H" team="CC" start="PUNT,2,13:24,21" end="PUNT,2,10:08,36" plays="6" yards="15" top="3:16" start_how="PUNT" start_qtr="2" start_time="13:24" start_spot="CC21" end_how="PUNT" end_qtr="2" end_time="10:08" end_spot="CC36" driveindex="7"/>
     <drive vh="V" team="BD" start="PUNT,2,10:08,29" end="PUNT,2,06:02,54" plays="8" yards="25" top="4:06" start_how="PUNT" start_qtr="2" start_time="10:08" start_spot="BD29" end_how="PUNT" end_qtr="2" end_time="06:02" end_spot="CC46" driveindex="8"/>
     <drive vh="H" team="CC" start="PUNT,2,06:02,24" end="PUNT,2,03:49,30" plays="3" yards="6" top="2:13" start_how="PUNT" start_qtr="2" start_time="06:02" start_spot="CC24" end_how="PUNT" end_qtr="2" end_time="03:49" end_spot="CC30" driveindex="9"/>
@@ -343,7 +322,7 @@
     <drive vh="H" team="CC" start="KO,3,11:23,35" end="TD,3,11:03,100" plays="1" yards="65" top="0:20" start_how="KO" start_qtr="3" start_time="11:23" start_spot="CC35" end_how="TD" end_qtr="3" end_time="11:03" end_spot="BD00" driveindex="15"/>
     <drive vh="V" team="BD" start="KO,3,11:03,25" end="PUNT,3,06:00,23" plays="8" yards="-2" top="5:03" start_how="KO" start_qtr="3" start_time="11:03" start_spot="BD25" end_how="PUNT" end_qtr="3" end_time="06:00" end_spot="BD23" driveindex="16"/>
     <drive vh="H" team="CC" start="PUNT,3,06:00,57" end="TD,3,03:58,100" plays="4" yards="43" top="2:02" start_how="PUNT" start_qtr="3" start_time="06:00" start_spot="BD43" end_how="TD" end_qtr="3" end_time="03:58" end_spot="BD00" rz="1" driveindex="17"/>
-    <drive vh="V" team="BD" start="KO,3,03:58,18" end="TD,3,01:10,100" plays="8" yards="82" top="2:48" start_how="KO" start_qtr="3" start_time="03:58" start_spot="BD18" end_how="TD" end_qtr="3" end_time="01:10" end_spot="CC00" driveindex="18"/>
+    <drive vh="V" team="BD" start="KO,3,03:58,25" end="TD,3,01:10,100" plays="8" yards="75" top="2:48" start_how="KO" start_qtr="3" start_time="03:58" start_spot="BD25" end_how="TD" end_qtr="3" end_time="01:10" end_spot="CC00" driveindex="18"/>
     <drive vh="H" team="CC" start="KO,3,01:02,40" end="TD,3,00:07,100" plays="4" yards="60" top="0:55" start_how="KO" start_qtr="3" start_time="01:02" start_spot="CC40" end_how="TD" end_qtr="3" end_time="00:07" end_spot="BD00" driveindex="19"/>
     <drive vh="V" team="BD" start="KO,3,00:00,77" end="DOWNS,4,11:59,92" plays="7" yards="15" top="3:01" start_how="KO" start_qtr="3" start_time="00:00" start_spot="CC23" end_how="DOWNS" end_qtr="4" end_time="11:59" end_spot="CC08" rz="1" driveindex="20"/>
     <drive vh="H" team="CC" start="DOWNS,4,11:59,8" end="TD,4,09:42,100" plays="4" yards="92" top="2:17" start_how="DOWNS" start_qtr="4" start_time="11:59" start_spot="CC08" end_how="TD" end_qtr="4" end_time="09:42" end_spot="BD00" driveindex="21"/>
@@ -411,9 +390,9 @@
       <play hasball="BD" down="3" togo="1" spot="BD35" context="V,3,1,V35" playid="2,10,15" type="E" first="E" tokens="PEN:H,ISU,A,3,V40,1" text="PENALTY CC illegal substitution (J. Voelker) 5 yards to the BD40, 1ST DOWN BD." newcontext="V,1,10,V40">
         <p_pn vh="H" code="ISU" type="illegal substitution" name="J. Voelker" result="ACCEPT" at="V35" yards="5"/>
       </play>
-      <play hasball="BD" down="1" togo="10" spot="BD40" context="V,1,10,V40" playid="2,11,16" type="R" tokens="RUSH:24,V43, TACK:33" text="J. Castanon rush for 3 yards to the BD43 (33)." newcontext="V,2,7,V43">
+      <play hasball="BD" down="1" togo="10" spot="BD40" context="V,1,10,V40" playid="2,11,16" type="R" tokens="RUSH:24,V43, TACK:3" text="J. Castanon rush for 3 yards to the BD43 (J. Voelker)." newcontext="V,2,7,V43">
         <p_ru vh="V" name="J. Castanon" gain="3"/>
-        <p_tk vh="H" name="33"/>
+        <p_tk vh="H" name="J. Voelker"/>
       </play>
       <play hasball="BD" down="2" togo="7" spot="BD43" context="V,2,7,V43" playid="2,12,17" type="R" tokens="RUSH:24,V47, TACK:32" text="J. Castanon rush for 4 yards to the BD47 (R. Grooten)." newcontext="V,3,3,V47">
         <p_ru vh="V" name="J. Castanon" gain="4"/>
@@ -444,10 +423,10 @@
       <play hasball="CC" down="3" togo="7" spot="CC05" context="H,3,7,H05" playid="3,3,23" type="P" tokens="PASS:12,I,1,*" text="J. Weinreich pass incomplete to Q. Pounds." newcontext="H,4,7,H05">
         <p_pa vh="H" qb="J. Weinreich" result="INC" rcv="Q. Pounds"/>
       </play>
-      <play hasball="CC" down="4" togo="7" spot="CC05" context="H,4,7,H05" playid="3,4,24" type="U" tokens="PUNT:9,H40 RET:4,H33 TACK:46" text="C. Ezeala punt 35 yards to the CC40, R. Bertellin return 7 yards to the CC33 (46)." newcontext="V,1,10,H33">
+      <play hasball="CC" down="4" togo="7" spot="CC05" context="H,4,7,H05" playid="3,4,24" type="U" tokens="PUNT:9,H40 RET:4,H33 TACK:47" text="C. Ezeala punt 35 yards to the CC40, R. Bertellin return 7 yards to the CC33 (N. Liesen)." newcontext="V,1,10,H33">
         <p_pu vh="H" name="C. Ezeala" gain="35"/>
         <p_pr vh="V" name="R. Bertellin" gain="7"/>
-        <p_tk vh="H" name="46"/>
+        <p_tk vh="H" name="N. Liesen"/>
       </play>
       <drivesum plays="3" yards="3" top="1:16" driveindex="3" complete="Y"/>
       <drivestart poss="V,H33,06:05" vh="V" spot="H33" clock="06:05" driveindex="4,24"/>
@@ -461,9 +440,9 @@
       <play hasball="BD" down="2" togo="6" spot="CC29" context="V,2,6,H29" playid="4,3,27" type="P" tokens="PASS:1,I,5,*" text="Z. Edwards pass incomplete to J. Constant." newcontext="V,3,6,H29">
         <p_pa vh="V" qb="Z. Edwards" result="INC" rcv="J. Constant"/>
       </play>
-      <play hasball="BD" down="3" togo="6" spot="CC29" context="V,3,6,H29" playid="4,4,28" type="R" tokens="RUSH:1,H24, TACK:25" text="Z. Edwards rush for 5 yards to the CC24 (25)." newcontext="V,4,1,H24">
+      <play hasball="BD" down="3" togo="6" spot="CC29" context="V,3,6,H29" playid="4,4,28" type="R" tokens="RUSH:1,H24, OB: TACK:24" text="Z. Edwards rush for 5 yards to the CC24, out-of-bounds (D. Jacobs)." ob="Y" newcontext="V,4,1,H24">
         <p_ru vh="V" name="Z. Edwards" gain="5"/>
-        <p_tk vh="H" name="25"/>
+        <p_tk vh="H" name="D. Jacobs"/>
       </play>
       <play hasball="BD" down="4" togo="1" spot="CC24" context="V,4,1,H24" playid="4,5,29" type="R" tokens="RUSH:17,H24, TACK:58,9" text="A. Herrero rush for no gain to the CC24 (L. Weitz;C. Ezeala)." newcontext="H,1,10,H24">
         <p_ru vh="V" name="A. Herrero" gain="0"/>
@@ -504,9 +483,9 @@
       <play hasball="CC" down="1" togo="10" spot="BD14" context="H,1,10,V14" playid="5,9,38" type="P" tokens="PASS:12,I,87,*" text="J. Weinreich pass incomplete to F. Eichhorn." newcontext="H,2,10,V14">
         <p_pa vh="H" qb="J. Weinreich" result="INC" rcv="F. Eichhorn"/>
       </play>
-      <play hasball="CC" down="2" togo="10" spot="BD14" context="H,2,10,V14" playid="5,10,39" type="R" tokens="RUSH:28,V09, TACK:42" text="M. London rush for 5 yards to the BD9 (42)." newcontext="H,3,5,V09">
+      <play hasball="CC" down="2" togo="10" spot="BD14" context="H,2,10,V14" playid="5,10,39" type="R" tokens="RUSH:28,V09, TACK:45" text="M. London rush for 5 yards to the BD9 (A. Posito)." newcontext="H,3,5,V09">
         <p_ru vh="H" name="M. London" gain="5"/>
-        <p_tk vh="V" name="42"/>
+        <p_tk vh="V" name="A. Posito"/>
       </play>
       <score qtr="1" V="0" H="0"/>
       <endqtr/>
@@ -549,32 +528,30 @@
       </play>
       <score V="0" H="7"/>
       <drivesum plays="10" yards="76" top="3:54" driveindex="5" complete="Y"/>
-      <play hasball="CC" down="1" togo="0" spot="CC35" context="H,1,0,H35" playid="5,14,43" type="K" tokens="KO:2,V06 RET:5,V32 TACK:47" text="D. Schuhmacher kickoff 59 yards to the BD6, J. Constant return 26 yards to the BD32 (N. Liesen)." newcontext="V,1,10,V32">
+      <play hasball="CC" down="1" togo="0" spot="CC35" context="H,1,0,H35" playid="5,14,43" type="K" tokens="KO:2,V06 RET:5,V34 TACK:47" text="D. Schuhmacher kickoff 59 yards to the BD6, J. Constant return 28 yards to the BD34 (N. Liesen)." newcontext="V,1,10,V34">
         <p_ko vh="H" name="D. Schuhmacher" gain="59"/>
-        <p_kr vh="V" name="J. Constant" gain="26"/>
+        <p_kr vh="V" name="J. Constant" gain="28"/>
         <p_tk vh="H" name="N. Liesen"/>
       </play>
-      <drivestart poss="V,V32,14:42" vh="V" spot="V32" clock="14:42" driveindex="6,43"/>
-      <play hasball="BD" down="1" togo="10" spot="BD32" context="V,1,10,V32" playid="6,1,44" clock="14:42" tokens="{DRIVE}:14:42" text="BARCELONA DRAGONS drive start at 14:42." newcontext="V,1,10,V32">
+      <drivestart poss="V,V34,14:46" vh="V" spot="V34" clock="14:46" driveindex="6,43"/>
+      <play hasball="BD" down="1" togo="10" spot="BD34" context="V,1,10,V34" playid="6,1,44" clock="14:46" tokens="{DRIVE}:14:46" text="BARCELONA DRAGONS drive start at 14:46." newcontext="V,1,10,V34">
    </play>
-      <play hasball="BD" down="1" togo="10" spot="BD32" context="V,1,10,V32" playid="6,2,45" type="P" tokens="PASS:1,I,3,* BRUP:44" text="Z. Edwards pass incomplete to A. Jimenez (M. Kensy)." newcontext="V,2,10,V32">
+      <play hasball="BD" down="1" togo="10" spot="BD34" context="V,1,10,V34" playid="6,2,45" type="P" tokens="PASS:1,I,3,* BRUP:44" text="Z. Edwards pass incomplete to A. Jimenez (M. Kensy)." newcontext="V,2,10,V34">
         <p_pa vh="V" qb="Z. Edwards" result="INC" rcv="A. Jimenez"/>
         <p_bu vh="H" name="M. Kensy"/>
       </play>
-      <play hasball="BD" down="2" togo="10" spot="BD32" context="V,2,10,V32" playid="6,3,46" type="P" tokens="PASS:1,C,15,V40 OB: TACK:42,47" text="Z. Edwards pass complete to M. Flores for 8 yards to the BD40, out-of-bounds (42;N. Liesen)." ob="Y" newcontext="V,3,2,V40">
+      <play hasball="BD" down="2" togo="10" spot="BD34" context="V,2,10,V34" playid="6,3,46" type="P" tokens="PASS:1,C,15,V42 OB:" text="Z. Edwards pass complete to M. Flores for 8 yards to the BD42, out-of-bounds." ob="Y" newcontext="V,3,2,V42">
         <p_pa vh="V" qb="Z. Edwards" result="COMP" rcv="M. Flores" gain="8"/>
-        <p_tk vh="H" name="42" assist="Y"/>
-        <p_tk vh="H" name="N. Liesen" assist="Y"/>
       </play>
-      <play hasball="BD" down="3" togo="2" spot="BD40" context="V,3,2,V40" playid="6,4,47" type="R" tokens="RUSH:3,V40, TACK:91,25" text="A. Jimenez rush for no gain to the BD40 (R. Sellung;25)." newcontext="V,4,2,V40">
-        <p_ru vh="V" name="A. Jimenez" gain="0"/>
+      <play hasball="BD" down="3" togo="2" spot="BD42" context="V,3,2,V42" playid="6,4,47" type="R" tokens="RUSH:3,V40, TACK:91,44" text="A. Jimenez rush for loss of 2 yards to the BD40 (R. Sellung;M. Kensy)." newcontext="V,4,4,V40">
+        <p_ru vh="V" name="A. Jimenez" gain="-2"/>
         <p_tk vh="H" name="R. Sellung" assist="Y"/>
-        <p_tk vh="H" name="25" assist="Y"/>
+        <p_tk vh="H" name="M. Kensy" assist="Y"/>
       </play>
-      <play hasball="BD" down="4" togo="2" spot="BD40" context="V,4,2,V40" playid="6,5,48" type="U" tokens="PUNT:18,H21 DN:" text="C. Maser punt 39 yards to the CC21, downed." newcontext="H,1,10,H21">
+      <play hasball="BD" down="4" togo="4" spot="BD40" context="V,4,4,V40" playid="6,5,48" type="U" tokens="PUNT:18,H21 DN:" text="C. Maser punt 39 yards to the CC21, downed." newcontext="H,1,10,H21">
         <p_pu vh="V" name="C. Maser" gain="39"/>
       </play>
-      <drivesum plays="3" yards="8" top="1:18" driveindex="6" complete="Y"/>
+      <drivesum plays="3" yards="6" top="1:22" driveindex="6" complete="Y"/>
       <drivestart poss="H,H21,13:24" vh="H" spot="H21" clock="13:24" driveindex="7,48"/>
       <play hasball="CC" down="1" togo="10" spot="CC21" context="H,1,10,H21" playid="7,1,49" clock="13:24" tokens="{DRIVE}:13:24" text="COLOGNE CENTURIONS drive start at 13:24." newcontext="H,1,10,H21">
    </play>
@@ -645,10 +622,10 @@
         <p_tk vh="H" name="C. Ezeala" sack="Y" assist="Y"/>
         <p_tk vh="H" name="J. Voelker" sack="Y" assist="Y"/>
       </play>
-      <play hasball="BD" down="4" togo="16" spot="CC46" context="V,4,16,H46" playid="8,10,67" type="U" tokens="PUNT:18,H17 RET:25,H24 TACK:17" text="C. Maser punt 29 yards to the CC17, 25 return 7 yards to the CC24 (A. Herrero)." newcontext="H,1,10,H24">
-        <p_pu vh="V" name="C. Maser" gain="29"/>
-        <p_pr vh="H" name="25" gain="7"/>
-        <p_tk vh="V" name="A. Herrero"/>
+      <play hasball="BD" down="4" togo="16" spot="CC46" context="V,4,16,H46" playid="8,10,67" type="U" tokens="PUNT:18,H16 RET:24,H24 TACK:8" text="C. Maser punt 30 yards to the CC16, D. Jacobs return 8 yards to the CC24 (T. Costa)." newcontext="H,1,10,H24">
+        <p_pu vh="V" name="C. Maser" gain="30"/>
+        <p_pr vh="H" name="D. Jacobs" gain="8"/>
+        <p_tk vh="V" name="T. Costa"/>
       </play>
       <drivesum plays="8" yards="25" top="4:06" driveindex="8" complete="Y"/>
       <drivestart poss="H,H24,06:02" vh="H" spot="H24" clock="06:02" driveindex="9,67"/>
@@ -658,9 +635,9 @@
         <p_ru vh="H" name="M. London" gain="4"/>
         <p_tk vh="V" name="S. Bowen"/>
       </play>
-      <play hasball="CC" down="2" togo="6" spot="CC28" context="H,2,6,H28" playid="9,3,70" type="R" tokens="RUSH:28,H33, TACK:29" text="M. London rush for 5 yards to the CC33 (29)." newcontext="H,3,1,H33">
+      <play hasball="CC" down="2" togo="6" spot="CC28" context="H,2,6,H28" playid="9,3,70" type="R" tokens="RUSH:28,H33, TACK:99" text="M. London rush for 5 yards to the CC33 (Y. Rivero)." newcontext="H,3,1,H33">
         <p_ru vh="H" name="M. London" gain="5"/>
-        <p_tk vh="V" name="29"/>
+        <p_tk vh="V" name="Y. Rivero"/>
       </play>
       <play hasball="CC" down="3" togo="1" spot="CC33" context="H,3,1,H33" playid="9,4,71" type="R" tokens="RUSH:12,H30, TACK:10" text="J. Weinreich rush for loss of 3 yards to the CC30 (C. Brugnani)." newcontext="H,4,4,H30">
         <p_ru vh="H" name="J. Weinreich" gain="-3"/>
@@ -672,9 +649,9 @@
       </play>
       <drivesum plays="3" yards="6" top="2:13" driveindex="9" complete="Y"/>
       <drivestart poss="V,V25,03:49" vh="V" spot="V25" clock="03:49" driveindex="10,72"/>
-      <play hasball="BD" down="1" togo="10" spot="BD25" context="V,1,10,V25" playid="10,1,73" type="P" clock="03:49" tokens="{DRIVE}:03:49 PASS:1,C,5,V33 TACK:25" text="BARCELONA DRAGONS drive start at 03:49, Z. Edwards pass complete to J. Constant for 8 yards to the BD33 (25)." newcontext="V,2,2,V33">
+      <play hasball="BD" down="1" togo="10" spot="BD25" context="V,1,10,V25" playid="10,1,73" type="P" clock="03:49" tokens="{DRIVE}:03:49 PASS:1,C,5,V33 TACK:24" text="BARCELONA DRAGONS drive start at 03:49, Z. Edwards pass complete to J. Constant for 8 yards to the BD33 (D. Jacobs)." newcontext="V,2,2,V33">
         <p_pa vh="V" qb="Z. Edwards" result="COMP" rcv="J. Constant" gain="8"/>
-        <p_tk vh="H" name="25"/>
+        <p_tk vh="H" name="D. Jacobs"/>
       </play>
       <play hasball="BD" down="2" togo="2" spot="BD33" context="V,2,2,V33" playid="10,2,74" type="P" first="P" tokens="PASS:1,C,5,V40 TACK:99,48" text="Z. Edwards pass complete to J. Constant for 7 yards to the BD40, 1ST DOWN BD (J. De Souza B.;K. Bongaerts)." newcontext="V,1,10,V40">
         <p_pa vh="V" qb="Z. Edwards" result="COMP" rcv="J. Constant" gain="7"/>
@@ -754,12 +731,12 @@
         <conversions thirdconv="1" thirdatt="4" fourthconv="0" fourthatt="0"/>
         <fumbles no="0" lost="0"/>
         <misc yds="0" top="08:15"/>
-        <rush att="4" yds="17" gain="17" loss="0" td="0" long="5"/>
+        <rush att="4" yds="15" gain="17" loss="2" td="0" long="5"/>
         <pass comp="7" att="13" int="1" yds="49" td="0" long="0" sacks="2" sackyds="16"/>
         <rcv no="7" yds="65" td="0" long="0"/>
-        <punt no="3" yds="105" long="39" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="35.0"/>
+        <punt no="3" yds="106" long="39" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="35.3"/>
         <defense tackua="10" tacka="4" tot_tack="14" tflua="1" tfla="0" tflyds="3" sacks="0" sackyds="0"/>
-        <kr no="1" yds="26" td="0" long="26"/>
+        <kr no="1" yds="28" td="0" long="28"/>
         <pr no="1" yds="5" td="0" long="0"/>
       </qtrsummary>
       <qtrsummary vh="H" id="CC">
@@ -774,8 +751,8 @@
         <punt no="2" yds="85" long="10" blkd="0" tb="0" fc="0" plus50="1" inside20="0" avg="42.5"/>
         <ko no="2" yds="98" ob="0" tb="0" fcyds="8224"/>
         <pat kickatt="2" kickmade="2"/>
-        <defense tackua="8" tacka="10" tot_tack="18" tflua="1" tfla="2" tflyds="16" sacks="2" sackyds="16" brup="1" int="1" intyds="3"/>
-        <pr no="1" yds="7" td="0" long="7"/>
+        <defense tackua="8" tacka="8" tot_tack="16" tflua="1" tfla="4" tflyds="18" sacks="2" sackyds="16" brup="1" int="1" intyds="3"/>
+        <pr no="1" yds="8" td="0" long="8"/>
         <ir no="1" yds="3" td="0" long="3"/>
         <scoring td="2" patkick="2"/>
       </qtrsummary>
@@ -787,16 +764,17 @@
         <p_ko vh="H" name="D. Schuhmacher" gain="31" result="C" fc="J. Torrededia"/>
       </play>
       <drivestart poss="V,V34,15:00" vh="V" spot="V34" clock="15:00" driveindex="14,93"/>
-      <play hasball="BD" down="1" togo="10" spot="BD34" context="V,1,10,V34" playid="14,1,94" type="R" clock="15:00" tokens="{DRIVE}:15:00 RUSH:3,V38, TACK:25" text="BARCELONA DRAGONS drive start at 15:00, A. Jimenez rush for 4 yards to the BD38 (25)." newcontext="V,2,6,V38">
+      <play hasball="BD" down="1" togo="10" spot="BD34" context="V,1,10,V34" playid="14,1,94" type="R" clock="15:00" tokens="{DRIVE}:15:00 RUSH:3,V38, TACK:24" text="BARCELONA DRAGONS drive start at 15:00, A. Jimenez rush for 4 yards to the BD38 (D. Jacobs)." newcontext="V,2,6,V38">
         <p_ru vh="V" name="A. Jimenez" gain="4"/>
-        <p_tk vh="H" name="25"/>
+        <p_tk vh="H" name="D. Jacobs"/>
       </play>
-      <play hasball="BD" down="2" togo="6" spot="BD38" context="V,2,6,V38" playid="14,2,95" type="P" first="P" tokens="PASS:1,C,4,V45" text="Z. Edwards pass complete to R. Bertellin for 7 yards to the BD45, 1ST DOWN BD." newcontext="V,1,10,V45">
+      <play hasball="BD" down="2" togo="6" spot="BD38" context="V,2,6,V38" playid="14,2,95" type="P" first="P" tokens="PASS:1,C,4,V45 OB: TACK:20" text="Z. Edwards pass complete to R. Bertellin for 7 yards to the BD45, 1ST DOWN BD, out-of-bounds (J. Seibel)." ob="Y" newcontext="V,1,10,V45">
         <p_pa vh="V" qb="Z. Edwards" result="COMP" rcv="R. Bertellin" gain="7"/>
+        <p_tk vh="H" name="J. Seibel"/>
       </play>
-      <play hasball="BD" down="1" togo="10" spot="BD45" context="V,1,10,V45" playid="14,3,96" type="R" tokens="RUSH:3,V40, TACK:42" text="A. Jimenez rush for loss of 5 yards to the BD40 (42)." newcontext="V,2,15,V40">
+      <play hasball="BD" down="1" togo="10" spot="BD45" context="V,1,10,V45" playid="14,3,96" type="R" tokens="RUSH:3,V40, TACK:52" text="A. Jimenez rush for loss of 5 yards to the BD40 (A. Boes)." newcontext="V,2,15,V40">
         <p_ru vh="V" name="A. Jimenez" gain="-5"/>
-        <p_tk vh="H" name="42"/>
+        <p_tk vh="H" name="A. Boes"/>
       </play>
       <play hasball="BD" down="2" togo="15" spot="BD40" context="V,2,15,V40" playid="14,4,97" type="P" first="P" tokens="PASS:1,C,5,H38 TACK:20" text="Z. Edwards pass complete to J. Constant for 22 yards to the CC38, 1ST DOWN BD (J. Seibel)." newcontext="V,1,10,H38">
         <p_pa vh="V" qb="Z. Edwards" result="COMP" rcv="J. Constant" gain="22"/>
@@ -819,11 +797,11 @@
       </play>
       <score V="6" H="14"/>
       <drivesum plays="7" yards="66" top="3:28" driveindex="14" complete="Y"/>
-      <play hasball="BD" down="1" togo="0" spot="BD35" context="V,1,0,V35" playid="14,9,102" type="K" tokens="KO:85,H05 RET:1,H35 TACK:43,55" text="J. Llinas kickoff 60 yards to the CC5, Q. Pounds return 30 yards to the CC35 (V. Albarracin;I. Guiterrez)." newcontext="H,1,10,H35">
+      <play hasball="BD" down="1" togo="0" spot="BD35" context="V,1,0,V35" playid="14,9,102" type="K" tokens="KO:85,H05 RET:1,H35 TACK:43,55" text="J. Llinas kickoff 60 yards to the CC5, Q. Pounds return 30 yards to the CC35 (V. Albarracin;I. Gutierrez)." newcontext="H,1,10,H35">
         <p_ko vh="V" name="J. Llinas" gain="60"/>
         <p_kr vh="H" name="Q. Pounds" gain="30"/>
         <p_tk vh="V" name="V. Albarracin" assist="Y"/>
-        <p_tk vh="V" name="I. Guiterrez" assist="Y"/>
+        <p_tk vh="V" name="I. Gutierrez" assist="Y"/>
       </play>
       <drivestart poss="H,H35,11:23" vh="H" spot="H35" clock="11:23" driveindex="15,102"/>
       <play hasball="CC" down="1" togo="10" spot="CC35" context="H,1,10,H35" playid="15,1,103" clock="11:23" tokens="{DRIVE}:11:23" text="COLOGNE CENTURIONS drive start at 11:23." newcontext="H,1,10,H35">
@@ -850,33 +828,36 @@
       <play hasball="BD" down="3" togo="30" spot="BD05" context="V,3,30,V05" playid="16,3,109" type="E" first="E" tokens="PEN:H,UH,A,3,V10,1" text="PENALTY CC illegal use of hands (J. Voelker) 5 yards to the BD10, 1ST DOWN BD." newcontext="V,1,10,V10">
         <p_pn vh="H" code="UH" type="illegal use of hands" name="J. Voelker" result="ACCEPT" at="V05" yards="5"/>
       </play>
-      <play hasball="BD" down="1" togo="10" spot="BD10" context="V,1,10,V10" playid="16,4,110" type="R" tokens="RUSH:24,V11, TACK:91" text="J. Castanon rush for 1 yard to the BD11 (R. Sellung)." newcontext="V,2,9,V11">
+      <play hasball="BD" down="1" togo="10" spot="BD10" context="V,1,10,V10" playid="16,4,110" type="R" tokens="RUSH:24,V11, TACK:9" text="J. Castanon rush for 1 yard to the BD11 (C. Ezeala)." newcontext="V,2,9,V11">
         <p_ru vh="V" name="J. Castanon" gain="1"/>
-        <p_tk vh="H" name="R. Sellung"/>
+        <p_tk vh="H" name="C. Ezeala"/>
       </play>
-      <play hasball="BD" down="2" togo="9" spot="BD11" context="V,2,9,V11" playid="16,5,111" type="P" tokens="PASS:1,C,80,V17 TACK:20" text="Z. Edwards pass complete to J. Torrededia for 6 yards to the BD17 (J. Seibel)." newcontext="V,3,3,V17">
-        <p_pa vh="V" qb="Z. Edwards" result="COMP" rcv="J. Torrededia" gain="6"/>
+      <play hasball="BD" down="2" togo="9" spot="BD11" context="V,2,9,V11" playid="16,5,111" type="P" tokens="PASS:1,C,80,V16 TACK:20" text="Z. Edwards pass complete to J. Torrededia for 5 yards to the BD16 (J. Seibel)." newcontext="V,3,4,V16">
+        <p_pa vh="V" qb="Z. Edwards" result="COMP" rcv="J. Torrededia" gain="5"/>
         <p_tk vh="H" name="J. Seibel"/>
       </play>
-      <play hasball="BD" down="3" togo="3" spot="BD17" context="V,3,3,V17" playid="16,6,112" type="P" first="P" tokens="PASS:1,C,15,V31 OB:" text="Z. Edwards pass complete to M. Flores for 14 yards to the BD31, 1ST DOWN BD, out-of-bounds." ob="Y" newcontext="V,1,10,V31">
+      <play hasball="BD" down="3" togo="4" spot="BD16" context="V,3,4,V16" playid="16,6,112" type="P" first="P" tokens="PASS:1,C,15,V30 OB: QBH:H,3" text="Z. Edwards pass complete to M. Flores for 14 yards to the BD30, 1ST DOWN BD, out-of-bounds, QB hurry by J. Voelker." ob="Y" newcontext="V,1,10,V30">
         <p_pa vh="V" qb="Z. Edwards" result="COMP" rcv="M. Flores" gain="14"/>
+        <p_qbh vh="H" name="J. Voelker"/>
       </play>
-      <play hasball="BD" down="1" togo="10" spot="BD31" context="V,1,10,V31" playid="16,7,113" type="R" tokens="RUSH:24,V32, TACK:53" text="J. Castanon rush for 1 yard to the BD32 (53)." newcontext="V,2,9,V32">
+      <play hasball="BD" down="1" togo="10" spot="BD30" context="V,1,10,V30" playid="16,7,113" type="R" tokens="RUSH:24,V31, TACK:99,52" text="J. Castanon rush for 1 yard to the BD31 (J. De Souza B.;A. Boes)." newcontext="V,2,9,V31">
         <p_ru vh="V" name="J. Castanon" gain="1"/>
-        <p_tk vh="H" name="53"/>
+        <p_tk vh="H" name="J. De Souza B." assist="Y"/>
+        <p_tk vh="H" name="A. Boes" assist="Y"/>
       </play>
-      <play hasball="BD" down="2" togo="9" spot="BD32" context="V,2,9,V32" playid="16,8,114" type="R" tokens="RUSH:1,V30, TACK:48" text="Z. Edwards rush for loss of 2 yards to the BD30 (K. Bongaerts)." newcontext="V,3,11,V30">
-        <p_ru vh="V" name="Z. Edwards" gain="-2"/>
+      <play hasball="BD" down="2" togo="9" spot="BD31" context="V,2,9,V31" playid="16,8,114" type="R" tokens="RUSH:1,V30, TACK:48 QBH:H,3" text="Z. Edwards rush for loss of 1 yard to the BD30 (K. Bongaerts), QB hurry by J. Voelker." newcontext="V,3,10,V30">
+        <p_ru vh="V" name="Z. Edwards" gain="-1"/>
         <p_tk vh="H" name="K. Bongaerts"/>
+        <p_qbh vh="H" name="J. Voelker"/>
       </play>
-      <play hasball="BD" down="3" togo="11" spot="BD30" context="V,3,11,V30" playid="16,9,115" type="E" tokens="PEN:V,BL,A,15,V15,N" text="PENALTY BD illegal block (M. Flores) 15 yards to the BD15." newcontext="V,3,26,V15">
+      <play hasball="BD" down="3" togo="10" spot="BD30" context="V,3,10,V30" playid="16,9,115" type="E" tokens="PEN:V,BL,A,15,V15,N" text="PENALTY BD illegal block (M. Flores) 15 yards to the BD15." newcontext="V,3,25,V15">
         <p_pn vh="V" code="BL" type="illegal block" name="M. Flores" result="ACCEPT" at="V30" yards="15"/>
       </play>
-      <play hasball="BD" down="3" togo="26" spot="BD15" context="V,3,26,V15" playid="16,10,116" type="R" tokens="RUSH:3,V23, TACK:24" text="A. Jimenez rush for 8 yards to the BD23 (D. Jacobs)." newcontext="V,4,18,V23">
+      <play hasball="BD" down="3" togo="25" spot="BD15" context="V,3,25,V15" playid="16,10,116" type="R" tokens="RUSH:3,V23, TACK:24" text="A. Jimenez rush for 8 yards to the BD23 (D. Jacobs)." newcontext="V,4,17,V23">
         <p_ru vh="V" name="A. Jimenez" gain="8"/>
         <p_tk vh="H" name="D. Jacobs"/>
       </play>
-      <play hasball="BD" down="4" togo="18" spot="BD23" context="V,4,18,V23" playid="16,11,117" type="U" tokens="PUNT:18,H48 RET:24,V28" text="C. Maser punt 29 yards to the CC48, D. Jacobs return 24 yards to the BD28." newcontext="H,1,10,V28">
+      <play hasball="BD" down="4" togo="17" spot="BD23" context="V,4,17,V23" playid="16,11,117" type="U" tokens="PUNT:18,H48 RET:24,V28" text="C. Maser punt 29 yards to the CC48, D. Jacobs return 24 yards to the BD28." newcontext="H,1,10,V28">
         <p_pu vh="V" name="C. Maser" gain="29"/>
         <p_pr vh="H" name="D. Jacobs" gain="24"/>
       </play>
@@ -904,21 +885,20 @@
       </play>
       <score V="6" H="27"/>
       <drivesum plays="4" yards="43" top="2:02" driveindex="17" complete="Y"/>
-      <play hasball="CC" down="1" togo="0" spot="CC35" context="H,1,0,H35" playid="17,6,123" type="K" tokens="KO:2,V18 FC:82" text="D. Schuhmacher kickoff 47 yards to the BD18, fair catch by J. H.-Ezquerra." newcontext="V,1,10,V25">
-        <p_ko vh="H" name="D. Schuhmacher" gain="47" result="C" fc="J. H.-Ezquerra"/>
+      <play hasball="CC" down="1" togo="0" spot="CC35" context="H,1,0,H35" playid="17,6,123" type="K" tokens="KO:2,V16 FC:82" text="D. Schuhmacher kickoff 49 yards to the BD16, fair catch by J. H.-Ezquerra." newcontext="V,1,10,V25">
+        <p_ko vh="H" name="D. Schuhmacher" gain="49" result="C" fc="J. H.-Ezquerra"/>
       </play>
       <drivestart poss="V,V25,03:58" vh="V" spot="V25" clock="03:58" driveindex="18,123"/>
-      <play hasball="BD" down="1" togo="10" spot="BD25" context="V,1,10,V25" playid="18,1,124" clock="03:58" tokens="{DRIVE}:03:58 SPOT:V,V18,Y" text="BARCELONA DRAGONS drive start at 03:58, BD ball on BD18." newcontext="V,1,10,V18">
+      <play hasball="BD" down="1" togo="10" spot="BD25" context="V,1,10,V25" playid="18,1,124" clock="03:58" tokens="{DRIVE}:03:58" text="BARCELONA DRAGONS drive start at 03:58." newcontext="V,1,10,V25">
    </play>
-      <play hasball="BD" down="1" togo="10" spot="BD18" context="V,1,10,V18" playid="18,2,125" type="P" tokens="PASS:1,C,4,V21 TACK:22,45" text="Z. Edwards pass complete to R. Bertellin for 3 yards to the BD21 (T. Yagmur;45)." newcontext="V,2,7,V21">
-        <p_pa vh="V" qb="Z. Edwards" result="COMP" rcv="R. Bertellin" gain="3"/>
-        <p_tk vh="H" name="T. Yagmur" assist="Y"/>
-        <p_tk vh="H" name="45" assist="Y"/>
+      <play hasball="BD" down="1" togo="10" spot="BD25" context="V,1,10,V25" playid="18,2,125" type="P" tokens="PASS:1,C,4,V21 TACK:3" text="Z. Edwards pass complete to R. Bertellin for loss of 4 yards to the BD21 (J. Voelker)." newcontext="V,2,14,V21">
+        <p_pa vh="V" qb="Z. Edwards" result="COMP" rcv="R. Bertellin" gain="-4"/>
+        <p_tk vh="H" name="J. Voelker"/>
       </play>
-      <play hasball="BD" down="2" togo="7" spot="BD21" context="V,2,7,V21" playid="18,3,126" type="P" tokens="PASS:1,I,4,*" text="Z. Edwards pass incomplete to R. Bertellin." newcontext="V,3,7,V21">
+      <play hasball="BD" down="2" togo="14" spot="BD21" context="V,2,14,V21" playid="18,3,126" type="P" tokens="PASS:1,I,4,*" text="Z. Edwards pass incomplete to R. Bertellin." newcontext="V,3,14,V21">
         <p_pa vh="V" qb="Z. Edwards" result="INC" rcv="R. Bertellin"/>
       </play>
-      <play hasball="BD" down="3" togo="7" spot="BD21" context="V,3,7,V21" playid="18,4,127" type="P" first="P" tokens="PASS:1,C,4,V35 TACK:31" text="Z. Edwards pass complete to R. Bertellin for 14 yards to the BD35, 1ST DOWN BD (D. Lamy)." newcontext="V,1,10,V35">
+      <play hasball="BD" down="3" togo="14" spot="BD21" context="V,3,14,V21" playid="18,4,127" type="P" first="P" tokens="PASS:1,C,4,V35 TACK:31" text="Z. Edwards pass complete to R. Bertellin for 14 yards to the BD35, 1ST DOWN BD (D. Lamy)." newcontext="V,1,10,V35">
         <p_pa vh="V" qb="Z. Edwards" result="COMP" rcv="R. Bertellin" gain="14"/>
         <p_tk vh="H" name="D. Lamy"/>
       </play>
@@ -946,7 +926,7 @@
         <p_pn vh="V" code="DG" type="delay of game" name="Z. Edwards" result="ACCEPT" at="H15" yards="15"/>
       </play>
       <score V="12" H="27"/>
-      <drivesum plays="8" yards="82" top="2:48" driveindex="18" complete="Y"/>
+      <drivesum plays="8" yards="75" top="2:48" driveindex="18" complete="Y"/>
       <play hasball="BD" down="1" togo="0" spot="BD35" context="V,1,0,V35" playid="18,11,134" type="K" tokens="KO:85,H20 RET:28,H40" text="J. Llinas kickoff 45 yards to the CC20, M. London return 20 yards to the CC40." newcontext="H,1,10,H40">
         <p_ko vh="V" name="J. Llinas" gain="45"/>
         <p_kr vh="H" name="M. London" gain="20"/>
@@ -993,14 +973,14 @@
         <conversions thirdconv="2" thirdatt="3" fourthconv="0" fourthatt="0"/>
         <fumbles no="0" lost="0"/>
         <misc yds="0" top="11:26"/>
-        <rush att="9" yds="-9" gain="20" loss="29" td="0" long="0"/>
-        <pass comp="11" att="14" int="0" yds="160" td="2" long="9" sacks="0" sackyds="0"/>
-        <rcv no="11" yds="160" td="2" long="9"/>
+        <rush att="9" yds="-8" gain="20" loss="28" td="0" long="0"/>
+        <pass comp="11" att="14" int="0" yds="152" td="2" long="9" sacks="0" sackyds="0"/>
+        <rcv no="11" yds="152" td="2" long="9"/>
         <punt no="1" yds="29" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="29.0"/>
         <ko no="2" yds="105" ob="0" tb="0" fcyds="8192"/>
         <pat kickatt="1" kickmade="0" rushatt="1" rushmade="0"/>
         <defense tackua="4" tacka="4" tot_tack="8" sacks="0" sackyds="0"/>
-        <kr no="1" yds="49" td="0" long="23"/>
+        <kr no="1" yds="49" td="0" long="21"/>
         <scoring td="2"/>
       </qtrsummary>
       <qtrsummary vh="H" id="CC">
@@ -1010,11 +990,11 @@
         <fumbles no="0" lost="0"/>
         <misc yds="0" top="03:34"/>
         <rush att="9" yds="173" gain="173" loss="0" td="3" long="42"/>
-        <ko no="4" yds="180" ob="0" tb="1" fcyds="8224"/>
+        <ko no="4" yds="182" ob="0" tb="1" fcyds="8224"/>
         <pat kickatt="3" kickmade="1"/>
-        <defense tackua="16" tacka="2" tot_tack="18" tflua="4" tfla="0" tflyds="29" sacks="0" sackyds="0" blkd="1"/>
+        <defense tackua="17" tacka="2" tot_tack="19" tflua="5" tfla="0" tflyds="32" sacks="0" sackyds="0" qbh="2" blkd="1"/>
         <kr no="2" yds="50" td="0" long="15"/>
-        <pr no="1" yds="24" td="0" long="17"/>
+        <pr no="1" yds="24" td="0" long="16"/>
         <scoring td="3" patkick="1"/>
       </qtrsummary>
     </qtr>
