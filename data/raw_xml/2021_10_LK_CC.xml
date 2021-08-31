@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fbgame source="Tas Football" version="4.20.01" generated="8/23/2021">
+<fbgame source="Tas Football" version="4.20.01" generated="8/27/2021">
   <venue gameid="CCLK2110" visid="LK" homeid="CC" visname="Leipzig Kings" homename="Cologne Centurions" date="8/21/2021" location="Cologne" stadium="Ostkampfbahn" start="15:04" end="17:50" leaguegame="Y" duration="02:46" attend="333" temp="28" wind="east" weather="sunny">
     <officials ref="Thomas Denker"/>
     <rules qtrs="4" mins="15" downs="4" yds="10" kospot="35" tbspot="20" kotbspot="25" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="100" toh="3" sackrush="N" fgaplay="Y" netpunttb="Y"/>
@@ -24,7 +24,7 @@
       <punt no="2" yds="42" long="42" blkd="1" tb="0" fc="0" plus50="0" inside20="0" avg="21.0"/>
       <ko no="8" yds="412" ob="0" tb="1" fcyds="0"/>
       <pat kickatt="2" kickmade="2" rushatt="1" rushmade="1" passatt="3" passmade="1" rcvatt="1" rcvmade="1"/>
-      <defense tackua="37" tacka="30" tot_tack="67" tflua="6" tfla="6" tflyds="26" sacks="5" sackyds="17" brup="2" ff="3" fr="2" fryds="60"/>
+      <defense tackua="35" tacka="34" tot_tack="69" tflua="5" tfla="8" tflyds="26" sacks="5" sackyds="17" brup="2" ff="3" fr="2" fryds="60"/>
       <kr no="2" yds="19" td="0" long="12"/>
       <fr no="2" yds="60" td="0" long="39"/>
       <scoring td="6" patkick="2" patrush="1" patrcv="1"/>
@@ -50,7 +50,7 @@
     <player name="T. Knuettel" shortname="T. Knuettel" checkname="KNUETTEL,T" uni="6" class="SR" gp="1" gs="1" opos="WR" code="6">
       <rcv no="5" yds="53" td="0" long="17"/>
     </player>
-    <player name="B, Tchiyoko" shortname="B, Tchiyoko" checkname="B,TCHIYOKO" uni="7" class="SR" gp="1" gs="1" dpos="CB" code="7">
+    <player name="B. Tchiyoko" shortname="B. Tchiyoko" checkname="TCHIYOKO,B" uni="7" class="SR" gp="1" gs="1" dpos="CB" code="7">
       <defense tackua="5" tacka="2" tot_tack="7" brup="1"/>
     </player>
     <player name="C. Roemer" shortname="C. Roemer" checkname="ROEMER,C" uni="10" class="SR" gp="1" code="10">
@@ -95,8 +95,8 @@
     <player name="L. Deckwarth" shortname="L. Deckwarth" checkname="DECKWARTH,L" uni="32" class="" gp="1" code="32">
       <defense tackua="2" tacka="0" tot_tack="2"/>
     </player>
-    <player name="P. Meissner" shortname="P. Meissner" checkname="MEISSNER,P" uni="33" class="" gp="1" gs="1" dpos="FS" code="33">
-      <defense tackua="5" tacka="2" tot_tack="7"/>
+    <player name="P. Meissner" shortname="P. Meissner" checkname="MEISSNER,P" uni="33" class="FR" gp="1" gs="1" dpos="FS" code="33">
+      <defense tackua="4" tacka="3" tot_tack="7"/>
     </player>
     <player name="D. Wuensche" shortname="D. Wuensche" checkname="WUENSCHE,D" uni="34" class="" gp="1" code="34"/>
     <player name="L. Rebenstorf" shortname="L. Rebenstorf" checkname="REBENSTORF,L" uni="35" class="" gp="1" code="35"/>
@@ -121,13 +121,13 @@
     <player name="J. Schultes" shortname="J. Schultes" checkname="SCHULTES,J" uni="50" class="SR" gp="1" gs="1" dpos="LB" code="50">
       <defense tackua="2" tacka="5" tot_tack="7"/>
     </player>
-    <player name="M. Bruder" shortname="M. Bruder" checkname="BRUDER,M" uni="51" class="SR" gp="1" code="51"/>
+    <player name="M. Parnow" shortname="M. Parnow" checkname="PARNOW,M" uni="51" class="SR" gp="1" code="51"/>
     <player name="P. Topolewski" shortname="P. Topolewski" checkname="TOPOLEWSKI,P" uni="53" class="SR" gp="1" code="53"/>
     <player name="M. Strauss" shortname="M. Strauss" checkname="STRAUSS,M" uni="54" class="SR" gp="1" code="54">
       <defense tackua="1" tacka="0" tot_tack="1"/>
     </player>
     <player name="L. Leota" shortname="L. Leota" checkname="LEOTA,L" uni="56" class="SR" gp="1" gs="1" dpos="NT" code="56">
-      <defense tackua="4" tacka="1" tot_tack="5" tflua="2" tfla="0" tflyds="6" sackua="1" sacka="0" sackyds="5" brup="1"/>
+      <defense tackua="4" tacka="3" tot_tack="7" tflua="2" tfla="1" tflyds="7" sackua="1" sacka="1" sackyds="6" brup="1"/>
     </player>
     <player name="S. Baafi" shortname="S. Baafi" checkname="BAAFI,S" uni="70" class="SR" gp="1" code="70"/>
     <player name="V. Wiederspahn" shortname="V. Wiederspahn" checkname="WIEDERSPAHN,V" uni="71" class="SR" gp="1" code="71"/>
@@ -153,7 +153,7 @@
     </player>
     <player name="C. Hans" shortname="C. Hans" checkname="HANS,C" uni="93" class="SR" gp="1" code="93"/>
     <player name="V. Buffet" shortname="V. Buffet" checkname="BUFFET,V" uni="99" class="SR" gp="1" gs="1" dpos="DE" code="99">
-      <defense tackua="2" tacka="0" tot_tack="2" tflua="1" tfla="0" tflyds="2" sackua="1" sacka="0" sackyds="2"/>
+      <defense tackua="1" tacka="1" tot_tack="2" tflua="0" tfla="1" tflyds="1" sackua="0" sacka="1" sackyds="1"/>
     </player>
     <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" class="FR" gp="1" code="198">
       <pass comp="0" att="0" int="0" yds="-18" td="0" long="0" sacks="0" sackyds="0"/>
@@ -211,7 +211,7 @@
     <player name="P. Steffen" shortname="P. Steffen" checkname="STEFFEN,P" uni="8" class="SR" gp="1" code="8">
       <defense tackua="1" tacka="1" tot_tack="2"/>
     </player>
-    <player name="W. Bhikh" shortname="W. Bhikh" checkname="BHIKH,W" uni="9" class="SR" gp="1" gs="1" dpos="DB" code="9">
+    <player name="W. Bhikh" shortname="W. Bhikh" checkname="BHIKH,W" uni="9" class="" gp="1" gs="1" dpos="DB" code="9">
       <defense tackua="4" tacka="0" tot_tack="4" brup="1"/>
     </player>
     <player name="J. Schlesinger" shortname="J. Schlesinger" checkname="SCHLESINGER,J" uni="10" class="SR" gp="1" code="10">
@@ -228,7 +228,7 @@
     </player>
     <player name="K. Schiffer" shortname="K. Schiffer" checkname="SCHIFFER,K" uni="18" class="SR" gp="1" code="18"/>
     <player name="J. Seibel" shortname="J. Seibel" checkname="SEIBEL,J" uni="20" class="SR" gp="1" code="20"/>
-    <player name="S.-E. Vogel" shortname="S.-E. Vogel" checkname="VOGEL,S-E" uni="21" class="SR" gp="1" gs="1" dpos="LB" code="21"/>
+    <player name="S. Vogel" shortname="S. Vogel" checkname="VOGEL,S" uni="21" class="SR" gp="1" gs="1" dpos="LB" code="21"/>
     <player name="T. Janssen" shortname="T. Janssen" checkname="JANSSEN,T" uni="23" class="SR" gp="1" gs="1" dpos="DB" code="23">
       <defense tackua="1" tacka="1" tot_tack="2"/>
     </player>
@@ -241,7 +241,7 @@
       <rush att="2" yds="17" gain="17" loss="0" td="0" long="16"/>
       <defense tackua="0" tacka="2" tot_tack="2"/>
     </player>
-    <player name="M. Richter" shortname="M. Richter" checkname="RICHTER,M" uni="27" class="SR" gp="1" code="27">
+    <player name="M. Richter" shortname="M. Richter" checkname="RICHTER,M" uni="27" class="" gp="1" code="27">
       <defense tackua="3" tacka="2" tot_tack="5"/>
     </player>
     <player name="M. London" shortname="M. London" checkname="LONDON,M" uni="28" class="SR" gp="1" gs="1" opos="RB" code="28">
@@ -272,7 +272,7 @@
     <player name="A. Coq Huelva" shortname="A. Coq Huelva" checkname="HUELVA,A COQ" uni="49" class="SR" gp="1" code="49"/>
     <player name="A. Boes" shortname="A. Boes" checkname="BOES,A" uni="52" class="SR" gp="1" code="52"/>
     <player name="M. Oebels" shortname="M. Oebels" checkname="OEBELS,M" uni="54" class="SR" gp="1" code="54"/>
-    <player name="M. Taylor" shortname="M. Taylor" checkname="TAYLOR,M" uni="55" class="SR" gp="1" gs="1" dpos="DE" code="55">
+    <player name="M. Taylor" shortname="M. Taylor" checkname="TAYLOR,M" uni="55" class="" gp="1" gs="1" dpos="DE" code="55">
       <pat retfatt="1" retfmade="0"/>
       <defense tackua="1" tacka="3" tot_tack="4"/>
     </player>
@@ -305,7 +305,7 @@
     <player name="B. Cerimagic" shortname="B. Cerimagic" checkname="CERIMAGIC,B" uni="94" class="SR" gp="1" gs="1" dpos="DT" code="94">
       <defense tackua="0" tacka="1" tot_tack="1" tflua="0" tfla="1" tflyds="3" sackua="0" sacka="1" sackyds="3"/>
     </player>
-    <player name="A. Glusancov" shortname="A. Glusancov" checkname="GLUSANCOV,A" uni="95" class="SR" gp="1" code="95"/>
+    <player name="A. Glusancov" shortname="A. Glusancov" checkname="GLUSANCOV,A" uni="95" class="" gp="1" code="95"/>
     <player name="J. De Souza B." shortname="J. De Souza B." checkname=",J DE SOUZA B" uni="99" class="SR" gp="1" code="99">
       <defense tackua="0" tacka="1" tot_tack="1"/>
     </player>
@@ -570,10 +570,10 @@
       <play hasball="CC" down="1" togo="10" spot="CC49" context="H,1,10,H49" playid="7,2,54" type="P" tokens="PASS:12,I,28,*" text="J. Weinreich pass incomplete to M. London." newcontext="H,2,10,H49">
         <p_pa vh="H" qb="J. Weinreich" result="INC" rcv="M. London"/>
       </play>
-      <play hasball="CC" down="2" togo="10" spot="CC49" context="H,2,10,H49" playid="7,3,55" type="P" tokens="PASS:12,C,5,V44 OB: TACK:21,7" text="J. Weinreich pass complete to P. Lenhardt for 7 yards to the LK44, out-of-bounds (D. Docal;B, Tchiyoko)." ob="Y" newcontext="H,3,3,V44">
+      <play hasball="CC" down="2" togo="10" spot="CC49" context="H,2,10,H49" playid="7,3,55" type="P" tokens="PASS:12,C,5,V44 OB: TACK:21,7" text="J. Weinreich pass complete to P. Lenhardt for 7 yards to the LK44, out-of-bounds (D. Docal;B. Tchiyoko)." ob="Y" newcontext="H,3,3,V44">
         <p_pa vh="H" qb="J. Weinreich" result="COMP" rcv="P. Lenhardt" gain="7"/>
         <p_tk vh="V" name="D. Docal" assist="Y"/>
-        <p_tk vh="V" name="B, Tchiyoko" assist="Y"/>
+        <p_tk vh="V" name="B. Tchiyoko" assist="Y"/>
       </play>
       <play hasball="CC" down="3" togo="3" spot="LK44" context="H,3,3,V44" playid="7,4,56" type="R" first="R" tokens="RUSH:28,V41, TACK:56" text="M. London rush for 3 yards to the LK41, 1ST DOWN CC (L. Leota)." newcontext="H,1,10,V41">
         <p_ru vh="H" name="M. London" gain="3"/>
@@ -582,9 +582,9 @@
       <play hasball="CC" down="1" togo="10" spot="LK41" context="H,1,10,V41" playid="7,5,57" type="P" tokens="PASS:12,I,81,*" text="J. Weinreich pass incomplete to V. Roediger." newcontext="H,2,10,V41">
         <p_pa vh="H" qb="J. Weinreich" result="INC" rcv="V. Roediger"/>
       </play>
-      <play hasball="CC" down="2" togo="10" spot="LK41" context="H,2,10,V41" playid="7,6,58" type="R" first="R" tokens="RUSH:28,V15, TACK:7" text="M. London rush for 26 yards to the LK15, 1ST DOWN CC (B, Tchiyoko)." newcontext="H,1,10,V15">
+      <play hasball="CC" down="2" togo="10" spot="LK41" context="H,2,10,V41" playid="7,6,58" type="R" first="R" tokens="RUSH:28,V15, TACK:7" text="M. London rush for 26 yards to the LK15, 1ST DOWN CC (B. Tchiyoko)." newcontext="H,1,10,V15">
         <p_ru vh="H" name="M. London" gain="26"/>
-        <p_tk vh="V" name="B, Tchiyoko"/>
+        <p_tk vh="V" name="B. Tchiyoko"/>
       </play>
       <score qtr="1" V="13" H="9"/>
       <endqtr/>
@@ -700,9 +700,9 @@
         <p_ru vh="H" name="M. London" gain="3"/>
         <p_tk vh="V" name="O. Rohnebak"/>
       </play>
-      <play hasball="CC" down="2" togo="12" spot="LK25" context="H,2,12,V25" playid="9,8,78" type="P" tokens="PASS:12,I,81,* BRUP:7" text="J. Weinreich pass incomplete to V. Roediger (B, Tchiyoko)." newcontext="H,3,12,V25">
+      <play hasball="CC" down="2" togo="12" spot="LK25" context="H,2,12,V25" playid="9,8,78" type="P" tokens="PASS:12,I,81,* BRUP:7" text="J. Weinreich pass incomplete to V. Roediger (B. Tchiyoko)." newcontext="H,3,12,V25">
         <p_pa vh="H" qb="J. Weinreich" result="INC" rcv="V. Roediger"/>
-        <p_bu vh="V" name="B, Tchiyoko"/>
+        <p_bu vh="V" name="B. Tchiyoko"/>
       </play>
       <play hasball="CC" down="3" togo="12" spot="LK25" context="H,3,12,V25" playid="9,9,79" type="R" tokens="RUSH:12,V11, FORCE:21 FUMB:H,V16,56" text="J. Weinreich rush for 14 yards to the LK11, fumble forced by D. Docal, fumble by J. Weinreich recovered by CC F. Aybek at LK16." newcontext="H,4,3,V16">
         <p_ru vh="H" name="J. Weinreich" gain="14"/>
@@ -843,17 +843,18 @@
       <drivestart poss="H,H31,14:53" vh="H" spot="H31" clock="14:53" driveindex="12,106"/>
       <play hasball="CC" down="1" togo="10" spot="CC31" context="H,1,10,H31" playid="12,1,107" clock="14:53" tokens="{DRIVE}:14:53" text="COLOGNE CENTURIONS drive start at 14:53." newcontext="H,1,10,H31">
    </play>
-      <play hasball="CC" down="1" togo="10" spot="CC31" context="H,1,10,H31" playid="12,2,108" type="R" tokens="RUSH:28,H31, TACK:33" text="M. London rush for no gain to the CC31 (P. Meissner)." newcontext="H,2,10,H31">
+      <play hasball="CC" down="1" togo="10" spot="CC31" context="H,1,10,H31" playid="12,2,108" type="R" tokens="RUSH:28,H31, TACK:33,56" text="M. London rush for no gain to the CC31 (P. Meissner;L. Leota)." newcontext="H,2,10,H31">
         <p_ru vh="H" name="M. London" gain="0"/>
-        <p_tk vh="V" name="P. Meissner"/>
+        <p_tk vh="V" name="P. Meissner" assist="Y"/>
+        <p_tk vh="V" name="L. Leota" assist="Y"/>
       </play>
-      <play hasball="CC" down="2" togo="10" spot="CC31" context="H,2,10,H31" playid="12,3,109" type="P" tokens="PASS:12,C,81,H36 TACK:7" text="J. Weinreich pass complete to V. Roediger for 5 yards to the CC36 (B, Tchiyoko)." newcontext="H,3,5,H36">
+      <play hasball="CC" down="2" togo="10" spot="CC31" context="H,2,10,H31" playid="12,3,109" type="P" tokens="PASS:12,C,81,H36 TACK:7" text="J. Weinreich pass complete to V. Roediger for 5 yards to the CC36 (B. Tchiyoko)." newcontext="H,3,5,H36">
         <p_pa vh="H" qb="J. Weinreich" result="COMP" rcv="V. Roediger" gain="5"/>
-        <p_tk vh="V" name="B, Tchiyoko"/>
+        <p_tk vh="V" name="B. Tchiyoko"/>
       </play>
-      <play hasball="CC" down="3" togo="5" spot="CC36" context="H,3,5,H36" playid="12,4,110" type="P" first="P" tokens="PASS:12,C,5,H44 TACK:7" text="J. Weinreich pass complete to P. Lenhardt for 8 yards to the CC44, 1ST DOWN CC (B, Tchiyoko)." newcontext="H,1,10,H44">
+      <play hasball="CC" down="3" togo="5" spot="CC36" context="H,3,5,H36" playid="12,4,110" type="P" first="P" tokens="PASS:12,C,5,H44 TACK:7" text="J. Weinreich pass complete to P. Lenhardt for 8 yards to the CC44, 1ST DOWN CC (B. Tchiyoko)." newcontext="H,1,10,H44">
         <p_pa vh="H" qb="J. Weinreich" result="COMP" rcv="P. Lenhardt" gain="8"/>
-        <p_tk vh="V" name="B, Tchiyoko"/>
+        <p_tk vh="V" name="B. Tchiyoko"/>
       </play>
       <play hasball="CC" down="1" togo="10" spot="CC44" context="H,1,10,H44" playid="12,5,111" type="R" tokens="RUSH:28,H50, TACK:21" text="M. London rush for 6 yards to the 50 yardline (D. Docal)." newcontext="H,2,4,H50">
         <p_ru vh="H" name="M. London" gain="6"/>
@@ -863,10 +864,10 @@
         <p_ru vh="H" name="M. London" gain="0"/>
         <p_tk vh="V" name="J. Schultes"/>
       </play>
-      <play hasball="CC" down="3" togo="4" spot="CC50" context="H,3,4,H50" playid="12,7,113" type="P" first="P" tokens="PASS:12,C,5,V34 TACK:50,7" text="J. Weinreich pass complete to P. Lenhardt for 16 yards to the LK34, 1ST DOWN CC (J. Schultes;B, Tchiyoko)." newcontext="H,1,10,V34">
+      <play hasball="CC" down="3" togo="4" spot="CC50" context="H,3,4,H50" playid="12,7,113" type="P" first="P" tokens="PASS:12,C,5,V34 TACK:50,7" text="J. Weinreich pass complete to P. Lenhardt for 16 yards to the LK34, 1ST DOWN CC (J. Schultes;B. Tchiyoko)." newcontext="H,1,10,V34">
         <p_pa vh="H" qb="J. Weinreich" result="COMP" rcv="P. Lenhardt" gain="16"/>
         <p_tk vh="V" name="J. Schultes" assist="Y"/>
-        <p_tk vh="V" name="B, Tchiyoko" assist="Y"/>
+        <p_tk vh="V" name="B. Tchiyoko" assist="Y"/>
       </play>
       <play hasball="CC" down="1" togo="10" spot="LK34" context="H,1,10,V34" playid="12,8,114" type="R" tokens="RUSH:28,V35, TACK:21,28" text="M. London rush for loss of 1 yard to the LK35 (D. Docal;J. Dietze)." newcontext="H,2,11,V35">
         <p_ru vh="H" name="M. London" gain="-1"/>
@@ -1010,7 +1011,7 @@
         <rcv no="1" yds="20" td="1" long="1"/>
         <ko no="3" yds="169" ob="0" tb="0" fcyds="8192"/>
         <pat passatt="2" passmade="1" rcvatt="1" rcvmade="1"/>
-        <defense tackua="14" tacka="6" tot_tack="20" tflua="3" tfla="2" tflyds="16" sacks="3" sackyds="15" ff="1" fr="1" fryds="39"/>
+        <defense tackua="13" tacka="8" tot_tack="21" tflua="3" tfla="2" tflyds="16" sacks="3" sackyds="15" ff="1" fr="1" fryds="39"/>
         <fr no="1" yds="39" td="0" long="18"/>
         <scoring td="2" patrcv="1"/>
       </qtrsummary>
@@ -1062,9 +1063,10 @@
       <play hasball="CC" down="3" togo="9" spot="LK35" context="H,3,9,V35" playid="18,4,155" type="P" tokens="PASS:12,I,5,*" text="J. Weinreich pass incomplete to P. Lenhardt." newcontext="H,4,9,V35">
         <p_pa vh="H" qb="J. Weinreich" result="INC" rcv="P. Lenhardt"/>
       </play>
-      <play hasball="CC" down="4" togo="9" spot="LK35" context="H,4,9,V35" playid="18,5,156" type="P" tokens="PASS:12,S,TM,V37 SACK:99" text="J. Weinreich sacked for loss of 2 yards to the LK37 (V. Buffet)." newcontext="V,1,10,V37">
+      <play hasball="CC" down="4" togo="9" spot="LK35" context="H,4,9,V35" playid="18,5,156" type="P" tokens="PASS:12,S,TM,V37 SACK:99,56" text="J. Weinreich sacked for loss of 2 yards to the LK37 (V. Buffet;L. Leota)." newcontext="V,1,10,V37">
         <p_pa vh="H" qb="J. Weinreich" result="SACK" gain="-2"/>
-        <p_tk vh="V" name="V. Buffet" sack="Y"/>
+        <p_tk vh="V" name="V. Buffet" sack="Y" assist="Y"/>
+        <p_tk vh="V" name="L. Leota" sack="Y" assist="Y"/>
       </play>
       <drivesum plays="4" yards="-1" top="1:51" driveindex="18" complete="Y"/>
       <drivestart poss="V,V37,12:58" vh="V" spot="V37" clock="12:58" driveindex="19,156"/>
@@ -1109,9 +1111,9 @@
         <p_tk vh="V" name="J. Schultes" assist="Y"/>
         <p_tk vh="V" name="A. Zetterberg" assist="Y"/>
       </play>
-      <play hasball="CC" down="2" togo="15" spot="CC18" context="H,2,15,H18" playid="20,4,168" type="P" tokens="PASS:12,C,10,H28 TACK:7" text="J. Weinreich pass complete to J. Schlesinger for 10 yards to the CC28 (B, Tchiyoko)." newcontext="H,3,5,H28">
+      <play hasball="CC" down="2" togo="15" spot="CC18" context="H,2,15,H18" playid="20,4,168" type="P" tokens="PASS:12,C,10,H28 TACK:7" text="J. Weinreich pass complete to J. Schlesinger for 10 yards to the CC28 (B. Tchiyoko)." newcontext="H,3,5,H28">
         <p_pa vh="H" qb="J. Weinreich" result="COMP" rcv="J. Schlesinger" gain="10"/>
-        <p_tk vh="V" name="B, Tchiyoko"/>
+        <p_tk vh="V" name="B. Tchiyoko"/>
       </play>
       <play hasball="CC" down="3" togo="5" spot="CC28" context="H,3,5,H28" playid="20,5,169" type="P" first="P" tokens="PASS:12,C,81,V37 TACK:48" text="J. Weinreich pass complete to V. Roediger for 35 yards to the LK37, 1ST DOWN CC (L. Lampe)." newcontext="H,1,10,V37">
         <p_pa vh="H" qb="J. Weinreich" result="COMP" rcv="V. Roediger" gain="35"/>
@@ -1133,9 +1135,9 @@
         <p_pa vh="H" qb="J. Weinreich" result="COMP" rcv="F. Eichhorn" gain="5"/>
         <p_tk vh="V" name="P. Meissner"/>
       </play>
-      <play hasball="CC" down="3" togo="4" spot="LK18" context="H,3,4,V18" playid="20,10,174" type="P" first="P" tokens="PASS:12,C,5,V05 TACK:7" text="J. Weinreich pass complete to P. Lenhardt for 13 yards to the LK5, 1ST DOWN CC (B, Tchiyoko)." newcontext="H,1,0,V05">
+      <play hasball="CC" down="3" togo="4" spot="LK18" context="H,3,4,V18" playid="20,10,174" type="P" first="P" tokens="PASS:12,C,5,V05 TACK:7" text="J. Weinreich pass complete to P. Lenhardt for 13 yards to the LK5, 1ST DOWN CC (B. Tchiyoko)." newcontext="H,1,0,V05">
         <p_pa vh="H" qb="J. Weinreich" result="COMP" rcv="P. Lenhardt" gain="13"/>
-        <p_tk vh="V" name="B, Tchiyoko"/>
+        <p_tk vh="V" name="B. Tchiyoko"/>
       </play>
       <play hasball="CC" down="1" togo="0" spot="LK05" context="H,1,0,V05" playid="20,11,175" type="R" first="R" score="Y" vscore="42" hscore="22" clock="03:17" tokens="RUSH:4,V00, T:03:17" text="G. Ngovo rush for 5 yards to the LK0, 1ST DOWN CC, TOUCHDOWN, clock 03:17." newcontext="H,1,0,V03">
         <p_ru vh="H" name="G. Ngovo" gain="5"/>
@@ -1185,7 +1187,7 @@
         <rcv no="2" yds="61" td="1" long="28"/>
         <ko no="1" yds="40" ob="0" tb="0" fcyds="8192"/>
         <pat rushatt="1" rushmade="1"/>
-        <defense tackua="7" tacka="4" tot_tack="11" tflua="2" tfla="0" tflyds="3" sacks="1" sackyds="2"/>
+        <defense tackua="6" tacka="6" tot_tack="12" tflua="1" tfla="2" tflyds="3" sacks="1" sackyds="2"/>
         <scoring td="1" patrush="1"/>
       </qtrsummary>
       <qtrsummary vh="H" id="CC">
