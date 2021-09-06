@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fbgame source="Tas Football" version="4.20.01" generated="8/29/2021">
+<fbgame source="Tas Football" version="4.20.01" generated="8/31/2021">
   <venue gameid="CCSS2111" visid="SS" homeid="CC" visname="Stuttgart Surge" homename="Cologne Centurions" date="8/29/2021" location="Cologne" stadium="Ostkampfbahn" start="17:15" end="19:39" leaguegame="Y" duration="02:24" attend="333" temp="17 C" wind="17 kmh" weather="light rain">
     <officials/>
     <rules qtrs="4" mins="15" downs="4" yds="10" kospot="35" tbspot="20" kotbspot="25" patspot="15" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="100" toh="3" sackrush="N" fgaplay="Y" netpunttb="Y"/>
@@ -11,7 +11,7 @@
       <lineprd prd="3" score="0"/>
       <lineprd prd="4" score="0"/>
     </linescore>
-    <totals totoff_plays="44" totoff_yards="147" totoff_avg="3.3">
+    <totals totoff_plays="44" totoff_yards="145" totoff_avg="3.3">
       <firstdowns no="7" rush="1" pass="5" penalty="1"/>
       <penalties no="4" yds="40"/>
       <conversions thirdconv="2" thirdatt="11" fourthconv="0" fourthatt="1"/>
@@ -19,45 +19,44 @@
       <misc yds="0" top="25:42" ona="0" onm="0" ptsto="6"/>
       <redzone att="1" scores="1" points="3" tdrush="0" tdpass="0" fgmade="1" endfga="0" enddowns="0" endint="0" endfumb="0" endhalf="0" endgame="0"/>
       <rush att="21" yds="44" gain="52" loss="8" td="0" long="7"/>
-      <pass comp="10" att="18" int="2" yds="103" td="1" long="45" sacks="5" sackyds="34"/>
-      <rcv no="10" yds="137" td="1" long="45"/>
+      <pass comp="10" att="18" int="2" yds="101" td="1" long="45" sacks="5" sackyds="34"/>
+      <rcv no="10" yds="135" td="1" long="45"/>
       <punt no="5" yds="171" long="47" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="34.2"/>
       <ko no="3" yds="157" ob="0" tb="0" fcyds="0"/>
       <fg made="1" att="1" long="31" blkd="0"/>
       <pat kickatt="1" kickmade="0"/>
-      <defense tackua="42" tacka="24" tot_tack="66" tflua="4" tfla="6" tflyds="20" sacks="2" sackyds="5" brup="1" ff="1" int="1" intyds="3"/>
+      <defense tackua="41" tacka="26" tot_tack="67" tflua="5" tfla="4" tflyds="20" sacks="2" sackyds="5" brup="1" ff="1" int="1" intyds="3"/>
       <kr no="4" yds="63" td="0" long="23"/>
-      <pr no="3" yds="14" td="0" long="10"/>
+      <pr no="3" yds="16" td="0" long="10"/>
       <ir no="1" yds="3" td="0" long="3"/>
       <scoring td="1" fg="1"/>
     </totals>
     <player name="A. Ellis" shortname="A. Ellis" checkname="ELLIS,A" uni="2" class="SR" gp="1" gs="1" opos="QB" code="2">
       <rush att="1" yds="5" gain="5" loss="0" td="0" long="5"/>
-      <pass comp="9" att="17" int="2" yds="135" td="1" long="45" sacks="5" sackyds="34"/>
+      <pass comp="9" att="17" int="2" yds="133" td="1" long="45" sacks="5" sackyds="34"/>
     </player>
     <player name="W. Martheli" shortname="W. Martheli" checkname="MARTHELI,W" uni="3" class="" gp="1" gs="1" dpos="DB" code="3">
-      <defense tackua="2" tacka="2" tot_tack="4" brup="1"/>
+      <defense tackua="2" tacka="1" tot_tack="3" brup="1"/>
     </player>
     <player name="A. Eitel" shortname="A. Eitel" checkname="EITEL,A" uni="4" class="SR" gp="1" code="4">
       <kr no="2" yds="36" td="0" long="23"/>
     </player>
     <player name="D. Meza" shortname="D. Meza" checkname="MEZA,D" uni="5" class="SR" gp="1" gs="1" opos="WR" code="5">
       <rush att="1" yds="0" gain="0" loss="0" td="0" long="0"/>
-      <rcv no="5" yds="43" td="0" long="12"/>
-      <pr no="1" yds="-3" td="0" long="0"/>
+      <rcv no="5" yds="41" td="0" long="12"/>
     </player>
     <player name="J. Moukouri" shortname="J. Moukouri" checkname="MOUKOURI,J" uni="6" class="SR" gp="1" code="6">
       <rush att="2" yds="-2" gain="5" loss="7" td="0" long="5"/>
     </player>
-    <player name="M. Almaki" shortname="M. Almaki" checkname="ALMAKI,M" uni="7" class="SR" gp="1" code="7"/>
+    <player name="M. Almakki" shortname="M. Almakki" checkname="ALMAKKI,M" uni="7" class="SR" gp="1" code="7"/>
     <player name="S. Mueller" shortname="S. Mueller" checkname="MUELLER,S" uni="9" class="" gp="1" code="9">
       <punt no="5" yds="171" long="47" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="34.2"/>
       <fg made="1" att="1" long="31" blkd="0"/>
       <pat kickatt="1" kickmade="0"/>
       <scoring fg="1"/>
     </player>
-    <player name="11" shortname="" checkname="" uni="11" class="" gp="1" code="11">
-      <defense tackua="2" tacka="2" tot_tack="4"/>
+    <player name="R. Lakalaka" shortname="R. Lakalaka" checkname="LAKALAKA,R" uni="11" class="" gp="1" code="11">
+      <defense tackua="5" tacka="4" tot_tack="9" tflua="0" tfla="1" tflyds="3"/>
     </player>
     <player name="F. Latour" shortname="F. Latour" checkname="LATOUR,F" uni="12" class="SR" gp="1" code="12"/>
     <player name="L. Geyer" shortname="L. Geyer" checkname="GEYER,L" uni="14" class="SR" gp="1" gs="1" opos="WR" code="14">
@@ -73,15 +72,15 @@
       <rcv no="1" yds="25" td="1" long="25"/>
       <scoring td="1"/>
     </player>
-    <player name="R. Lakalaka" shortname="R. Lakalaka" checkname="LAKALAKA,R" uni="20" class="" gp="1" gs="1" dpos="LB" code="20">
-      <defense tackua="5" tacka="5" tot_tack="10" tflua="0" tfla="2" tflyds="2"/>
+    <player name="L. Ogbevoen" shortname="L. Ogbevoen" checkname="OGBEVOEN,L" uni="20" class="" gp="1" gs="1" dpos="LB" code="20">
+      <defense tackua="5" tacka="4" tot_tack="9" tflua="0" tfla="1" tflyds="1"/>
     </player>
     <player name="J. Jakob" shortname="J. Jakob" checkname="JAKOB,J" uni="21" class="SR" gp="1" code="21">
       <defense tackua="1" tacka="0" tot_tack="1"/>
     </player>
     <player name="M. Dabo" shortname="M. Dabo" checkname="DABO,M" uni="23" class="SR" gp="1" gs="1" dpos="DB" code="23">
       <defense tackua="0" tacka="1" tot_tack="1"/>
-      <pr no="2" yds="17" td="0" long="10"/>
+      <pr no="3" yds="16" td="0" long="10"/>
     </player>
     <player name="F. Seibert" shortname="F. Seibert" checkname="SEIBERT,F" uni="24" class="SR" gp="1" code="24"/>
     <player name="R. Pein" shortname="R. Pein" checkname="PEIN,R" uni="26" class="SR" gp="1" gs="1" opos="RB" code="26">
@@ -95,7 +94,7 @@
       <defense tackua="2" tacka="0" tot_tack="2"/>
     </player>
     <player name="J. Ludwig-M." shortname="J. Ludwig-M." checkname=",J LUDWIG-M" uni="32" class="SR" gp="1" gs="1" dpos="DB" code="32">
-      <defense tackua="2" tacka="3" tot_tack="5" tflua="1" tfla="0" tflyds="1" int="1" intyds="3"/>
+      <defense tackua="3" tacka="2" tot_tack="5" tflua="1" tfla="0" tflyds="1" int="1" intyds="3"/>
       <ir no="1" yds="3" td="0" long="3"/>
     </player>
     <player name="B. Wenzler" shortname="B. Wenzler" checkname="WENZLER,B" uni="33" class="SR" gp="1" code="33"/>
@@ -109,31 +108,28 @@
       <defense tackua="1" tacka="0" tot_tack="1"/>
     </player>
     <player name="Z. Blair" shortname="Z. Blair" checkname="BLAIR,Z" uni="42" class="SR" gp="1" gs="1" dpos="LB" code="42">
-      <defense tackua="6" tacka="3" tot_tack="9" tflua="2" tfla="2" tflyds="5"/>
+      <defense tackua="8" tacka="4" tot_tack="12" tflua="4" tfla="1" tflyds="11" sackua="1" sacka="0" sackyds="5" ff="1"/>
     </player>
     <player name="N. Hamulic" shortname="N. Hamulic" checkname="HAMULIC,N" uni="45" class="SR" gp="1" gs="1" dpos="LB" code="45">
-      <defense tackua="6" tacka="2" tot_tack="8" ff="1"/>
+      <defense tackua="4" tacka="4" tot_tack="8"/>
     </player>
     <player name="T. Stickel" shortname="T. Stickel" checkname="STICKEL,T" uni="48" class="SR" gp="1" code="48">
-      <defense tackua="1" tacka="0" tot_tack="1"/>
+      <defense tackua="1" tacka="1" tot_tack="2"/>
     </player>
     <player name="J. Wegner" shortname="J. Wegner" checkname="WEGNER,J" uni="52" class="SR" gp="1" code="52"/>
     <player name="D. Gratza" shortname="D. Gratza" checkname="GRATZA,D" uni="55" class="SR" gp="1" code="55">
       <defense tackua="0" tacka="1" tot_tack="1"/>
     </player>
     <player name="J. Walther" shortname="J. Walther" checkname="WALTHER,J" uni="56" class="SR" gp="1" gs="1" opos="RT" code="56"/>
-    <player name="L. Ogbevoen" shortname="L. Ogbevoen" checkname="OGBEVOEN,L" uni="58" class="" gp="1" gs="1" dpos="LB" code="58"/>
-    <player name="L. Haebich" shortname="L. Haebich" checkname="HAEBICH,L" uni="60" class="SR" gp="1" gs="1" opos="LT" code="60"/>
     <player name="T. Ghebrezherer" shortname="T. Ghebrezherer" checkname="GHEBREZHERER,T" uni="68" class="SR" gp="1" code="68"/>
     <player name="M. Kempchen" shortname="M. Kempchen" checkname="KEMPCHEN,M" uni="70" class="SR" gp="1" gs="1" opos="LG" code="70"/>
     <player name="D. Pisaric" shortname="D. Pisaric" checkname="PISARIC,D" uni="72" class="SR" gp="1" code="72">
       <defense tackua="2" tacka="0" tot_tack="2"/>
     </player>
+    <player name="L. Haebich" shortname="L. Haebich" checkname="HAEBICH,L" uni="73" class="SR" gp="1" code="73"/>
     <player name="L. Stingl" shortname="L. Stingl" checkname="STINGL,L" uni="74" class="SR" gp="1" code="74"/>
     <player name="S. Mike" shortname="S. Mike" checkname="MIKE,S" uni="75" class="SR" gp="1" code="75"/>
-    <player name="M. Kuppinger" shortname="M. Kuppinger" checkname="KUPPINGER,M" uni="77" class="SR" gp="1" gs="1" opos="RG" code="77">
-      <defense tackua="4" tacka="1" tot_tack="5" tflua="0" tfla="1" tflyds="3"/>
-    </player>
+    <player name="M. Kuppinger" shortname="M. Kuppinger" checkname="KUPPINGER,M" uni="77" class="SR" gp="1" gs="1" opos="RG" code="77"/>
     <player name="N. Schuster" shortname="N. Schuster" checkname="SCHUSTER,N" uni="78" class="SR" gp="1" code="78"/>
     <player name="P. Weiblen" shortname="P. Weiblen" checkname="WEIBLEN,P" uni="85" class="SR" gp="1" code="85"/>
     <player name="D. Rofalski" shortname="D. Rofalski" checkname="ROFALSKI,D" uni="87" class="SR" gp="1" gs="1" opos="WR" code="87"/>
@@ -143,16 +139,13 @@
     </player>
     <player name="F. Haufe" shortname="F. Haufe" checkname="HAUFE,F" uni="91" class="SR" gp="1" gs="1" dpos="DL" code="91"/>
     <player name="T. Burkhardt" shortname="T. Burkhardt" checkname="BURKHARDT,T" uni="92" class="SR" gp="1" code="92">
-      <defense tackua="2" tacka="1" tot_tack="3" tflua="1" tfla="0" tflyds="5" sackua="1" sacka="0" sackyds="5"/>
-    </player>
-    <player name="93" shortname="" checkname="" uni="93" class="" gp="1" code="93">
-      <defense tackua="0" tacka="1" tot_tack="1"/>
+      <defense tackua="1" tacka="1" tot_tack="2"/>
     </player>
     <player name="P. Ungericht" shortname="P. Ungericht" checkname="UNGERICHT,P" uni="97" class="SR" gp="1" gs="1" dpos="DL" code="97">
       <defense tackua="3" tacka="1" tot_tack="4" tflua="0" tfla="1" tflyds="4"/>
     </player>
     <player name="M. Fuerst" shortname="M. Fuerst" checkname="FUERST,M" uni="98" class="SR" gp="1" gs="1" dpos="DL" code="98">
-      <defense tackua="2" tacka="1" tot_tack="3" sackua="1" sacka="0" sackyds="0"/>
+      <defense tackua="2" tacka="2" tot_tack="4" sackua="1" sacka="0" sackyds="0"/>
     </player>
     <player name="TEAM" shortname="TEAM" checkname="TEAM" uni="TM" class="SR" gp="1" code="198">
       <pass comp="0" att="0" int="0" yds="-34" td="0" long="0" sacks="0" sackyds="0"/>
@@ -192,10 +185,10 @@
       <defense tackua="2" tacka="0" tot_tack="2"/>
     </player>
     <player name="G. Ngovo" shortname="G. Ngovo" checkname="NGOVO,G" uni="4" class="SR" gp="1" code="4">
-      <rush att="2" yds="17" gain="17" loss="0" td="0" long="14"/>
+      <rush att="1" yds="14" gain="14" loss="0" td="0" long="14"/>
       <defense tackua="1" tacka="0" tot_tack="1"/>
     </player>
-    <player name="P. Lenhardt" shortname="P. Lenhardt" checkname="LENHARDT,P" uni="5" class="SR" gp="1" gs="1" opos="WR" code="5">
+    <player name="P. Lenhardt" shortname="P. Lenhardt" checkname="LENHARDT,P" uni="5" class="" gp="1" gs="1" opos="WR" code="5">
       <rcv no="5" yds="40" td="0" long="16"/>
       <kr no="3" yds="80" td="0" long="40"/>
     </player>
@@ -203,17 +196,19 @@
       <rush att="2" yds="11" gain="11" loss="0" td="0" long="8"/>
       <pass comp="1" att="2" int="0" yds="13" td="0" long="13" sacks="0" sackyds="0"/>
     </player>
-    <player name="Al. Frisch" shortname="Al. Frisch" checkname="FRISCH,AL" uni="7" class="SR" gp="1" code="7"/>
+    <player name="Al. Frisch" shortname="Al. Frisch" checkname="FRISCH,AL" uni="7" class="" gp="1" code="7"/>
     <player name="P. Steffen" shortname="P. Steffen" checkname="STEFFEN,P" uni="8" class="SR" gp="1" gs="1" dpos="LB" code="8">
       <defense tackua="5" tacka="1" tot_tack="6" tflua="1" tfla="1" tflyds="17" sackua="1" sacka="0" sackyds="13"/>
     </player>
-    <player name="W. Bhikh" shortname="W. Bhikh" checkname="BHIKH,W" uni="9" class="SR" gp="1" gs="1" dpos="DB" code="9">
+    <player name="W. Bhikh" shortname="W. Bhikh" checkname="BHIKH,W" uni="9" class="" gp="1" gs="1" dpos="DB" code="9">
       <pat passatt="1" passmade="0"/>
       <defense tackua="1" tacka="0" tot_tack="1" brup="1"/>
     </player>
-    <player name="J. Schlesinger" shortname="J. Schlesinger" checkname="SCHLESINGER,J" uni="10" class="SR" gp="1" code="10"/>
+    <player name="J. Schlesinger" shortname="J. Schlesinger" checkname="SCHLESINGER,J" uni="10" class="SR" gp="1" code="10">
+      <rcv no="1" yds="24" td="0" long="24"/>
+    </player>
     <player name="N. Aarass" shortname="N. Aarass" checkname="AARASS,N" uni="11" class="SR" gp="1" gs="1" opos="WR" code="11">
-      <rcv no="3" yds="38" td="0" long="24"/>
+      <rcv no="2" yds="14" td="0" long="7"/>
     </player>
     <player name="J. Weinreich" shortname="J. Weinreich" checkname="WEINREICH,J" uni="12" class="SR" gp="1" gs="1" opos="QB" code="12">
       <rush att="3" yds="0" gain="1" loss="1" td="1" long="1"/>
@@ -225,7 +220,9 @@
     <player name="R. Berres" shortname="R. Berres" checkname="BERRES,R" uni="15" class="SR" gp="1" code="15"/>
     <player name="K. Schiffer" shortname="K. Schiffer" checkname="SCHIFFER,K" uni="18" class="SR" gp="1" code="18"/>
     <player name="E. Akguen" shortname="E. Akguen" checkname="AKGUEN,E" uni="19" class="" gp="1" code="19"/>
-    <player name="J. Seibel" shortname="J. Seibel" checkname="SEIBEL,J" uni="20" class="SR" gp="1" code="20"/>
+    <player name="J. Seibel" shortname="J. Seibel" checkname="SEIBEL,J" uni="20" class="SR" gp="1" code="20">
+      <defense tackua="1" tacka="0" tot_tack="1"/>
+    </player>
     <player name="S. Vogel" shortname="S. Vogel" checkname="VOGEL,S" uni="21" class="SR" gp="1" code="21">
       <defense tackua="2" tacka="0" tot_tack="2"/>
     </player>
@@ -233,9 +230,13 @@
       <defense tackua="2" tacka="1" tot_tack="3" tflua="0" tfla="1" tflyds="3" brup="1" int="1" intyds="0"/>
       <ir no="1" yds="0" td="0" long="0"/>
     </player>
-    <player name="D. Jacobs" shortname="D. Jacobs" checkname="JACOBS,D" uni="24" class="SR" gp="1" gs="1" dpos="DB" code="24"/>
-    <player name="A. Frisch" shortname="A. Frisch" checkname="FRISCH,A" uni="26" class="SR" gp="1" code="26"/>
-    <player name="M. Richter" shortname="M. Richter" checkname="RICHTER,M" uni="27" class="SR" gp="1" code="27">
+    <player name="D. Jacobs" shortname="D. Jacobs" checkname="JACOBS,D" uni="24" class="SR" gp="1" gs="1" dpos="DB" code="24">
+      <defense tackua="0" tacka="1" tot_tack="1"/>
+    </player>
+    <player name="A. Frisch" shortname="A. Frisch" checkname="FRISCH,A" uni="26" class="SR" gp="1" code="26">
+      <rush att="1" yds="3" gain="3" loss="0" td="0" long="3"/>
+    </player>
+    <player name="M. Richter" shortname="M. Richter" checkname="RICHTER,M" uni="27" class="" gp="1" code="27">
       <defense tackua="1" tacka="0" tot_tack="1" brup="1"/>
     </player>
     <player name="M. London" shortname="M. London" checkname="LONDON,M" uni="28" class="SR" gp="1" gs="1" opos="RB" code="28">
@@ -249,30 +250,28 @@
       <defense tackua="1" tacka="0" tot_tack="1" tflua="1" tfla="0" tflyds="3" sackua="1" sacka="0" sackyds="3" int="1" intyds="14"/>
       <ir no="1" yds="14" td="0" long="14"/>
     </player>
-    <player name="T. Juengst" shortname="T. Juengst" checkname="JUENGST,T" uni="34" class="" gp="1" code="34"/>
+    <player name="T. Juengst" shortname="T. Juengst" checkname="JUENGST,T" uni="34" class="SR" gp="1" code="34"/>
     <player name="R. Hanssen" shortname="R. Hanssen" checkname="HANSSEN,R" uni="40" class="" gp="1" code="40"/>
     <player name="P. Poetsch" shortname="P. Poetsch" checkname="POETSCH,P" uni="43" class="SR" gp="1" gs="1" opos="FB" code="43">
       <rush att="3" yds="8" gain="8" loss="0" td="0" long="4"/>
     </player>
     <player name="M. Kensy" shortname="M. Kensy" checkname="KENSY,M" uni="44" class="SR" gp="1" gs="1" dpos="LB" code="44">
-      <defense tackua="11" tacka="3" tot_tack="14" tflua="2" tfla="0" tflyds="5" sackua="1" sacka="0" sackyds="4" brup="1"/>
+      <defense tackua="10" tacka="3" tot_tack="13" tflua="2" tfla="0" tflyds="5" sackua="1" sacka="0" sackyds="4" brup="1"/>
     </player>
     <player name="N. Liesen" shortname="N. Liesen" checkname="LIESEN,N" uni="47" class="SR" gp="1" gs="1" dpos="LB" code="47">
-      <defense tackua="2" tacka="1" tot_tack="3"/>
+      <defense tackua="3" tacka="0" tot_tack="3"/>
     </player>
     <player name="K. Bongaerts" shortname="K. Bongaerts" checkname="BONGAERTS,K" uni="48" class="SR" gp="1" code="48">
       <defense tackua="1" tacka="0" tot_tack="1"/>
     </player>
     <player name="A. Boes" shortname="A. Boes" checkname="BOES,A" uni="52" class="SR" gp="1" code="52"/>
-    <player name="M. Oebels" shortname="M. Oebels" checkname="OEBELS,M" uni="54" class="SR" gp="1" code="54">
-      <defense tackua="1" tacka="0" tot_tack="1"/>
-    </player>
-    <player name="M. Taylor" shortname="M. Taylor" checkname="TAYLOR,M" uni="55" class="SR" gp="1" gs="1" dpos="DE" code="55">
+    <player name="M. Oebels" shortname="M. Oebels" checkname="OEBELS,M" uni="54" class="SR" gp="1" code="54"/>
+    <player name="M. Taylor" shortname="M. Taylor" checkname="TAYLOR,M" uni="55" class="" gp="1" gs="1" dpos="DE" code="55">
       <defense tackua="1" tacka="1" tot_tack="2" tflua="1" tfla="0" tflyds="7" sackua="1" sacka="0" sackyds="7"/>
     </player>
     <player name="F. Aybek" shortname="F. Aybek" checkname="AYBEK,F" uni="56" class="SR" gp="1" code="56"/>
     <player name="L. Weitz" shortname="L. Weitz" checkname="WEITZ,L" uni="58" class="SR" gp="1" code="58"/>
-    <player name="A. Glusancov" shortname="A. Glusancov" checkname="GLUSANCOV,A" uni="59" class="SR" gp="1" code="59"/>
+    <player name="A. Glusancov" shortname="A. Glusancov" checkname="GLUSANCOV,A" uni="59" class="" gp="1" code="59"/>
     <player name="J.-N. Dalbeck" shortname="J.-N. Dalbeck" checkname="DALBECK,J-N" uni="63" class="SR" gp="1" code="63"/>
     <player name="N. Wiens" shortname="N. Wiens" checkname="WIENS,N" uni="68" class="SR" gp="1" gs="1" opos="LG" code="68"/>
     <player name="H. Darley" shortname="H. Darley" checkname="DARLEY,H" uni="69" class="SR" gp="1" gs="1" opos="C" code="69"/>
@@ -328,7 +327,7 @@
     <drive vh="H" team="CC" start="KO,3,14:48,48" end="TD,3,09:14,100" plays="11" yards="52" top="5:34" start_how="KO" start_qtr="3" start_time="14:48" start_spot="CC48" end_how="TD" end_qtr="3" end_time="09:14" end_spot="SS00" rz="1" driveindex="13"/>
     <drive vh="V" team="SS" start="KO,3,09:08,39" end="DOWNS,3,06:58,48" plays="4" yards="9" top="2:10" start_how="KO" start_qtr="3" start_time="09:08" start_spot="SS39" end_how="DOWNS" end_qtr="3" end_time="06:58" end_spot="SS48" driveindex="14"/>
     <drive vh="H" team="CC" start="DOWNS,3,06:58,52" end="PUNT,3,04:19,66" plays="6" yards="14" top="2:39" start_how="DOWNS" start_qtr="3" start_time="06:58" start_spot="SS48" end_how="PUNT" end_qtr="3" end_time="04:19" end_spot="SS34" driveindex="15"/>
-    <drive vh="V" team="SS" start="PUNT,3,04:19,1" end="PUNT,3,00:00,28" plays="8" yards="27" top="4:19" start_how="PUNT" start_qtr="3" start_time="04:19" start_spot="SS01" end_how="PUNT" end_qtr="3" end_time="00:00" end_spot="SS28" driveindex="16"/>
+    <drive vh="V" team="SS" start="PUNT,3,04:19,3" end="PUNT,3,00:00,28" plays="8" yards="25" top="4:19" start_how="PUNT" start_qtr="3" start_time="04:19" start_spot="SS03" end_how="PUNT" end_qtr="3" end_time="00:00" end_spot="SS28" driveindex="16"/>
     <drive vh="H" team="CC" start="PUNT,4,15:00,33" end="TD,4,10:21,100" plays="8" yards="67" top="4:39" start_how="PUNT" start_qtr="4" start_time="15:00" start_spot="CC33" end_how="TD" end_qtr="4" end_time="10:21" end_spot="SS00" driveindex="17"/>
     <drive vh="V" team="SS" start="KO,4,10:14,19" end="INT,4,09:05,16" plays="3" yards="-3" top="1:09" start_how="KO" start_qtr="4" start_time="10:14" start_spot="SS19" end_how="INT" end_qtr="4" end_time="09:05" end_spot="SS16" driveindex="18"/>
     <drive vh="H" team="CC" start="INT,4,09:05,87" end="DOWNS,4,04:23,98" plays="8" yards="11" top="4:42" start_how="INT" start_qtr="4" start_time="09:05" start_spot="SS13" end_how="DOWNS" end_qtr="4" end_time="04:23" end_spot="SS02" rz="1" driveindex="19"/>
@@ -343,7 +342,7 @@
    </play>
       <play hasball="CC" down="1" togo="10" spot="CC35" context="H,1,10,H35" playid="0,3,2" type="#" clock="15:00" tokens="Q:1 T:15:00" text="Start of 1st quarter, clock 15:00." newcontext="H,1,10,H35">
    </play>
-      <play hasball="CC" down="1" togo="10" spot="CC35" context="H,1,10,H35" playid="0,4,3" type="K" tokens="KO:2,V08 RET:4,V31" text="D. Schuhmacher kickoff 57 yards to the SS8, A. Eitel return 23 yards to the SS31." newcontext="V,1,10,V31">
+      <play hasball="CC" down="1" togo="10" spot="CC35" context="H,1,10,H35" playid="0,4,3" type="K" tokens="KO:2,V08 RET:4,V31,TACK:5" text="D. Schuhmacher kickoff 57 yards to the SS8, ." newcontext="V,1,10,V31">
         <p_ko vh="H" name="D. Schuhmacher" gain="57"/>
         <p_kr vh="V" name="A. Eitel" gain="23"/>
       </play>
@@ -399,8 +398,8 @@
         <p_tk vh="V" name="J. Ludwig-M." assist="Y"/>
         <p_tk vh="V" name="W. Martheli" assist="Y"/>
       </play>
-      <play hasball="CC" down="3" togo="4" spot="CC21" context="H,3,4,H21" playid="2,4,16" type="P" tokens="PASS:12,I,TM,*" text="J. Weinreich pass incomplete." newcontext="H,4,4,H21">
-        <p_pa vh="H" qb="J. Weinreich" result="INC"/>
+      <play hasball="CC" down="3" togo="4" spot="CC21" context="H,3,4,H21" playid="2,4,16" type="P" tokens="PASS:12,I,28,*" text="J. Weinreich pass incomplete to M. London." newcontext="H,4,4,H21">
+        <p_pa vh="H" qb="J. Weinreich" result="INC" rcv="M. London"/>
       </play>
       <play hasball="CC" down="4" togo="4" spot="CC21" context="H,4,4,H21" playid="2,5,17" type="U" tokens="PUNT:81,H39 OB:" text="V. Roediger punt 18 yards to the CC39, out-of-bounds." ob="Y" newcontext="V,1,10,H39">
         <p_pu vh="H" name="V. Roediger" gain="18" ob="Y"/>
@@ -413,8 +412,8 @@
         <p_ru vh="V" name="R. Pein" gain="3"/>
         <p_tk vh="H" name="N. Liesen"/>
       </play>
-      <play hasball="SS" down="2" togo="7" spot="CC36" context="V,2,7,H36" playid="3,3,20" type="E" tokens="PEN:V,FS,A,73,H41,N" text="PENALTY SS false start (73) 5 yards to the CC41." newcontext="V,2,12,H41">
-        <p_pn vh="V" code="FS" type="false start" name="73" result="ACCEPT" at="H36" yards="5"/>
+      <play hasball="SS" down="2" togo="7" spot="CC36" context="V,2,7,H36" playid="3,3,20" type="E" tokens="PEN:V,FS,A,73,H41,N" text="PENALTY SS false start (L. Haebich) 5 yards to the CC41." newcontext="V,2,12,H41">
+        <p_pn vh="V" code="FS" type="false start" name="L. Haebich" result="ACCEPT" at="H36" yards="5"/>
       </play>
       <play hasball="SS" down="2" togo="12" spot="CC41" context="V,2,12,H41" playid="3,4,21" type="P" tokens="PASS:2,C,5,H38 TACK:23" text="A. Ellis pass complete to D. Meza for 3 yards to the CC38 (T. Janssen)." newcontext="V,3,9,H38">
         <p_pa vh="V" qb="A. Ellis" result="COMP" rcv="D. Meza" gain="3"/>
@@ -428,12 +427,12 @@
       <drivestart poss="H,H10,06:51" vh="H" spot="H10" clock="06:51" driveindex="4,22"/>
       <play hasball="CC" down="1" togo="10" spot="CC10" context="H,1,10,H10" playid="4,1,23" clock="06:51" tokens="{DRIVE}:06:51" text="COLOGNE CENTURIONS drive start at 06:51." newcontext="H,1,10,H10">
    </play>
-      <play hasball="CC" down="1" togo="10" spot="CC10" context="H,1,10,H10" playid="4,2,24" type="R" tokens="RUSH:28,H07," text="M. London rush for loss of 3 yards to the CC7." newcontext="H,2,13,H07">
+      <play hasball="CC" down="1" togo="10" spot="CC10" context="H,1,10,H10" playid="4,2,24" type="R" pcode="TACK:42" tokens="RUSH:28,H07,TACK:42" text="M. London rush TACK:42 for loss of 3 yards to the CC7." newcontext="H,2,13,H07">
         <p_ru vh="H" name="M. London" gain="-3"/>
       </play>
-      <play hasball="CC" down="2" togo="13" spot="CC07" context="H,2,13,H07" playid="4,3,25" type="R" tokens="RUSH:28,H10, TACK:77" text="M. London rush for 3 yards to the CC10 (M. Kuppinger)." newcontext="H,3,10,H10">
+      <play hasball="CC" down="2" togo="13" spot="CC07" context="H,2,13,H07" playid="4,3,25" type="R" tokens="RUSH:28,H10, TACK:11" text="M. London rush for 3 yards to the CC10 (R. Lakalaka)." newcontext="H,3,10,H10">
         <p_ru vh="H" name="M. London" gain="3"/>
-        <p_tk vh="V" name="M. Kuppinger"/>
+        <p_tk vh="V" name="R. Lakalaka"/>
       </play>
       <play hasball="CC" down="3" togo="10" spot="CC10" context="H,3,10,H10" playid="4,4,26" type="P" tokens="PASS:12,C,11,H17 TACK:32" text="J. Weinreich pass complete to N. Aarass for 7 yards to the CC17 (J. Ludwig-M.)." newcontext="H,4,3,H17">
         <p_pa vh="H" qb="J. Weinreich" result="COMP" rcv="N. Aarass" gain="7"/>
@@ -465,18 +464,18 @@
       <drivestart poss="H,H35,02:55" vh="H" spot="H35" clock="02:55" driveindex="6,32"/>
       <play hasball="CC" down="1" togo="10" spot="CC35" context="H,1,10,H35" playid="6,1,33" clock="02:55" tokens="{DRIVE}:02:55" text="COLOGNE CENTURIONS drive start at 02:55." newcontext="H,1,10,H35">
    </play>
-      <play hasball="CC" down="1" togo="10" spot="CC35" context="H,1,10,H35" playid="6,2,34" type="R" tokens="RUSH:28,H40, TACK:77" text="M. London rush for 5 yards to the CC40 (M. Kuppinger)." newcontext="H,2,5,H40">
+      <play hasball="CC" down="1" togo="10" spot="CC35" context="H,1,10,H35" playid="6,2,34" type="R" tokens="RUSH:28,H40, TACK:11" text="M. London rush for 5 yards to the CC40 (R. Lakalaka)." newcontext="H,2,5,H40">
         <p_ru vh="H" name="M. London" gain="5"/>
-        <p_tk vh="V" name="M. Kuppinger"/>
+        <p_tk vh="V" name="R. Lakalaka"/>
       </play>
       <play hasball="CC" down="2" togo="5" spot="CC40" context="H,2,5,H40" playid="6,3,35" type="R" first="R" tokens="RUSH:28,H48, TACK:42" text="M. London rush for 8 yards to the CC48, 1ST DOWN CC (Z. Blair)." newcontext="H,1,10,H48">
         <p_ru vh="H" name="M. London" gain="8"/>
         <p_tk vh="V" name="Z. Blair"/>
       </play>
-      <play hasball="CC" down="1" togo="10" spot="CC48" context="H,1,10,H48" playid="6,4,36" type="R" tokens="RUSH:28,H41, TACK:97,77" text="M. London rush for loss of 7 yards to the CC41 (P. Ungericht;M. Kuppinger)." newcontext="H,2,17,H41">
+      <play hasball="CC" down="1" togo="10" spot="CC48" context="H,1,10,H48" playid="6,4,36" type="R" tokens="RUSH:28,H41, TACK:97,11" text="M. London rush for loss of 7 yards to the CC41 (P. Ungericht;R. Lakalaka)." newcontext="H,2,17,H41">
         <p_ru vh="H" name="M. London" gain="-7"/>
         <p_tk vh="V" name="P. Ungericht" assist="Y"/>
-        <p_tk vh="V" name="M. Kuppinger" assist="Y"/>
+        <p_tk vh="V" name="R. Lakalaka" assist="Y"/>
       </play>
       <play hasball="CC" down="2" togo="17" spot="CC41" context="H,2,17,H41" playid="6,5,37" type="P" tokens="PASS:12,I,5,*" text="J. Weinreich pass incomplete to P. Lenhardt." newcontext="H,3,17,H41">
         <p_pa vh="H" qb="J. Weinreich" result="INC" rcv="P. Lenhardt"/>
@@ -491,9 +490,10 @@
       <play hasball="CC" down="4" togo="6" spot="SS48" context="H,4,6,V48" playid="6,8,40" type="#" clock="00:30" tokens="TOUT:H T:00:30" text="Timeout Cologne Centurions, clock 00:30." newcontext="H,4,6,V48">
         <p_to vh="H" team="Cologne Centurions"/>
       </play>
-      <play hasball="CC" down="4" togo="6" spot="SS48" context="H,4,6,V48" playid="6,9,41" type="P" first="P" tokens="PASS:12,C,28,V41 TACK:77" text="J. Weinreich pass complete to M. London for 7 yards to the SS41, 1ST DOWN CC (M. Kuppinger)." newcontext="H,1,10,V41">
+      <play hasball="CC" down="4" togo="6" spot="SS48" context="H,4,6,V48" playid="6,9,41" type="P" first="P" tokens="PASS:12,C,28,V41 TACK:45,11" text="J. Weinreich pass complete to M. London for 7 yards to the SS41, 1ST DOWN CC (N. Hamulic;R. Lakalaka)." newcontext="H,1,10,V41">
         <p_pa vh="H" qb="J. Weinreich" result="COMP" rcv="M. London" gain="7"/>
-        <p_tk vh="V" name="M. Kuppinger"/>
+        <p_tk vh="V" name="N. Hamulic" assist="Y"/>
+        <p_tk vh="V" name="R. Lakalaka" assist="Y"/>
       </play>
       <score qtr="1" V="3" H="0"/>
       <endqtr/>
@@ -509,7 +509,7 @@
         <punt no="1" yds="24" long="24" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="24.0"/>
         <ko no="1" yds="58" ob="0" tb="0" fcyds="8192"/>
         <fg made="1" att="1" long="31" blkd="0"/>
-        <defense tackua="8" tacka="4" tot_tack="12" tflua="0" tfla="2" tflyds="7" sacks="0" sackyds="0"/>
+        <defense tackua="7" tacka="6" tot_tack="13" tflua="0" tfla="2" tflyds="7" sacks="0" sackyds="0"/>
         <kr no="1" yds="23" td="0" long="23"/>
         <pr no="1" yds="10" td="0" long="10"/>
         <scoring fg="1"/>
@@ -533,25 +533,25 @@
     <qtr number="2" text="2nd">
       <play hasball="CC" down="1" togo="10" spot="SS41" context="H,1,10,V41" playid="6,10,42" type="#" clock="15:00" tokens="Q:2 T:15:00" text="Start of 2nd quarter, clock 15:00." newcontext="H,1,10,V41">
    </play>
-      <play hasball="CC" down="1" togo="10" spot="SS41" context="H,1,10,V41" playid="6,11,43" type="R" tokens="RUSH:28,V36, TACK:20" text="M. London rush for 5 yards to the SS36 (R. Lakalaka)." newcontext="H,2,5,V36">
+      <play hasball="CC" down="1" togo="10" spot="SS41" context="H,1,10,V41" playid="6,11,43" type="R" tokens="RUSH:28,V36, TACK:20" text="M. London rush for 5 yards to the SS36 (L. Ogbevoen)." newcontext="H,2,5,V36">
         <p_ru vh="H" name="M. London" gain="5"/>
-        <p_tk vh="V" name="R. Lakalaka"/>
+        <p_tk vh="V" name="L. Ogbevoen"/>
       </play>
-      <play hasball="CC" down="2" togo="5" spot="SS36" context="H,2,5,V36" playid="6,12,44" type="P" tokens="PASS:12,S,TM,V41 SACK:92" text="J. Weinreich sacked for loss of 5 yards to the SS41 (T. Burkhardt)." newcontext="H,3,10,V41">
+      <play hasball="CC" down="2" togo="5" spot="SS36" context="H,2,5,V36" playid="6,12,44" type="P" tokens="PASS:12,S,TM,V41 SACK:42" text="J. Weinreich sacked for loss of 5 yards to the SS41 (Z. Blair)." newcontext="H,3,10,V41">
         <p_pa vh="H" qb="J. Weinreich" result="SACK" gain="-5"/>
-        <p_tk vh="V" name="T. Burkhardt" sack="Y"/>
+        <p_tk vh="V" name="Z. Blair" sack="Y"/>
       </play>
       <play hasball="CC" down="3" togo="10" spot="SS41" context="H,3,10,V41" playid="6,13,45" type="E" tokens="PASS:12,C,5,V30 TACK:23 PEN:H,HO,A,73,H49,N NOPLAY:" text="J. Weinreich pass complete to P. Lenhardt for 11 yards to the SS30 (M. Dabo), PENALTY CC holding (F. Kratz) 10 yards to the CC49, NO PLAY." newcontext="H,3,20,H49">
         <p_pn vh="H" code="HO" type="holding" name="F. Kratz" result="ACCEPT" at="V41" yards="10"/>
       </play>
-      <play hasball="CC" down="3" togo="20" spot="CC49" context="H,3,20,H49" playid="6,14,46" type="P" tokens="PASS:12,C,5,V48 TACK:20" text="J. Weinreich pass complete to P. Lenhardt for 3 yards to the SS48 (R. Lakalaka)." newcontext="H,4,17,V48">
+      <play hasball="CC" down="3" togo="20" spot="CC49" context="H,3,20,H49" playid="6,14,46" type="P" tokens="PASS:12,C,5,V48 TACK:20" text="J. Weinreich pass complete to P. Lenhardt for 3 yards to the SS48 (L. Ogbevoen)." newcontext="H,4,17,V48">
         <p_pa vh="H" qb="J. Weinreich" result="COMP" rcv="P. Lenhardt" gain="3"/>
-        <p_tk vh="V" name="R. Lakalaka"/>
+        <p_tk vh="V" name="L. Ogbevoen"/>
       </play>
-      <play hasball="CC" down="4" togo="17" spot="SS48" context="H,4,17,V48" playid="6,15,47" type="U" tokens="PUNT:81,V23 RET:23,V30 TACK:54" text="V. Roediger punt 25 yards to the SS23, M. Dabo return 7 yards to the SS30 (M. Oebels)." newcontext="V,1,10,V30">
+      <play hasball="CC" down="4" togo="17" spot="SS48" context="H,4,17,V48" playid="6,15,47" type="U" tokens="PUNT:81,V23 RET:23,V30 TACK:20" text="V. Roediger punt 25 yards to the SS23, M. Dabo return 7 yards to the SS30 (J. Seibel)." newcontext="V,1,10,V30">
         <p_pu vh="H" name="V. Roediger" gain="25"/>
         <p_pr vh="V" name="M. Dabo" gain="7"/>
-        <p_tk vh="H" name="M. Oebels"/>
+        <p_tk vh="H" name="J. Seibel"/>
       </play>
       <drivesum plays="9" yards="17" top="5:22" driveindex="6" complete="Y"/>
       <drivestart poss="V,V30,12:33" vh="V" spot="V30" clock="12:33" driveindex="7,47"/>
@@ -561,8 +561,8 @@
         <p_ru vh="V" name="J. Moukouri" gain="5"/>
         <p_tk vh="H" name="T. Janssen"/>
       </play>
-      <play hasball="SS" down="2" togo="5" spot="SS35" context="V,2,5,V35" playid="7,3,50" type="P" tokens="PASS:2,I,TM,* BRUP:44" text="A. Ellis pass incomplete (M. Kensy)." newcontext="V,3,5,V35">
-        <p_pa vh="V" qb="A. Ellis" result="INC"/>
+      <play hasball="SS" down="2" togo="5" spot="SS35" context="V,2,5,V35" playid="7,3,50" type="P" tokens="PASS:2,I,14,* BRUP:44" text="A. Ellis pass incomplete to L. Geyer (M. Kensy)." newcontext="V,3,5,V35">
+        <p_pa vh="V" qb="A. Ellis" result="INC" rcv="L. Geyer"/>
         <p_bu vh="H" name="M. Kensy"/>
       </play>
       <play hasball="SS" down="3" togo="5" spot="SS35" context="V,3,5,V35" playid="7,4,51" type="E" first="E" tokens="PEN:H,NZI,A,55,V41,N" text="PENALTY CC neutral zone infraction (M. Taylor) 6 yards to the SS41, 1ST DOWN SS." newcontext="V,1,10,V41">
@@ -576,8 +576,8 @@
       <play hasball="SS" down="2" togo="17" spot="SS34" context="V,2,17,V34" playid="7,6,53" type="E" tokens="PEN:H,NZI,A,3,V39,N" text="PENALTY CC neutral zone infraction (J. Voelker) 5 yards to the SS39." newcontext="V,2,12,V39">
         <p_pn vh="H" code="NZI" type="neutral zone infraction" name="J. Voelker" result="ACCEPT" at="V34" yards="5"/>
       </play>
-      <play hasball="SS" down="2" togo="12" spot="SS39" context="V,2,12,V39" playid="7,7,54" type="E" tokens="PASS:2,I,18,* PEN:V,UH,A,TM,V29,N NOPLAY:" text="A. Ellis pass incomplete to P. Steigerwald, PENALTY SS illegal use of hands 10 yards to the SS29, NO PLAY." newcontext="V,2,22,V29">
-        <p_pn vh="V" code="UH" type="illegal use of hands" result="ACCEPT" at="V39" yards="10"/>
+      <play hasball="SS" down="2" togo="12" spot="SS39" context="V,2,12,V39" playid="7,7,54" type="E" tokens="PASS:2,I,18,* PEN:V,UH,A,73,V29,N NOPLAY:" text="A. Ellis pass incomplete to P. Steigerwald, PENALTY SS illegal use of hands (L. Haebich) 10 yards to the SS29, NO PLAY." newcontext="V,2,22,V29">
+        <p_pn vh="V" code="UH" type="illegal use of hands" name="L. Haebich" result="ACCEPT" at="V39" yards="10"/>
       </play>
       <play hasball="SS" down="2" togo="22" spot="SS29" context="V,2,22,V29" playid="7,8,55" type="P" tokens="PASS:2,S,TM,V22 SACK:55" text="A. Ellis sacked for loss of 7 yards to the SS22 (M. Taylor)." newcontext="V,3,29,V22">
         <p_pa vh="V" qb="A. Ellis" result="SACK" gain="-7"/>
@@ -593,10 +593,9 @@
       <drivestart poss="H,H44,09:10" vh="H" spot="H44" clock="09:10" driveindex="8,57"/>
       <play hasball="CC" down="1" togo="10" spot="CC44" context="H,1,10,H44" playid="8,1,58" clock="09:10" tokens="{DRIVE}:09:10" text="COLOGNE CENTURIONS drive start at 09:10." newcontext="H,1,10,H44">
    </play>
-      <play hasball="CC" down="1" togo="10" spot="CC44" context="H,1,10,H44" playid="8,2,59" type="R" tokens="RUSH:28,H42, TACK:20,42" text="M. London rush for loss of 2 yards to the CC42 (R. Lakalaka;Z. Blair)." newcontext="H,2,12,H42">
+      <play hasball="CC" down="1" togo="10" spot="CC44" context="H,1,10,H44" playid="8,2,59" type="R" tokens="RUSH:28,H42, TACK:42" text="M. London rush for loss of 2 yards to the CC42 (Z. Blair)." newcontext="H,2,12,H42">
         <p_ru vh="H" name="M. London" gain="-2"/>
-        <p_tk vh="V" name="R. Lakalaka" assist="Y"/>
-        <p_tk vh="V" name="Z. Blair" assist="Y"/>
+        <p_tk vh="V" name="Z. Blair"/>
       </play>
       <play hasball="CC" down="2" togo="12" spot="CC42" context="H,2,12,H42" playid="8,3,60" type="E" tokens="RUSH:28,H44, TACK:45 PEN:H,HO,A,78,H32,N NOPLAY:" text="M. London rush for 2 yards to the CC44 (N. Hamulic), PENALTY CC holding (F. Weinreich) 10 yards to the CC32, NO PLAY." newcontext="H,2,22,H32">
         <p_pn vh="H" code="HO" type="holding" name="F. Weinreich" result="ACCEPT" at="H42" yards="10"/>
@@ -613,9 +612,10 @@
         <p_ru vh="V" name="B. Yankson" gain="0"/>
         <p_tk vh="H" name="J. Voelker"/>
       </play>
-      <play hasball="SS" down="2" togo="10" spot="CC38" context="V,2,10,H38" playid="9,3,64" type="P" first="P" tokens="PASS:2,C,5,H26 TACK:44" text="A. Ellis pass complete to D. Meza for 12 yards to the CC26, 1ST DOWN SS (M. Kensy)." newcontext="V,1,10,H26">
+      <play hasball="SS" down="2" togo="10" spot="CC38" context="V,2,10,H38" playid="9,3,64" type="P" first="P" tokens="PASS:2,C,5,H26 TACK:44,24" text="A. Ellis pass complete to D. Meza for 12 yards to the CC26, 1ST DOWN SS (M. Kensy;D. Jacobs)." newcontext="V,1,10,H26">
         <p_pa vh="V" qb="A. Ellis" result="COMP" rcv="D. Meza" gain="12"/>
-        <p_tk vh="H" name="M. Kensy"/>
+        <p_tk vh="H" name="M. Kensy" assist="Y"/>
+        <p_tk vh="H" name="D. Jacobs" assist="Y"/>
       </play>
       <play hasball="SS" down="1" togo="10" spot="CC26" context="V,1,10,H26" playid="9,4,65" type="R" tokens="RUSH:41,H25, TACK:44" text="B. Yankson rush for 1 yard to the CC25 (M. Kensy)." newcontext="V,2,9,H25">
         <p_ru vh="V" name="B. Yankson" gain="1"/>
@@ -642,33 +642,34 @@
       <drivestart poss="H,V45,05:15" vh="H" spot="V45" clock="05:15" driveindex="10,69"/>
       <play hasball="CC" down="1" togo="10" spot="SS45" context="H,1,10,V45" playid="10,1,70" clock="05:15" tokens="{DRIVE}:05:15" text="COLOGNE CENTURIONS drive start at 05:15." newcontext="H,1,10,V45">
    </play>
-      <play hasball="CC" down="1" togo="10" spot="SS45" context="H,1,10,V45" playid="10,2,71" type="R" tokens="RUSH:43,V42, TACK:45,20" text="P. Poetsch rush for 3 yards to the SS42 (N. Hamulic;R. Lakalaka)." newcontext="H,2,7,V42">
+      <play hasball="CC" down="1" togo="10" spot="SS45" context="H,1,10,V45" playid="10,2,71" type="R" tokens="RUSH:43,V42, TACK:45,20" text="P. Poetsch rush for 3 yards to the SS42 (N. Hamulic;L. Ogbevoen)." newcontext="H,2,7,V42">
         <p_ru vh="H" name="P. Poetsch" gain="3"/>
         <p_tk vh="V" name="N. Hamulic" assist="Y"/>
-        <p_tk vh="V" name="R. Lakalaka" assist="Y"/>
+        <p_tk vh="V" name="L. Ogbevoen" assist="Y"/>
       </play>
-      <play hasball="CC" down="2" togo="7" spot="SS42" context="H,2,7,V42" playid="10,3,72" type="R" first="R" tokens="RUSH:28,V35, TACK:45" text="M. London rush for 7 yards to the SS35, 1ST DOWN CC (N. Hamulic)." newcontext="H,1,10,V35">
+      <play hasball="CC" down="2" togo="7" spot="SS42" context="H,2,7,V42" playid="10,3,72" type="R" first="R" tokens="RUSH:28,V35, TACK:45,42" text="M. London rush for 7 yards to the SS35, 1ST DOWN CC (N. Hamulic;Z. Blair)." newcontext="H,1,10,V35">
         <p_ru vh="H" name="M. London" gain="7"/>
-        <p_tk vh="V" name="N. Hamulic"/>
+        <p_tk vh="V" name="N. Hamulic" assist="Y"/>
+        <p_tk vh="V" name="Z. Blair" assist="Y"/>
       </play>
       <play hasball="CC" down="1" togo="10" spot="SS35" context="H,1,10,V35" playid="10,4,73" type="P" tokens="PASS:12,I,11,* BRUP:3" text="J. Weinreich pass incomplete to N. Aarass (W. Martheli)." newcontext="H,2,10,V35">
         <p_pa vh="H" qb="J. Weinreich" result="INC" rcv="N. Aarass"/>
         <p_bu vh="V" name="W. Martheli"/>
       </play>
-      <play hasball="CC" down="2" togo="10" spot="SS35" context="H,2,10,V35" playid="10,5,74" type="R" tokens="RUSH:28,V32, TACK:11,20" text="M. London rush for 3 yards to the SS32 (11;R. Lakalaka)." newcontext="H,3,7,V32">
+      <play hasball="CC" down="2" togo="10" spot="SS35" context="H,2,10,V35" playid="10,5,74" type="R" tokens="RUSH:28,V32, TACK:11,20" text="M. London rush for 3 yards to the SS32 (R. Lakalaka;L. Ogbevoen)." newcontext="H,3,7,V32">
         <p_ru vh="H" name="M. London" gain="3"/>
-        <p_tk vh="V" name="11" assist="Y"/>
         <p_tk vh="V" name="R. Lakalaka" assist="Y"/>
+        <p_tk vh="V" name="L. Ogbevoen" assist="Y"/>
       </play>
       <play hasball="CC" down="3" togo="7" spot="SS32" context="H,3,7,V32" playid="10,6,75" type="#" clock="03:40" tokens="TOUT:H T:03:40" text="Timeout Cologne Centurions, clock 03:40." newcontext="H,3,7,V32">
         <p_to vh="H" team="Cologne Centurions"/>
       </play>
-      <play hasball="CC" down="3" togo="7" spot="SS32" context="H,3,7,V32" playid="10,7,76" type="P" first="P" tokens="PASS:12,C,11,V25 TACK:77" text="J. Weinreich pass complete to N. Aarass for 7 yards to the SS25, 1ST DOWN CC (M. Kuppinger)." newcontext="H,1,10,V25">
+      <play hasball="CC" down="3" togo="7" spot="SS32" context="H,3,7,V32" playid="10,7,76" type="P" first="P" tokens="PASS:12,C,11,V25 TACK:11" text="J. Weinreich pass complete to N. Aarass for 7 yards to the SS25, 1ST DOWN CC (R. Lakalaka)." newcontext="H,1,10,V25">
         <p_pa vh="H" qb="J. Weinreich" result="COMP" rcv="N. Aarass" gain="7"/>
-        <p_tk vh="V" name="M. Kuppinger"/>
+        <p_tk vh="V" name="R. Lakalaka"/>
       </play>
-      <play hasball="CC" down="1" togo="10" spot="SS25" context="H,1,10,V25" playid="10,8,77" type="P" first="P" tokens="PASS:12,C,11,V01 TACK:3" text="J. Weinreich pass complete to N. Aarass for 24 yards to the SS1, 1ST DOWN CC (W. Martheli)." newcontext="H,1,0,V01">
-        <p_pa vh="H" qb="J. Weinreich" result="COMP" rcv="N. Aarass" gain="24"/>
+      <play hasball="CC" down="1" togo="10" spot="SS25" context="H,1,10,V25" playid="10,8,77" type="P" first="P" tokens="PASS:12,C,10,V01 TACK:3" text="J. Weinreich pass complete to J. Schlesinger for 24 yards to the SS1, 1ST DOWN CC (W. Martheli)." newcontext="H,1,0,V01">
+        <p_pa vh="H" qb="J. Weinreich" result="COMP" rcv="J. Schlesinger" gain="24"/>
         <p_tk vh="V" name="W. Martheli"/>
       </play>
       <play hasball="CC" down="1" togo="0" spot="SS01" context="H,1,0,V01" playid="10,9,78" type="R" tokens="RUSH:12,V01," text="J. Weinreich rush for no gain to the SS1." newcontext="H,2,0,V01">
@@ -682,11 +683,11 @@
       </play>
       <score V="9" H="6"/>
       <drivesum plays="8" yards="45" top="3:20" driveindex="10" complete="Y"/>
-      <play hasball="CC" down="1" togo="0" spot="CC35" context="H,1,0,H35" playid="10,12,81" type="K" tokens="KO:2,V07 RET:4,V20 TACK:3 PEN:V,UH,A,TM,V10,N D:1,10 SPOT:V,V10,Y" text="D. Schuhmacher kickoff 58 yards to the SS7, A. Eitel return 13 yards to the SS20 (J. Voelker), PENALTY SS illegal use of hands 10 yards to the SS10, 1st and 10, SS ball on SS10." newcontext="V,1,10,V10">
+      <play hasball="CC" down="1" togo="0" spot="CC35" context="H,1,0,H35" playid="10,12,81" type="K" tokens="KO:2,V07 RET:4,V20 TACK:3 PEN:V,UH,A,41,V10,N D:1,10 SPOT:V,V10,Y" text="D. Schuhmacher kickoff 58 yards to the SS7, A. Eitel return 13 yards to the SS20 (J. Voelker), PENALTY SS illegal use of hands (B. Yankson) 10 yards to the SS10, 1st and 10, SS ball on SS10." newcontext="V,1,10,V10">
         <p_ko vh="H" name="D. Schuhmacher" gain="58"/>
         <p_kr vh="V" name="A. Eitel" gain="13"/>
         <p_tk vh="H" name="J. Voelker"/>
-        <p_pn vh="V" code="UH" type="illegal use of hands" result="ACCEPT" at="V20" yards="10"/>
+        <p_pn vh="V" code="UH" type="illegal use of hands" name="B. Yankson" result="ACCEPT" at="V20" yards="10"/>
       </play>
       <drivestart poss="V,V10,01:47" vh="V" spot="V10" clock="01:47" driveindex="11,81"/>
       <play hasball="SS" down="1" togo="10" spot="SS10" context="V,1,10,V10" playid="11,1,82" clock="01:47" tokens="{DRIVE}:01:47" text="STUTTGART SURGE drive start at 01:47." newcontext="V,1,10,V10">
@@ -702,7 +703,7 @@
       <play hasball="SS" down="3" togo="9" spot="SS11" context="V,3,9,V11" playid="11,4,85" type="#" clock="00:51" tokens="TOUT:H T:00:51" text="Timeout Cologne Centurions, clock 00:51." newcontext="V,3,9,V11">
         <p_to vh="H" team="Cologne Centurions"/>
       </play>
-      <play hasball="SS" down="3" togo="9" spot="SS11" context="V,3,9,V11" playid="11,5,86" type="R" tokens="RUSH:41,V11," text="B. Yankson rush for no gain to the SS11." newcontext="V,4,9,V11">
+      <play hasball="SS" down="3" togo="9" spot="SS11" context="V,3,9,V11" playid="11,5,86" type="R" pcode="TACK:30" tokens="RUSH:41,V11,TACK:30,44" text="B. Yankson rush TACK:30 for no gain to the SS11." newcontext="V,4,9,V11">
         <p_ru vh="V" name="B. Yankson" gain="0"/>
       </play>
       <play hasball="SS" down="4" togo="9" spot="SS11" context="V,4,9,V11" playid="11,6,87" type="#" clock="00:08" tokens="TOUT:V T:00:08" text="Timeout Stuttgart Surge, clock 00:08." newcontext="V,4,9,V11">
@@ -736,7 +737,7 @@
         <punt no="2" yds="61" long="10" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="30.5"/>
         <ko no="1" yds="50" ob="0" tb="0" fcyds="8192"/>
         <pat kickatt="1" kickmade="0"/>
-        <defense tackua="7" tacka="8" tot_tack="15" tflua="1" tfla="2" tflyds="7" sacks="2" sackyds="5" brup="1" int="1" intyds="3"/>
+        <defense tackua="7" tacka="8" tot_tack="15" tflua="2" tfla="0" tflyds="7" sacks="2" sackyds="5" brup="1" int="1" intyds="3"/>
         <kr no="1" yds="13" td="0" long="0"/>
         <pr no="1" yds="7" td="0" long="0"/>
         <ir no="1" yds="3" td="0" long="3"/>
@@ -754,7 +755,7 @@
         <punt no="1" yds="25" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="25.0"/>
         <ko no="1" yds="58" ob="0" tb="0" fcyds="8224"/>
         <pat passatt="1" passmade="0"/>
-        <defense tackua="9" tacka="2" tot_tack="11" tflua="2" tfla="2" tflyds="18" sacks="2" sackyds="11" brup="2"/>
+        <defense tackua="8" tacka="4" tot_tack="12" tflua="2" tfla="2" tflyds="18" sacks="2" sackyds="11" brup="2"/>
         <kr no="1" yds="40" td="0" long="32"/>
         <scoring td="1"/>
       </qtrsummary>
@@ -776,32 +777,31 @@
         <p_ru vh="H" name="M. London" gain="6"/>
         <p_tk vh="V" name="N. Wenzelburger"/>
       </play>
-      <play hasball="CC" down="2" togo="4" spot="SS46" context="H,2,4,V46" playid="13,3,97" type="R" first="R" tokens="RUSH:28,V42, FORCE:45 FUMB:H,V41,87" text="M. London rush for 4 yards to the SS42, fumble forced by N. Hamulic, fumble by M. London recovered by CC F. Eichhorn at SS41, 1ST DOWN CC." newcontext="H,1,10,V41">
+      <play hasball="CC" down="2" togo="4" spot="SS46" context="H,2,4,V46" playid="13,3,97" type="R" first="R" tokens="RUSH:28,V42, FORCE:42 FUMB:H,V41,87" text="M. London rush for 4 yards to the SS42, fumble forced by Z. Blair, fumble by M. London recovered by CC F. Eichhorn at SS41, 1ST DOWN CC." newcontext="H,1,10,V41">
         <p_ru vh="H" name="M. London" gain="4"/>
         <p_fumb vh="H" name="M. London" at="V41" frvh="H" frname="F. Eichhorn"/>
-        <p_tk vh="V" name="N. Hamulic" ff="Y"/>
+        <p_tk vh="V" name="Z. Blair" ff="Y"/>
       </play>
       <play hasball="CC" down="1" togo="10" spot="SS41" context="H,1,10,V41" playid="13,4,98" type="R" tokens="RUSH:28,V39, TACK:45" text="M. London rush for 2 yards to the SS39 (N. Hamulic)." newcontext="H,2,8,V39">
         <p_ru vh="H" name="M. London" gain="2"/>
         <p_tk vh="V" name="N. Hamulic"/>
       </play>
-      <play hasball="CC" down="2" togo="8" spot="SS39" context="H,2,8,V39" playid="13,5,99" type="P" tokens="PASS:12,C,5,V33 TACK:32,3" text="J. Weinreich pass complete to P. Lenhardt for 6 yards to the SS33 (J. Ludwig-M.;W. Martheli)." newcontext="H,3,2,V33">
+      <play hasball="CC" down="2" togo="8" spot="SS39" context="H,2,8,V39" playid="13,5,99" type="P" tokens="PASS:12,C,5,V33 TACK:32" text="J. Weinreich pass complete to P. Lenhardt for 6 yards to the SS33 (J. Ludwig-M.)." newcontext="H,3,2,V33">
         <p_pa vh="H" qb="J. Weinreich" result="COMP" rcv="P. Lenhardt" gain="6"/>
-        <p_tk vh="V" name="J. Ludwig-M." assist="Y"/>
-        <p_tk vh="V" name="W. Martheli" assist="Y"/>
+        <p_tk vh="V" name="J. Ludwig-M."/>
       </play>
       <play hasball="CC" down="3" togo="2" spot="SS33" context="H,3,2,V33" playid="13,6,100" type="R" first="R" tokens="RUSH:28,V29, TACK:45" text="M. London rush for 4 yards to the SS29, 1ST DOWN CC (N. Hamulic)." newcontext="H,1,10,V29">
         <p_ru vh="H" name="M. London" gain="4"/>
         <p_tk vh="V" name="N. Hamulic"/>
       </play>
-      <play hasball="CC" down="1" togo="10" spot="SS29" context="H,1,10,V29" playid="13,7,101" type="R" tokens="RUSH:28,V25, TACK:11" text="M. London rush for 4 yards to the SS25 (11)." newcontext="H,2,6,V25">
+      <play hasball="CC" down="1" togo="10" spot="SS29" context="H,1,10,V29" playid="13,7,101" type="R" tokens="RUSH:28,V25, TACK:11" text="M. London rush for 4 yards to the SS25 (R. Lakalaka)." newcontext="H,2,6,V25">
         <p_ru vh="H" name="M. London" gain="4"/>
-        <p_tk vh="V" name="11"/>
+        <p_tk vh="V" name="R. Lakalaka"/>
       </play>
-      <play hasball="CC" down="2" togo="6" spot="SS25" context="H,2,6,V25" playid="13,8,102" type="R" first="R" tokens="RUSH:28,V13, TACK:20,93" text="M. London rush for 12 yards to the SS13, 1ST DOWN CC (R. Lakalaka;93)." newcontext="H,1,10,V13">
+      <play hasball="CC" down="2" togo="6" spot="SS25" context="H,2,6,V25" playid="13,8,102" type="R" first="R" tokens="RUSH:28,V13, TACK:20,98" text="M. London rush for 12 yards to the SS13, 1ST DOWN CC (L. Ogbevoen;M. Fuerst)." newcontext="H,1,10,V13">
         <p_ru vh="H" name="M. London" gain="12"/>
-        <p_tk vh="V" name="R. Lakalaka" assist="Y"/>
-        <p_tk vh="V" name="93" assist="Y"/>
+        <p_tk vh="V" name="L. Ogbevoen" assist="Y"/>
+        <p_tk vh="V" name="M. Fuerst" assist="Y"/>
       </play>
       <play hasball="CC" down="1" togo="10" spot="SS13" context="H,1,10,V13" playid="13,9,103" type="R" tokens="RUSH:28,V16, TACK:42" text="M. London rush for loss of 3 yards to the SS16 (Z. Blair)." newcontext="H,2,13,V16">
         <p_ru vh="H" name="M. London" gain="-3"/>
@@ -857,13 +857,13 @@
         <p_ru vh="H" name="M. London" gain="4"/>
         <p_tk vh="V" name="P. Ungericht"/>
       </play>
-      <play hasball="CC" down="3" togo="3" spot="SS41" context="H,3,3,V41" playid="15,4,116" type="R" first="R" tokens="RUSH:28,V33, TACK:20" text="M. London rush for 8 yards to the SS33, 1ST DOWN CC (R. Lakalaka)." newcontext="H,1,10,V33">
+      <play hasball="CC" down="3" togo="3" spot="SS41" context="H,3,3,V41" playid="15,4,116" type="R" first="R" tokens="RUSH:28,V33, TACK:20" text="M. London rush for 8 yards to the SS33, 1ST DOWN CC (L. Ogbevoen)." newcontext="H,1,10,V33">
         <p_ru vh="H" name="M. London" gain="8"/>
-        <p_tk vh="V" name="R. Lakalaka"/>
+        <p_tk vh="V" name="L. Ogbevoen"/>
       </play>
-      <play hasball="CC" down="1" togo="10" spot="SS33" context="H,1,10,V33" playid="15,5,117" type="R" tokens="RUSH:12,V34, TACK:20,42" text="J. Weinreich rush for loss of 1 yard to the SS34 (R. Lakalaka;Z. Blair)." newcontext="H,2,11,V34">
+      <play hasball="CC" down="1" togo="10" spot="SS33" context="H,1,10,V33" playid="15,5,117" type="R" tokens="RUSH:12,V34, TACK:20,42" text="J. Weinreich rush for loss of 1 yard to the SS34 (L. Ogbevoen;Z. Blair)." newcontext="H,2,11,V34">
         <p_ru vh="H" name="J. Weinreich" gain="-1"/>
-        <p_tk vh="V" name="R. Lakalaka" assist="Y"/>
+        <p_tk vh="V" name="L. Ogbevoen" assist="Y"/>
         <p_tk vh="V" name="Z. Blair" assist="Y"/>
       </play>
       <play hasball="CC" down="2" togo="11" spot="SS34" context="H,2,11,V34" playid="15,6,118" type="P" tokens="PASS:12,I,81,*" text="J. Weinreich pass incomplete to V. Roediger." newcontext="H,3,11,V34">
@@ -872,34 +872,33 @@
       <play hasball="CC" down="3" togo="11" spot="SS34" context="H,3,11,V34" playid="15,7,119" type="P" tokens="PASS:12,I,87,*" text="J. Weinreich pass incomplete to F. Eichhorn." newcontext="H,4,11,V34">
         <p_pa vh="H" qb="J. Weinreich" result="INC" rcv="F. Eichhorn"/>
       </play>
-      <play hasball="CC" down="4" togo="11" spot="SS34" context="H,4,11,V34" playid="15,8,120" type="U" tokens="PUNT:81,V04 RET:5,V01 TACK:21" text="V. Roediger punt 30 yards to the SS4, D. Meza return -3 yards to the SS1 (S. Vogel)." newcontext="V,1,10,V01">
+      <play hasball="CC" down="4" togo="11" spot="SS34" context="H,4,11,V34" playid="15,8,120" type="U" tokens="PUNT:81,V04 RET:23,V03 TACK:21" text="V. Roediger punt 30 yards to the SS4, M. Dabo return -1 yards to the SS3 (S. Vogel)." newcontext="V,1,10,V03">
         <p_pu vh="H" name="V. Roediger" gain="30" in20="Y"/>
-        <p_pr vh="V" name="D. Meza" gain="-3"/>
+        <p_pr vh="V" name="M. Dabo" gain="-1"/>
         <p_tk vh="H" name="S. Vogel"/>
       </play>
       <drivesum plays="6" yards="14" top="2:39" driveindex="15" complete="Y"/>
-      <drivestart poss="V,V01,04:19" vh="V" spot="V01" clock="04:19" driveindex="16,120"/>
-      <play hasball="SS" down="1" togo="10" spot="SS01" context="V,1,10,V01" playid="16,1,121" clock="04:19" tokens="{DRIVE}:04:19" text="STUTTGART SURGE drive start at 04:19." newcontext="V,1,10,V01">
+      <drivestart poss="V,V03,04:19" vh="V" spot="V03" clock="04:19" driveindex="16,120"/>
+      <play hasball="SS" down="1" togo="10" spot="SS03" context="V,1,10,V03" playid="16,1,121" clock="04:19" tokens="{DRIVE}:04:19" text="STUTTGART SURGE drive start at 04:19." newcontext="V,1,10,V03">
    </play>
-      <play hasball="SS" down="1" togo="10" spot="SS01" context="V,1,10,V01" playid="16,2,122" type="P" first="P" tokens="PASS:2,C,5,V13 TACK:8" text="A. Ellis pass complete to D. Meza for 12 yards to the SS13, 1ST DOWN SS (P. Steffen)." newcontext="V,1,10,V13">
-        <p_pa vh="V" qb="A. Ellis" result="COMP" rcv="D. Meza" gain="12"/>
+      <play hasball="SS" down="1" togo="10" spot="SS03" context="V,1,10,V03" playid="16,2,122" type="P" first="P" tokens="PASS:2,C,5,V13 TACK:8" text="A. Ellis pass complete to D. Meza for 10 yards to the SS13, 1ST DOWN SS (P. Steffen)." newcontext="V,1,10,V13">
+        <p_pa vh="V" qb="A. Ellis" result="COMP" rcv="D. Meza" gain="10"/>
         <p_tk vh="H" name="P. Steffen"/>
       </play>
-      <play hasball="SS" down="1" togo="10" spot="SS13" context="V,1,10,V13" playid="16,3,123" type="R" tokens="RUSH:41,V16, TACK:44,47" text="B. Yankson rush for 3 yards to the SS16 (M. Kensy;N. Liesen)." newcontext="V,2,7,V16">
+      <play hasball="SS" down="1" togo="10" spot="SS13" context="V,1,10,V13" playid="16,3,123" type="R" tokens="RUSH:41,V16, TACK:44" text="B. Yankson rush for 3 yards to the SS16 (M. Kensy)." newcontext="V,2,7,V16">
         <p_ru vh="V" name="B. Yankson" gain="3"/>
-        <p_tk vh="H" name="M. Kensy" assist="Y"/>
-        <p_tk vh="H" name="N. Liesen" assist="Y"/>
+        <p_tk vh="H" name="M. Kensy"/>
       </play>
-      <play hasball="SS" down="2" togo="7" spot="SS16" context="V,2,7,V16" playid="16,4,124" type="P" tokens="PASS:2,C,5,V26 TACK:44 PEN:V,IDB,A,TM,V11,N" text="A. Ellis pass complete to D. Meza for 10 yards to the SS26 (M. Kensy), PENALTY SS illEgal double team block 15 yards to the SS11." newcontext="V,2,12,V11">
+      <play hasball="SS" down="2" togo="7" spot="SS16" context="V,2,7,V16" playid="16,4,124" type="P" tokens="PASS:2,C,5,V26 TACK:44 PEN:V,IBW,A,TM,V11,N" text="A. Ellis pass complete to D. Meza for 10 yards to the SS26 (M. Kensy), PENALTY SS illegal block above the waist 15 yards to the SS11." newcontext="V,2,12,V11">
         <p_pa vh="V" qb="A. Ellis" result="COMP" rcv="D. Meza" gain="10"/>
         <p_tk vh="H" name="M. Kensy"/>
-        <p_pn vh="V" code="IDB" type="illEgal double team block" result="ACCEPT" at="V26" yards="15"/>
+        <p_pn vh="V" code="IBW" type="illegal block above the waist" result="ACCEPT" at="V26" yards="15"/>
       </play>
       <play hasball="SS" down="2" togo="12" spot="SS11" context="V,2,12,V11" playid="16,5,125" tokens="D:2,12" text="2nd and 12." newcontext="V,2,12,V11">
    </play>
-      <play hasball="SS" down="2" togo="12" spot="SS11" context="V,2,12,V11" playid="16,6,126" type="P" tokens="PASS:2,C,5,V17 TACK:44" text="A. Ellis pass complete to D. Meza for 6 yards to the SS17 (M. Kensy)." newcontext="V,3,6,V17">
+      <play hasball="SS" down="2" togo="12" spot="SS11" context="V,2,12,V11" playid="16,6,126" type="P" tokens="PASS:2,C,5,V17 TACK:47" text="A. Ellis pass complete to D. Meza for 6 yards to the SS17 (N. Liesen)." newcontext="V,3,6,V17">
         <p_pa vh="V" qb="A. Ellis" result="COMP" rcv="D. Meza" gain="6"/>
-        <p_tk vh="H" name="M. Kensy"/>
+        <p_tk vh="H" name="N. Liesen"/>
       </play>
       <play hasball="SS" down="3" togo="6" spot="SS17" context="V,3,6,V17" playid="16,7,127" type="R" first="R" tokens="RUSH:41,V23, TACK:8" text="B. Yankson rush for 6 yards to the SS23, 1ST DOWN SS (P. Steffen)." newcontext="V,1,10,V23">
         <p_ru vh="V" name="B. Yankson" gain="6"/>
@@ -920,7 +919,7 @@
       <play hasball="SS" down="4" togo="5" spot="SS28" context="V,4,5,V28" playid="16,11,131" type="U" tokens="PUNT:9,H33 DN:" text="S. Mueller punt 39 yards to the CC33, downed." newcontext="H,1,10,H33">
         <p_pu vh="V" name="S. Mueller" gain="39"/>
       </play>
-      <drivesum plays="8" yards="27" top="4:19" driveindex="16" complete="Y"/>
+      <drivesum plays="8" yards="25" top="4:19" driveindex="16" complete="Y"/>
       <drivestart poss="H,H33,00:00" vh="H" spot="H33" clock="00:00" driveindex="17,131"/>
       <play hasball="CC" down="1" togo="10" spot="CC33" context="H,1,10,H33" playid="17,1,132" clock="00:00" tokens="{DRIVE}:00:00" text="COLOGNE CENTURIONS drive start at 00:00." newcontext="H,1,10,H33">
    </play>
@@ -933,13 +932,13 @@
         <fumbles no="0" lost="0"/>
         <misc yds="0" top="06:35"/>
         <rush att="7" yds="21" gain="21" loss="0" td="0" long="2"/>
-        <pass comp="4" att="5" int="0" yds="30" td="0" long="0" sacks="0" sackyds="0"/>
-        <rcv no="4" yds="30" td="0" long="0"/>
+        <pass comp="4" att="5" int="0" yds="28" td="0" long="0" sacks="0" sackyds="0"/>
+        <rcv no="4" yds="28" td="0" long="0"/>
         <punt no="1" yds="39" long="5" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="39.0"/>
         <ko no="1" yds="49" ob="0" tb="0" fcyds="8192"/>
-        <defense tackua="11" tacka="6" tot_tack="17" tflua="1" tfla="2" tflyds="4" sacks="0" sackyds="0" ff="1"/>
+        <defense tackua="12" tacka="4" tot_tack="16" tflua="1" tfla="2" tflyds="4" sacks="0" sackyds="0" ff="1"/>
         <kr no="1" yds="13" td="0" long="0"/>
-        <pr no="1" yds="-3" td="0" long="0"/>
+        <pr no="1" yds="-1" td="0" long="0"/>
       </qtrsummary>
       <qtrsummary vh="H" id="CC">
         <firstdowns no="5" rush="4" pass="1" penalty="0"/>
@@ -953,7 +952,7 @@
         <punt no="1" yds="30" long="0" blkd="0" tb="0" fc="0" plus50="0" inside20="1" avg="30.0"/>
         <ko no="1" yds="39" ob="0" tb="0" fcyds="8224"/>
         <pat kickatt="1" kickmade="1"/>
-        <defense tackua="11" tacka="4" tot_tack="15" sacks="0" sackyds="0" brup="1"/>
+        <defense tackua="12" tacka="2" tot_tack="14" sacks="0" sackyds="0" brup="1"/>
         <kr no="1" yds="32" td="0" long="0"/>
         <fumbles no="1" lost="0"/>
         <scoring td="1" patkick="1"/>
@@ -974,20 +973,21 @@
         <p_pa vh="H" qb="J. Nowak" result="COMP" rcv="P. Lenhardt" gain="13"/>
         <p_tk vh="V" name="N. Wenzelburger"/>
       </play>
-      <play hasball="CC" down="1" togo="10" spot="CC49" context="H,1,10,H49" playid="17,6,137" type="R" tokens="RUSH:28,V47, TACK:42" text="M. London rush for 4 yards to the SS47 (Z. Blair)." newcontext="H,2,6,V47">
+      <play hasball="CC" down="1" togo="10" spot="CC49" context="H,1,10,H49" playid="17,6,137" type="R" tokens="RUSH:28,V47, TACK:42,48" text="M. London rush for 4 yards to the SS47 (Z. Blair;T. Stickel)." newcontext="H,2,6,V47">
         <p_ru vh="H" name="M. London" gain="4"/>
-        <p_tk vh="V" name="Z. Blair"/>
+        <p_tk vh="V" name="Z. Blair" assist="Y"/>
+        <p_tk vh="V" name="T. Stickel" assist="Y"/>
       </play>
-      <play hasball="CC" down="2" togo="6" spot="SS47" context="H,2,6,V47" playid="17,7,138" type="R" tokens="RUSH:28,V43, TACK:20" text="M. London rush for 4 yards to the SS43 (R. Lakalaka)." newcontext="H,3,2,V43">
+      <play hasball="CC" down="2" togo="6" spot="SS47" context="H,2,6,V47" playid="17,7,138" type="R" tokens="RUSH:28,V43, TACK:20" text="M. London rush for 4 yards to the SS43 (L. Ogbevoen)." newcontext="H,3,2,V43">
         <p_ru vh="H" name="M. London" gain="4"/>
-        <p_tk vh="V" name="R. Lakalaka"/>
+        <p_tk vh="V" name="L. Ogbevoen"/>
       </play>
-      <play hasball="CC" down="3" togo="2" spot="SS43" context="H,3,2,V43" playid="17,8,139" type="R" tokens="RUSH:28,V42, TACK:11,98" text="M. London rush for 1 yard to the SS42 (11;M. Fuerst)." newcontext="H,4,1,V42">
+      <play hasball="CC" down="3" togo="2" spot="SS43" context="H,3,2,V43" playid="17,8,139" type="R" tokens="RUSH:28,V42, TACK:11,98" text="M. London rush for 1 yard to the SS42 (R. Lakalaka;M. Fuerst)." newcontext="H,4,1,V42">
         <p_ru vh="H" name="M. London" gain="1"/>
-        <p_tk vh="V" name="11" assist="Y"/>
+        <p_tk vh="V" name="R. Lakalaka" assist="Y"/>
         <p_tk vh="V" name="M. Fuerst" assist="Y"/>
       </play>
-      <play hasball="CC" down="4" togo="1" spot="SS42" context="H,4,1,V42" playid="17,9,140" type="R" first="R" tokens="RUSH:28,V40," text="M. London rush for 2 yards to the SS40, 1ST DOWN CC." newcontext="H,1,10,V40">
+      <play hasball="CC" down="4" togo="1" spot="SS42" context="H,4,1,V42" playid="17,9,140" type="R" pcode="TACK:98" first="R" tokens="RUSH:28,V40,TACK:98,97" text="M. London rush TACK:98 for 2 yards to the SS40, 1ST DOWN CC." newcontext="H,1,10,V40">
         <p_ru vh="H" name="M. London" gain="2"/>
       </play>
       <play hasball="CC" down="1" togo="10" spot="SS40" context="H,1,10,V40" playid="17,10,141" type="R" first="R" score="Y" vscore="9" hscore="19" clock="10:21" tokens="RUSH:28,V00, T:10:21" text="M. London rush for 40 yards to the SS0, 1ST DOWN CC, TOUCHDOWN, clock 10:21." newcontext="H,1,10,V15">
@@ -1011,7 +1011,7 @@
         <p_tk vh="H" name="S. Ziebarth" sack="Y"/>
         <p_pn vh="V" code="CHB" type="Chopblock" result="DECLINE"/>
       </play>
-      <play hasball="SS" down="2" togo="17" spot="SS12" context="V,2,17,V12" playid="18,3,146" type="R" tokens="RUSH:26,V16," text="R. Pein rush for 4 yards to the SS16." newcontext="V,3,13,V16">
+      <play hasball="SS" down="2" togo="17" spot="SS12" context="V,2,17,V12" playid="18,3,146" type="R" pcode="TACK:55" tokens="RUSH:26,V16,TACK:55" text="R. Pein rush TACK:55 for 4 yards to the SS16." newcontext="V,3,13,V16">
         <p_ru vh="V" name="R. Pein" gain="4"/>
       </play>
       <play hasball="SS" down="3" togo="13" spot="SS16" context="V,3,13,V16" playid="18,4,147" type="P" turnover="I" tokens="PASS:2,X,30,V27 RET:30,V13 TACK:41" text="A. Ellis pass intercepted by M. Mbaye at the SS27, M. Mbaye return 14 yards to the SS13 (B. Yankson)." newcontext="H,1,10,V13">
@@ -1027,9 +1027,9 @@
         <p_ru vh="H" name="M. London" gain="2"/>
         <p_tk vh="V" name="P. Ungericht"/>
       </play>
-      <play hasball="CC" down="2" togo="8" spot="SS11" context="H,2,8,V11" playid="19,3,150" type="R" tokens="RUSH:28,V04, TACK:20" text="M. London rush for 7 yards to the SS4 (R. Lakalaka)." newcontext="H,3,1,V04">
+      <play hasball="CC" down="2" togo="8" spot="SS11" context="H,2,8,V11" playid="19,3,150" type="R" tokens="RUSH:28,V04, TACK:20" text="M. London rush for 7 yards to the SS4 (L. Ogbevoen)." newcontext="H,3,1,V04">
         <p_ru vh="H" name="M. London" gain="7"/>
-        <p_tk vh="V" name="R. Lakalaka"/>
+        <p_tk vh="V" name="L. Ogbevoen"/>
       </play>
       <play hasball="CC" down="3" togo="1" spot="SS04" context="H,3,1,V04" playid="19,4,151" type="R" tokens="RUSH:28,V04, TACK:42" text="M. London rush for no gain to the SS4 (Z. Blair)." newcontext="H,4,1,V04">
         <p_ru vh="H" name="M. London" gain="0"/>
@@ -1055,9 +1055,9 @@
         <p_tk vh="V" name="Z. Blair" assist="Y"/>
         <p_tk vh="V" name="J. Ludwig-M." assist="Y"/>
       </play>
-      <play hasball="CC" down="3" togo="0" spot="SS03" context="H,3,0,V03" playid="19,10,157" type="R" tokens="RUSH:43,V02, TACK:11" text="P. Poetsch rush for 1 yard to the SS2 (11)." newcontext="H,4,0,V02">
+      <play hasball="CC" down="3" togo="0" spot="SS03" context="H,3,0,V03" playid="19,10,157" type="R" tokens="RUSH:43,V02, TACK:11" text="P. Poetsch rush for 1 yard to the SS2 (R. Lakalaka)." newcontext="H,4,0,V02">
         <p_ru vh="H" name="P. Poetsch" gain="1"/>
-        <p_tk vh="V" name="11"/>
+        <p_tk vh="V" name="R. Lakalaka"/>
       </play>
       <play hasball="CC" down="4" togo="0" spot="SS02" context="H,4,0,V02" playid="19,11,158" type="#" clock="04:29" tokens="TOUT:H T:04:29" text="Timeout Cologne Centurions, clock 04:29." newcontext="H,4,0,V02">
         <p_to vh="H" team="Cologne Centurions"/>
@@ -1077,38 +1077,41 @@
         <p_pa vh="V" qb="A. Ellis" result="SACK" gain="-3"/>
         <p_tk vh="H" name="M. Mbaye" sack="Y"/>
       </play>
-      <play hasball="SS" down="3" togo="6" spot="SS06" context="V,3,6,V06" playid="20,4,163" type="P" tokens="PASS:2,I,14,* BRUP:9" text="A. Ellis pass incomplete to L. Geyer (W. Bhikh)." newcontext="V,4,6,V06">
+      <play hasball="SS" down="3" togo="6" spot="SS06" context="V,3,6,V06" playid="20,4,163" type="#" clock="03:22" tokens="TOUT:H T:03:22" text="Timeout Cologne Centurions, clock 03:22." newcontext="V,3,6,V06">
+        <p_to vh="H" team="Cologne Centurions"/>
+      </play>
+      <play hasball="SS" down="3" togo="6" spot="SS06" context="V,3,6,V06" playid="20,5,164" type="P" tokens="PASS:2,I,14,* BRUP:9" text="A. Ellis pass incomplete to L. Geyer (W. Bhikh)." newcontext="V,4,6,V06">
         <p_pa vh="V" qb="A. Ellis" result="INC" rcv="L. Geyer"/>
         <p_bu vh="H" name="W. Bhikh"/>
       </play>
-      <play hasball="SS" down="4" togo="6" spot="SS06" context="V,4,6,V06" playid="20,5,164" type="U" tokens="PUNT:9,H47 DN:" text="S. Mueller punt 47 yards to the CC47, downed." newcontext="H,1,10,H47">
+      <play hasball="SS" down="4" togo="6" spot="SS06" context="V,4,6,V06" playid="20,6,165" type="U" tokens="PUNT:9,H47 DN:" text="S. Mueller punt 47 yards to the CC47, downed." newcontext="H,1,10,H47">
         <p_pu vh="V" name="S. Mueller" gain="47"/>
       </play>
       <drivesum plays="3" yards="4" top="1:22" driveindex="20" complete="Y"/>
-      <drivestart poss="H,H47,03:01" vh="H" spot="H47" clock="03:01" driveindex="21,164"/>
-      <play hasball="CC" down="1" togo="10" spot="CC47" context="H,1,10,H47" playid="21,1,165" clock="03:01" tokens="{DRIVE}:03:01" text="COLOGNE CENTURIONS drive start at 03:01." newcontext="H,1,10,H47">
+      <drivestart poss="H,H47,03:01" vh="H" spot="H47" clock="03:01" driveindex="21,165"/>
+      <play hasball="CC" down="1" togo="10" spot="CC47" context="H,1,10,H47" playid="21,1,166" clock="03:01" tokens="{DRIVE}:03:01" text="COLOGNE CENTURIONS drive start at 03:01." newcontext="H,1,10,H47">
    </play>
-      <play hasball="CC" down="1" togo="10" spot="CC47" context="H,1,10,H47" playid="21,2,166" type="R" tokens="RUSH:43,V49, TACK:48" text="P. Poetsch rush for 4 yards to the SS49 (T. Stickel)." newcontext="H,2,6,V49">
+      <play hasball="CC" down="1" togo="10" spot="CC47" context="H,1,10,H47" playid="21,2,167" type="R" tokens="RUSH:43,V49, TACK:48" text="P. Poetsch rush for 4 yards to the SS49 (T. Stickel)." newcontext="H,2,6,V49">
         <p_ru vh="H" name="P. Poetsch" gain="4"/>
         <p_tk vh="V" name="T. Stickel"/>
       </play>
-      <play hasball="CC" down="2" togo="6" spot="SS49" context="H,2,6,V49" playid="21,3,167" type="R" first="R" tokens="RUSH:6,V41, TACK:98" text="J. Nowak rush for 8 yards to the SS41, 1ST DOWN CC (M. Fuerst)." newcontext="H,1,10,V41">
+      <play hasball="CC" down="2" togo="6" spot="SS49" context="H,2,6,V49" playid="21,3,168" type="R" first="R" tokens="RUSH:6,V41, TACK:98" text="J. Nowak rush for 8 yards to the SS41, 1ST DOWN CC (M. Fuerst)." newcontext="H,1,10,V41">
         <p_ru vh="H" name="J. Nowak" gain="8"/>
         <p_tk vh="V" name="M. Fuerst"/>
       </play>
-      <play hasball="CC" down="1" togo="10" spot="SS41" context="H,1,10,V41" playid="21,4,168" type="R" tokens="RUSH:28,V36, TACK:92" text="M. London rush for 5 yards to the SS36 (T. Burkhardt)." newcontext="H,2,5,V36">
+      <play hasball="CC" down="1" togo="10" spot="SS41" context="H,1,10,V41" playid="21,4,169" type="R" tokens="RUSH:28,V36, TACK:92" text="M. London rush for 5 yards to the SS36 (T. Burkhardt)." newcontext="H,2,5,V36">
         <p_ru vh="H" name="M. London" gain="5"/>
         <p_tk vh="V" name="T. Burkhardt"/>
       </play>
-      <play hasball="CC" down="2" togo="5" spot="SS36" context="H,2,5,V36" playid="21,5,169" type="R" tokens="RUSH:4,V33, TACK:72" text="G. Ngovo rush for 3 yards to the SS33 (D. Pisaric)." newcontext="H,3,2,V33">
-        <p_ru vh="H" name="G. Ngovo" gain="3"/>
+      <play hasball="CC" down="2" togo="5" spot="SS36" context="H,2,5,V36" playid="21,5,170" type="R" tokens="RUSH:26,V33, TACK:72" text="A. Frisch rush for 3 yards to the SS33 (D. Pisaric)." newcontext="H,3,2,V33">
+        <p_ru vh="H" name="A. Frisch" gain="3"/>
         <p_tk vh="V" name="D. Pisaric"/>
       </play>
-      <play hasball="CC" down="3" togo="2" spot="SS33" context="H,3,2,V33" playid="21,6,170" type="R" first="R" tokens="RUSH:4,V19, TACK:72" text="G. Ngovo rush for 14 yards to the SS19, 1ST DOWN CC (D. Pisaric)." newcontext="H,1,10,V19">
+      <play hasball="CC" down="3" togo="2" spot="SS33" context="H,3,2,V33" playid="21,6,171" type="R" first="R" tokens="RUSH:4,V19, TACK:72" text="G. Ngovo rush for 14 yards to the SS19, 1ST DOWN CC (D. Pisaric)." newcontext="H,1,10,V19">
         <p_ru vh="H" name="G. Ngovo" gain="14"/>
         <p_tk vh="V" name="D. Pisaric"/>
       </play>
-      <play hasball="CC" down="1" togo="10" spot="SS19" context="H,1,10,V19" playid="21,7,171" type="#" clock="00:00" tokens="HALF: T:00:00" text="End of game, clock 00:00." newcontext="H,1,10,V19">
+      <play hasball="CC" down="1" togo="10" spot="SS19" context="H,1,10,V19" playid="21,7,172" type="#" clock="00:00" tokens="HALF: T:00:00" text="End of game, clock 00:00." newcontext="H,1,10,V19">
    </play>
       <drivesum plays="5" yards="34" top="3:01" driveindex="21" complete="Y"/>
       <score final="Y" V="9" H="19"/>
@@ -1122,7 +1125,7 @@
         <rush att="2" yds="11" gain="11" loss="0" td="0" long="0"/>
         <pass comp="0" att="2" int="1" yds="-10" td="0" long="0" sacks="2" sackyds="10"/>
         <punt no="1" yds="47" long="8" blkd="0" tb="0" fc="0" plus50="0" inside20="0" avg="47.0"/>
-        <defense tackua="16" tacka="6" tot_tack="22" tflua="2" tfla="0" tflyds="2" sacks="0" sackyds="0"/>
+        <defense tackua="15" tacka="8" tot_tack="23" tflua="2" tfla="0" tflyds="2" sacks="0" sackyds="0"/>
         <kr no="1" yds="14" td="0" long="0"/>
       </qtrsummary>
       <qtrsummary vh="H" id="CC">
@@ -1141,7 +1144,7 @@
         <scoring td="1"/>
       </qtrsummary>
     </qtr>
-    <downtogo hasball="H" id="CC" down="1" togo="10" spot="SS19" context="H,1,10,V19" qtr="4" clock="00:00" vtoh="0" htoh="2" lastplay="End of game, clock 00:00."/>
+    <downtogo hasball="H" id="CC" down="1" togo="10" spot="SS19" context="H,1,10,V19" qtr="4" clock="00:00" vtoh="0" htoh="3" lastplay="End of game, clock 00:00."/>
   </plays>
   <message text=""/>
 </fbgame>
