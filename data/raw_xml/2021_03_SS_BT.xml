@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fbgame source="Tas Football" version="4.20.01" generated="8/28/2021">
+<fbgame source="Tas Football" version="4.20.01" generated="9/10/2021">
   <venue gameid="BTSS2103" visid="SS" homeid="BT" visname="Stuttgart Surge" homename="Berlin Thunder" date="7/4/2021" location="Berlin" stadium="Stadion am Wurfplatz" start="15:00" end="17:55" leaguegame="Y" duration="02.55" attend="800" temp="26 C" wind="no" weather="partly cloudy">
     <officials ref="M. Scholz" ump="B. Hansen" line="K. Haltermann" lj="B. Schaumberg" bj="Z. Hamiko" fj="M. Hoffmann" sj="V. Kreisman" cj="E. Christensen" alt="E. Christensen"/>
     <rules qtrs="4" mins="15" downs="4" yds="10" kospot="35" tbspot="20" kotbspot="25" patspot="15" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="100" toh="3" sackrush="N" fgaplay="Y" netpunttb="Y"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fbgame source="Tas Football" version="4.20.01" generated="8/27/2021">
+<fbgame source="Tas Football" version="4.20.01" generated="9/10/2021">
   <venue gameid="CCLK2110" visid="LK" homeid="CC" visname="Leipzig Kings" homename="Cologne Centurions" date="8/21/2021" location="Cologne" stadium="Ostkampfbahn" start="15:04" end="17:50" leaguegame="Y" duration="02:46" attend="333" temp="28" wind="east" weather="sunny">
     <officials ref="Thomas Denker"/>
     <rules qtrs="4" mins="15" downs="4" yds="10" kospot="35" tbspot="20" kotbspot="25" patspot="3" safspot="20" td="6" fg="3" pat="1" patx="2" saf="2" defpat="2" rouge="1" field="100" toh="3" sackrush="N" fgaplay="Y" netpunttb="Y"/>
@@ -24,7 +24,7 @@
       <punt no="2" yds="42" long="42" blkd="1" tb="0" fc="0" plus50="0" inside20="0" avg="21.0"/>
       <ko no="8" yds="412" ob="0" tb="1" fcyds="0"/>
       <pat kickatt="2" kickmade="2" rushatt="1" rushmade="1" passatt="3" passmade="1" rcvatt="1" rcvmade="1"/>
-      <defense tackua="35" tacka="34" tot_tack="69" tflua="5" tfla="8" tflyds="26" sacks="5" sackyds="17" brup="2" ff="3" fr="2" fryds="60"/>
+      <defense tackua="36" tacka="32" tot_tack="68" tflua="5" tfla="8" tflyds="26" sacks="5" sackyds="17" brup="2" ff="3" fr="2" fryds="60"/>
       <kr no="2" yds="19" td="0" long="12"/>
       <fr no="2" yds="60" td="0" long="39"/>
       <scoring td="6" patkick="2" patrush="1" patrcv="1"/>
@@ -91,20 +91,20 @@
       <pat passatt="1" passmade="0"/>
       <defense tackua="1" tacka="5" tot_tack="6" tflua="0" tfla="1" tflyds="0"/>
     </player>
-    <player name="N. Baeumer" shortname="N. Baeumer" checkname="BAEUMER,N" uni="30" class="SR" gp="1" code="30"/>
-    <player name="L. Deckwarth" shortname="L. Deckwarth" checkname="DECKWARTH,L" uni="32" class="" gp="1" code="32">
+    <player name="N. Baeumer" shortname="N. Baeumer" checkname="BAEUMER,N" uni="30" class="FR" gp="1" code="30"/>
+    <player name="L. Deckwarth" shortname="L. Deckwarth" checkname="DECKWARTH,L" uni="32" class="FR" gp="1" code="32">
       <defense tackua="2" tacka="0" tot_tack="2"/>
     </player>
     <player name="P. Meissner" shortname="P. Meissner" checkname="MEISSNER,P" uni="33" class="FR" gp="1" gs="1" dpos="FS" code="33">
-      <defense tackua="4" tacka="3" tot_tack="7"/>
+      <defense tackua="4" tacka="2" tot_tack="6"/>
     </player>
-    <player name="D. Wuensche" shortname="D. Wuensche" checkname="WUENSCHE,D" uni="34" class="" gp="1" code="34"/>
+    <player name="D. Wuensche" shortname="D. Wuensche" checkname="WUENSCHE,D" uni="34" class="FR" gp="1" code="34"/>
     <player name="L. Rebenstorf" shortname="L. Rebenstorf" checkname="REBENSTORF,L" uni="35" class="" gp="1" code="35"/>
     <player name="M. Graul" shortname="M. Graul" checkname="GRAUL,M" uni="36" class="" gp="1" code="36"/>
     <player name="O. Rohnebak" shortname="O. Rohnebak" checkname="ROHNEBAK,O" uni="40" class="SR" gp="1" gs="1" dpos="LB" code="40">
       <defense tackua="3" tacka="5" tot_tack="8" tflua="0" tfla="2" tflyds="1"/>
     </player>
-    <player name="A. Dommann" shortname="A. Dommann" checkname="DOMMANN,A" uni="41" class="" gp="1" gs="1" dpos="LB" code="41"/>
+    <player name="A. Dommann" shortname="A. Dommann" checkname="DOMMANN,A" uni="41" class="FR" gp="1" gs="1" dpos="LB" code="41"/>
     <player name="P. Mingerzahn" shortname="P. Mingerzahn" checkname="MINGERZAHN,P" uni="42" class="SR" gp="1" code="42">
       <defense tackua="1" tacka="0" tot_tack="1"/>
     </player>
@@ -118,7 +118,7 @@
     <player name="L. Lampe" shortname="L. Lampe" checkname="LAMPE,L" uni="48" class="SR" gp="1" code="48">
       <defense tackua="1" tacka="0" tot_tack="1"/>
     </player>
-    <player name="J. Schultes" shortname="J. Schultes" checkname="SCHULTES,J" uni="50" class="SR" gp="1" gs="1" dpos="LB" code="50">
+    <player name="J. Schultes" shortname="J. Schultes" checkname="SCHULTES,J" uni="50" class="FR" gp="1" gs="1" dpos="LB" code="50">
       <defense tackua="2" tacka="5" tot_tack="7"/>
     </player>
     <player name="M. Parnow" shortname="M. Parnow" checkname="PARNOW,M" uni="51" class="SR" gp="1" code="51"/>
@@ -127,7 +127,7 @@
       <defense tackua="1" tacka="0" tot_tack="1"/>
     </player>
     <player name="L. Leota" shortname="L. Leota" checkname="LEOTA,L" uni="56" class="SR" gp="1" gs="1" dpos="NT" code="56">
-      <defense tackua="4" tacka="3" tot_tack="7" tflua="2" tfla="1" tflyds="7" sackua="1" sacka="1" sackyds="6" brup="1"/>
+      <defense tackua="5" tacka="2" tot_tack="7" tflua="2" tfla="1" tflyds="7" sackua="1" sacka="1" sackyds="6" brup="1"/>
     </player>
     <player name="S. Baafi" shortname="S. Baafi" checkname="BAAFI,S" uni="70" class="SR" gp="1" code="70"/>
     <player name="V. Wiederspahn" shortname="V. Wiederspahn" checkname="WIEDERSPAHN,V" uni="71" class="SR" gp="1" code="71"/>
@@ -843,10 +843,9 @@
       <drivestart poss="H,H31,14:53" vh="H" spot="H31" clock="14:53" driveindex="12,106"/>
       <play hasball="CC" down="1" togo="10" spot="CC31" context="H,1,10,H31" playid="12,1,107" clock="14:53" tokens="{DRIVE}:14:53" text="COLOGNE CENTURIONS drive start at 14:53." newcontext="H,1,10,H31">
    </play>
-      <play hasball="CC" down="1" togo="10" spot="CC31" context="H,1,10,H31" playid="12,2,108" type="R" tokens="RUSH:28,H31, TACK:33,56" text="M. London rush for no gain to the CC31 (P. Meissner;L. Leota)." newcontext="H,2,10,H31">
+      <play hasball="CC" down="1" togo="10" spot="CC31" context="H,1,10,H31" playid="12,2,108" type="R" tokens="RUSH:28,H31, TACK:56" text="M. London rush for no gain to the CC31 (L. Leota)." newcontext="H,2,10,H31">
         <p_ru vh="H" name="M. London" gain="0"/>
-        <p_tk vh="V" name="P. Meissner" assist="Y"/>
-        <p_tk vh="V" name="L. Leota" assist="Y"/>
+        <p_tk vh="V" name="L. Leota"/>
       </play>
       <play hasball="CC" down="2" togo="10" spot="CC31" context="H,2,10,H31" playid="12,3,109" type="P" tokens="PASS:12,C,81,H36 TACK:7" text="J. Weinreich pass complete to V. Roediger for 5 yards to the CC36 (B. Tchiyoko)." newcontext="H,3,5,H36">
         <p_pa vh="H" qb="J. Weinreich" result="COMP" rcv="V. Roediger" gain="5"/>
@@ -1011,7 +1010,7 @@
         <rcv no="1" yds="20" td="1" long="1"/>
         <ko no="3" yds="169" ob="0" tb="0" fcyds="8192"/>
         <pat passatt="2" passmade="1" rcvatt="1" rcvmade="1"/>
-        <defense tackua="13" tacka="8" tot_tack="21" tflua="3" tfla="2" tflyds="16" sacks="3" sackyds="15" ff="1" fr="1" fryds="39"/>
+        <defense tackua="14" tacka="6" tot_tack="20" tflua="3" tfla="2" tflyds="16" sacks="3" sackyds="15" ff="1" fr="1" fryds="39"/>
         <fr no="1" yds="39" td="0" long="18"/>
         <scoring td="2" patrcv="1"/>
       </qtrsummary>
